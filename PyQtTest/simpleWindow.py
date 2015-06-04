@@ -13,7 +13,7 @@ class SimpleWindow(QtGui.QMainWindow):
     def initUI(self):
 
 #        textEdit = QtGui.QTextEdit()
-        centerWidget = positionWidgetGrid2()
+        centerWidget = positionWidgetGrid()
         self.setCentralWidget(centerWidget)
 
 
