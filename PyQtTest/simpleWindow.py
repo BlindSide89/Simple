@@ -1,7 +1,7 @@
 __author__ = 'Fabian'
 
 from PyQt4 import QtGui, QtCore
-
+from cascade import *
 
 class SimpleWindow(QtGui.QMainWindow):
 
@@ -14,7 +14,6 @@ class SimpleWindow(QtGui.QMainWindow):
 
         centerWidget = CascadusMainWidget()
         self.setCentralWidget(centerWidget)
-
 
         exitAction = QtGui.QAction(QtGui.QIcon('exit24.jpg'), 'Exit', self)
         exitAction.setShortcut('Ctrl+Q')
@@ -46,42 +45,61 @@ class CascadusMainWidget(QtGui.QWidget):
 
     def initUI(self):
 
-        btnShow = QtGui.QPushButton("Show")
-        btnHide = QtGui.QPushButton("Hide")
+        self.cascade = Cascade()
+        self.graph = 0
+        self.graphstack = list()
+
+        btnGenerate = QtGui.QPushButton("Generieren")
+        btnRunCascade = QtGui.QPushButton("RunCascade")
         btnNext = QtGui.QPushButton("Next")
-        btnPrev = QtGui.QPushButton("Prev")
+        btnPrev = QtGui.QPushButton("Vorheriges")
 
-        btnShow.clicked.connect(self.showPic)
-        btnHide.clicked.connect(self.hidePic)
-        btnNext.setDisabled(True)
+        btnGenerate.clicked.connect(self.Generate)
+        btnRunCascade.clicked.connect(self.runCascade)
+        btnNext.clicked.connect(self.nextPic)
+        btnPrev.clicked.connect(self.prevPic)
 
-        #grid = QtGui.QGridLayout()
+
         vbox = QtGui.QVBoxLayout()
-        self.pic = QtGui.QPixmap("1430768232682.png")
 
-        self.label = QtGui.QLabel("CLICK TO SHOW")
-        self.label.setScaledContents(True)
+        self.label = QtGui.QLabel()
+        #self.label.setScaledContents(True)
         vbox.addWidget(self.label)
-
         hbox = QtGui.QHBoxLayout()
         hbox.setSpacing(100)
-        hbox.addWidget(btnShow)
-        hbox.addWidget(btnHide)
+        hbox.addWidget(btnGenerate)
+        hbox.addWidget(btnRunCascade)
         hbox.addWidget(btnNext)
-        hbox.addWidget(btnPrev)
-
+        #hbox.addWidget(btnPrev)
         vbox.addLayout(hbox)
 
         self.setLayout(vbox)
 
-    def showPic(self):
+    def Generate(self):
 
+        if self.graph != 0:
+            self.graphstack.append(self.graph)
+        self.graph = self.cascade.createRandomGraph(30)
+        self.setGraphPicture()
+
+    def runCascade(self):
+
+        if self.graph != 0:
+            self.cascade.doCascades(self.graph)
+
+    def nextPic(self):
+        pass
+
+    def prevPic(self):
+        if len(self.graphstack) > 0:
+            self.graph = self.graphstack.pop()
+            self.cascade.printGraph(self.graph)
+            self.setGraphPicture()
+
+    def setGraphPicture(self):
+
+        self.pic = QtGui.QPixmap("current.png")
         self.label.setPixmap(self.pic)
-
-    def hidePic(self):
-
-        self.label.clear()
-
 
 
 
