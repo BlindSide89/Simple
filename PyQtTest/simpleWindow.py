@@ -1,6 +1,6 @@
 __author__ = 'Fabian'
 
-from PyQt4 import QtGui
+from PyQt4 import QtGui, QtCore
 
 
 class SimpleWindow(QtGui.QMainWindow):
@@ -12,8 +12,7 @@ class SimpleWindow(QtGui.QMainWindow):
 
     def initUI(self):
 
-#        textEdit = QtGui.QTextEdit()
-        centerWidget = positionWidgetGrid()
+        centerWidget = CascadusMainWidget()
         self.setCentralWidget(centerWidget)
 
 
@@ -31,10 +30,104 @@ class SimpleWindow(QtGui.QMainWindow):
         toolbar = self.addToolBar('Exit')
         toolbar.addAction(exitAction)
 
-        self.setGeometry(300,300,500,500)
+        self.setGeometry(300,300,1000,700)
         self.setWindowTitle('Main window')
         self.show()
 
+
+
+
+class CascadusMainWidget(QtGui.QWidget):
+
+    def __init__(self):
+
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+
+        btnShow = QtGui.QPushButton("Show")
+        btnHide = QtGui.QPushButton("Hide")
+        btnNext = QtGui.QPushButton("Next")
+        btnPrev = QtGui.QPushButton("Prev")
+
+        btnShow.clicked.connect(self.showPic)
+        btnHide.clicked.connect(self.hidePic)
+        btnNext.setDisabled(True)
+
+        #grid = QtGui.QGridLayout()
+        vbox = QtGui.QVBoxLayout()
+        self.pic = QtGui.QPixmap("1430768232682.png")
+
+        self.label = QtGui.QLabel("CLICK TO SHOW")
+        self.label.setScaledContents(True)
+        vbox.addWidget(self.label)
+
+        hbox = QtGui.QHBoxLayout()
+        hbox.setSpacing(100)
+        hbox.addWidget(btnShow)
+        hbox.addWidget(btnHide)
+        hbox.addWidget(btnNext)
+        hbox.addWidget(btnPrev)
+
+        vbox.addLayout(hbox)
+
+        self.setLayout(vbox)
+
+    def showPic(self):
+
+        self.label.setPixmap(self.pic)
+
+    def hidePic(self):
+
+        self.label.clear()
+
+
+
+
+
+class SignalSlotWidget(QtGui.QWidget):
+
+    def __init__(self):
+
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+
+        lcd = QtGui.QLCDNumber(self)
+        sld = QtGui.QSlider(QtCore.Qt.Horizontal,self)
+
+        vbox = QtGui.QVBoxLayout()
+        vbox.addWidget(lcd)
+        vbox.addWidget(sld)
+
+        self.setLayout(vbox)
+        sld.valueChanged.connect(lcd.display)
+
+class signalSlotSender(QtGui.QWidget):
+
+    def __init__(self):
+
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+
+        btn1 = QtGui.QPushButton("Button 1",self)
+        btn1.move(30,50)
+
+        btn2 = QtGui.QPushButton("Button 2", self)
+        btn2.move(150,50)
+
+        btn1.clicked.connect(self.buttonClicked)
+        btn2.clicked.connect(self.buttonClicked)
+
+
+    def buttonClicked(self):
+
+        sender = self.sender()
+        self.parentWidget().statusBar().showMessage(sender.text() + "  was pressed")
 
 class positionWidgetBox(QtGui.QWidget):
 
@@ -57,7 +150,6 @@ class positionWidgetBox(QtGui.QWidget):
         vbox.addLayout(hbox)
 
         self.setLayout(vbox)
-
 
 class positionWidgetGrid(QtGui.QWidget):
 
@@ -87,7 +179,6 @@ class positionWidgetGrid(QtGui.QWidget):
                 continue
             button = QtGui.QPushButton(name)
             grid.addWidget(button,*position)
-
 
 class positionWidgetGrid2(QtGui.QWidget):
 
