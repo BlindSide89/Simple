@@ -4,12 +4,9 @@
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc} 
 \usepackage{wrapfig}
-
-
-
+\usepackage{multirow}
 
 \begin{document}
-
 
 \begin{titlepage}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
@@ -101,6 +98,7 @@ Die für die Verhaltensausbreitung relevanten Personen eines sozialen Gefüges l
 \item \textbf{Nachzügler} Nachzügler stehen am Ende der Kette und adaptieren ein neues Verhalten erst dann wenn fast schon das gesamte soziale Netz hin zu dieser Innovation gewechselt ist. Sie besitzen innerhalb einer Gesellschaft häufig einen niederen Stand oder verfügen über wenige soziale Verknüpfungen sowie eine geringe Innovationsbereitschaft.
 \end{enumerate}
 \subsubsection{Kanäle der Verhaltensausbreitung}
+\label{intro_ties}
 Damit ein Individuum überhaupt auf die Idee kommt sein momentanes Verhalten durch ein neues zu ersetzen, muss als grundsätzliche Annahme gegeben sein, dass das Individuum von diesem neuen Verhalten über einen seiner Sinne Kenntnis genommen hat. Entweder er hat die Vorzüge des neuen Verhaltens selbst gesehen oder von einem Freund oder aus den Nachrichten davon gehört. Die Kanäle über welche sich die Information über eine neue Innovation verbreiten sind so vielfältig das es den Rahmen dieser Arbeit sprengen würde sie in großem Detail zu betrachten. Allerdings biete sich die nähere Analyse von zwei Obergruppen an, über welche sich Informationen in sozialen Gemeinschaften verbreiten.
 [Quelle Paper von Granovetter als Hauptquelle für diesen Abschnitt]
 \paragraph{Strong Ties}
@@ -116,52 +114,148 @@ Die Zeit als Faktor findet sich in drei Bereichen einer Verhaltensausbreitung wi
 \end{enumerate}
 
 \subsection{Historische Beispiele}
-Die Standardbeispiele oder vielleicht hier auch bezug zu einem aktuelleren Beispiel falls sich etwas finden lässt, das wäre sicherlich gut damit hier nicht wieder über Korn oder APothekenprodukte geredet wird wie es schon in all den anderen Papers zu dem Thema der Fall ist. Dann natürlich auch den Titel dementsprechend anpassen. Wenn ich ein Aktuelleres Beispiel nehmen kann ich dann auch besser Bezug nehmen zu den momentanen Umständen und die unglaubliche SChlagkraft welche das Thema durch Soziale Netzwerke und Twitter und CO erhalten hat.
+Eine der frühesten Studien zum Thema Verhaltensausbreitung wurde von Bryce Ryan und Neil Gross im US-Bundesstaat Iowa durchgeführt. Dieser im Midwesten der USA gelegene Staat ist besonders geprägt durch die dort vorherrschende Landwirtschaft, speziell dem Anbau von Mais. In ihrer Studie "Acceptance and Diffusion of Hybrid Corn Seed in two Iowa Communities" untersuchten Ryan und Gross wie, warum und über welche Wege ein neu entwickelter, bezüglich des Ertrags besserer, Hybridsamen Verbreitung fand. Dazu befragten sie mehrere Bauern wann sie damit begonnen hätten das neue Saatgut zu verwenden und wer sie auf die Idee dazu gebracht hatte. Ein Kernergebnis der Studie war, dass viele der Bauern bereits lange vor ihrer eigenen Adaption des neuen Saatguts, von seiner Existenz erfahren hatten. In den meisten Fällen durch Verkäufer welche natürlich versuchten das neue Produkt in den Markt einzuführen. Jedoch überzeugen ließen sich die meisten der Bauern erst zu dem Zeitpunkt als ein bekannter oder benachbarter Bauer sich dazu entschloss den Hybridsamen einzusetzen. Dies ist ein exemplarischer Fall für die Unterschiede zwischen Strong und Weak Ties. Über die Weak Ties (in diesem Fall die Verkäufer) trug sich lediglich die Innovation in das Netzwerk, allerdings nicht die Verhaltensausbreitung. Diese fand über die Mundpropaganda mit Bekannten und Nachbarn statt (Strong Ties). \\\\
+Ein weiteres Beispiel welches Everett Rogers in seinem Buch Diffusion of Innovation beschreibt handelt von einem peruanischen Dorf in welchem die Regierung mittels eines Programms versuchen wollte, die Bewohner dazu zu bringen ihr Trinkwasser vor dem Konsum abzukochen. Viele Krankheitsfälle die eindeutig auf verschmutztes Trinkwasser zurückzuführen waren ließen die Regierung diesen Schritt nehmen. Dazu wurde in die Gemeinschaft eine Frau des Gesundheitsministeriums geschickt welche die ortsansässigen Hausfrauen schulen sollte. Das Projekt scheiterte nach mehreren Monaten damit, dass von allen Haushalten im Dorf lediglich drei das neue Verhalten angenommen hatten. Die Problematik hier lässt sich mit einer fehlenden Kompatibilität erklären. Die Einwohner (sowie ein Teil der gesamten peruanischen Bevölkerung) haben ein traditionelles Verständnis vom Konsum von heißen und kalten Getränken. Das Bild hierbei ist, dass nur kranke Menschen heiße Getränke zu sich nehmen. Somit stieß die Idee heißes (oder eigentlich nur zuvor abgekochtes) Wasser zu trinken auf massiven Widerstand da sie den herrschenden Normen nicht entsprach.
 
 \section{Modellierung eines soziale Netzwerks}
-Wie im vorangegangenen Kapitel dargelegt wurde sind die Hauptaspekte bei der Betrachtung eines sozialen Netzwerkes die in ihm befindlichen Individuen sowie deren Beziehungen untereinander. Dieser Umstand lässt sich mithilfe von gängigen Mustern und Darstellungsformen aus der Graphentheorie besser und formal strukturierter darstellen.\\\\
+Um die im vorherigen Abschnitt dargestellten, diffusen Aspekte eines realistischen sozialen Netzwerks für Analysezwecke zu verwenden, ist eine gewisse Abstraktion notwendig. Die Grundannahme besteht darin, dass jedes soziale Netzwerk ein Gebilde ist aus Personen, Verbindungen zwischen diesen Personen und Verhalten welche von ihnen angenommen werden können. Eine dafür sehr gut geeignete Repräsentation ist ein Graph dessen Knoten als Personen und Kanten als Verbindungen zwischen den Individuen dienen. Die verschiedenen Verhaltensweisen können als Attribute der Knoten interpretiert werden.\\\\
 
 \begin{figure}
   \begin{center}
     \includegraphics[width=0.60\textwidth]{pic_simpleGraph.png}
   \end{center}
-  \caption{Ein einfacher bidirektionaler Graph}
+  \caption{Ein einfacher ungerichteter Graph}
 \end{figure}
 
+Jedoch ist nicht jeder Graph automatisch geeignet um ein soziales Netzwerk, besonders im Bezug auf die Verhaltensausbreitung, zu repräsentieren. Die hierfür verwendeten Graphen müssen einer Reihe von grundlegenden Eigenschaften entsprechen.
+\begin{enumerate}
+\label{enum_graphConditions}
+\item Der Graph muss zusammenhängend sein, was per Definition bedeutet, dass von jedem beliebigen Knoten des Graphen aus jeder beliebige andere Knoten über einen aus Kanten bestehenden Weg erreicht werden kann. Interpretiert darf man unter dieser Bedingung die Tatsache verstehen, dass jeder Mensch auf der Welt über eine endliche Anzahl an Verbindungen mit jedem anderen Menschen verknüpft ist. Studien zum Thema des "Small-World-Phenomena" beschäftigen sich weiterführend mit dieser These.
+\item Der Graph muss ungerichtet sein. Diese Bedingung setzt als Grundlage die, vielleicht nicht immer vollends zutreffende, Annahme voraus, dass wenn ein Individuum A das Individuum B kennt, B ebenfalls der Existenz von A gewahr ist. Dies entspricht nicht immer exakt den reellen Bedingungen (Stalker, Prominente) aber ist für die Analyse solcher Netzwerke hinreichend annehmbar.
+\item Der Graph muss die Eigenschaft der Irreflexivität besitzen. Angewandt auf die Analyse sozialer Netzwerke versteht man darunter, dass kein Knoten sein eigener Nachbar ist, ergo kein Individuum beeinflusst sich selbst bei seiner Entscheidung hin zu einem neuen Verhalten. Dafür wird über die Bedingung der Symmetrie nachdrücklich betont, dass wenn ein Knoten A der Nachbar von Knoten B ist, so ist auch B ein Nachbar von A.
+\end{enumerate}
 
-Die Modellierung eines sozialen Netzwerks baut auf dem Prinzip eines ungerichteten Graphen auf bei dem die Knoten Individuen sind und die Kanten Bekanntschaften welche die Individuen miteinander teilen. Das ein solcher Graph ungerichtet ist wird formal darum angenommen, da eine Kommunikation zwischen zwei Individuen für die betrachteten Netzwerke als bidirektional angesehen wird. Zudem wird, um ein möglichst realistisches Abbild zu schaffen, davon ausgegangen, dass die Graphen sehr sparse sind [Paper von Watts].
-\subsection{Formale Definition und Bedingungen}
-Die Bedingungen und formalen Definitionen welche MORRIS in seinem Paper für einen Graphen aufstellt welcher zur Untersuchung von Verhaltensausbreitung erforscht werden soll.
-\subsection{Besondere Netzwerkkonstrukte}
-Zwar kann man für die Untersuchung von Verhaltensausbreitung in sozialen Netzwerken auch zufällig generierte Graphen verwenden, sofern sie den formalen Anforderungen genügen. Doch sind soziale Strukturen, welche mithilfe solcher Graphen abstrahiert werden sollen, mitnichten zufällig sondern entsprechen oft vordefinierten Mustern.\\ Daher ist es von Interesse besonders häufig auftretende oder die Ausbreitung stark beeinflussende Konstrukte gesondert zu betrachten.
-\subsubsection{Weak Tie - Strong Tie}
-Wie im Kapitel [KAP] bereits dargelegt gibt es mit Strong- und Weak Ties zwei grobe Gruppen in die sich sämtliche Verbindungen innerhalb eines Netzwerkes klassifizieren lassen. Abbildung [ABB] zeigt ein typisches, einfaches Beispiel für einen Graph mit klar erkennbaren Strong- und Weak Ties (starke Kanten sind Rot markiert und schwache Blaue).\\
-Beispiel für ein Netzwerk in dem die Weak Ties und Strong Ties separat hervorgehoben sind besonders natürlich im Bezug auf die Erklärung welche zuvor zu diesen Verbindungen abgegeben wurde.
+
+\subsection{Weak- und Strong Ties}
+Wie im Kapitel \ref{intro_ties} bereits dargelegt, gibt es mit Strong- und Weak Ties zwei Obergruppen, in welche sich sämtliche Verbindungen innerhalb eines Netzwerkes klassifizieren lassen. Abbildung \ref{pic_ties} zeigt ein typisches, einfaches Beispiel für einen Graph mit klar erkennbaren Strong- und Weak Ties (starke Kanten sind Rot markiert und schwache Blau).\\
+Klar identifizierbar sind hierbei die beiden eng verbundenen Gemeinschaften welche untereinander Strong Ties unterhalten. Hinüber zur jeweils anderen Gemeinschaft existiert nur ein einzelner Weak Tie. Dieser wird niemals effektiv für die Verhaltensausbreitung dienen aber, wie bereits diskutiert, potentiell die Information über neue Verhalten zwischen den Gemeinschaften austauschen.
 
 \begin{figure}
   \begin{center}
     \includegraphics[width=0.60\textwidth]{pic_tieGraph.png}
   \end{center}
   \caption{Ein Graph mit hervorgehobenen Strong- und Weak Ties}
+  \label{pic_ties}
 \end{figure}
 
-
-\subsubsection{Cluster}
-Was ist ein Cluster und wie wird er definiert.
  
 
 \section{Modellierung der Verhaltensausbreitung}
-\subsection{A Networked Coordination Game}
+Nachdem die grundlegenden Bedingungen für die Modellierung eines sozialen Netzwerkes durch die Verwendung von bestimmten Graphen erfüllt sind, muss nun ein Modell gefunden werden, welches es erlaubt auf den genannten Graphen eine Verhaltensausbreitung zu simulieren.
+\subsection{Networked Coordination Game}
+Die Annahme der Verhaltensausbreitung besteht darin, dass jedes Individuum von der Adaption seines momentanen Verhaltens einen gewissen Nutzen hat welcher sich, unter Umständen abstrahiert, beziffern lässt. Nun stellt sich ihm die Möglichkeit ein neues Verhalten anzunehmen welches einen höheren Wert besitzt und somit einen klaren Vorteil sowie Anreizt es anstelle des alten zu adaptieren darstellt. Die Grundzüge dieser Idee spiegeln sich wieder in einem sogenannten "Networked Coordination Game". Hierbei haben die Spieler die Möglichkeit sich aus einer Auswahl an möglichen Verhalten ein beliebiges auszusuchen. Jedes Verhalten besitzt einen eigenen Payoff welcher mit dem Nutzen übersetzt werden kann welches dieses Verhalten für das Individuum bringt. Unter dieser ersten und vereinfachten Annahme wäre das Spiel schnell entschieden da sich jeder Spieler automatisch für das Verhalten mit dem höchsten Payoff entscheiden würde. Dies würde jedoch nicht den komplexen Verbindungen zwischen den Personen innerhalb eines Netzwerks Rechnung tragen und so muss eine Möglichkeit implementiert werden, dass die Payoffs eines Verhaltens abhängig sind von dem der unmittelbaren Nachbarn.\\\\ Die Darstellung der Payoffs in einer sogenannten "Payoff-Matrix" hilft dabei, die Idee zu veranschaulichen, dass der Nutzen eines Verhaltens auch davon abhängt was der Mitspieler als sein Verhalten gewählt hat. Tabelle \ref{my-label} stellt die Payoff-Matrix dar welche als Grundlage für die Verhaltensausbreitung dient. Die hier definierte Funktion $p$ legt fest was für einen Payoff Spieler eins und Spieler zwei beim Auswählen ihrer Verhalten beziehen. Sollten sich beide Spieler für das gleiche Verhalten entscheiden, so erhalten sie den jeweiligen Payoff. Bei einer heterogenen Entscheidung gibt es keine Punkte. Hiermit soll der Eigenschaft Rechnung getragen werden, dass wir stets einen Vorteil haben unser Verhalten dem unserer unmittelbaren Nachbarn anzupassen.
+\begin{table}[h]
+\centering
+\caption{Exemplarische Payoff-Matrix}
+\label{my-label}
+\begin{tabular}{|l|l|l|l|}
+\hline
+                           & \multicolumn{3}{l|}{Spieler 1}          \\ \hline
+\multirow{3}{*}{Spieler 2} &             & Verhalten A & Verhalten B \\ \cline{2-4} 
+                           & Verhalten A & p(a,a)      & p(0,0)      \\ \cline{2-4} 
+                           & Verhalten B & p(0,0)      & p(b,b)      \\ \hline
+\end{tabular}
+\end{table}
+
+Die Payoff Matrix besitzt ebenfalls zwei sogenannte Nash-Equilibria (benannt nach dem berühmten Mathematiker John Nash) in den Fällen, dass beide Spieler sich für identische Verhalten entschieden haben. Per Definition des Nash-Equilibriums kann sich, ausgehend von diesen Situationen kein Spieler einen weiteren Vorteil verschaffen indem er allein sein Verhalten ändert.\\\\
+Unter diesen Voraussetzungen wird jedoch noch nicht berücksichtigt, dass es in einem sozialen Netzwerk nicht nur zweier Pärchen gibt sondern ein Individuum sein Verhalten mit unter Umständen deutlich mehr Nachbarn abstimmen muss. Was bedeutet, dass in eine etwaige Kostenrechnung die bestimmt welches Verhalten lohnenswerter ist bei der Auswahl zwischen einem Verhalten A oder B, nicht nur allein deren Payoffs miteinbezogen werden dürfen. Auch die Anzahl der Nachbarn welche entweder das eine oder das andere Verhalten bereits adaptiert haben muss berücksichtigt werden.
+
+ % 
+ \begin{equation}
+ \label{formel_payoffA}
+ P_a = p*a*d
+ \end{equation}
+ %
+  % 
+ \begin{equation}
+ \label{formel_payoffB}
+ P_b = (1-p)*b*d
+ \end{equation}
+ %
+ 
+ Formel \ref{formel_payoffA} zeigt die Berechnung des Payoffs $P_a$, welchen ein Individuum erhalten würde wenn es insgesamt $d$ Nachbarn besitzt und der Bruchteil $p$ davon sich bereits für das Verhalten A entschlossen hat. Formel \ref{formel_payoffB} stellt genau das gleiche dar nur ausgelegt für den Payoff $P_b$. Hier wird davon ausgegangen, dass es nur zwei unterschiedliche Verhalten A und B zur Auswahl gibt und jedes Individuum zwangsweise eines der beiden adaptiert haben muss. Dies gilt auch für das in obigem Beispiel erwähnte Individuum welches eine Entscheidung trifft. Es selbst kann beispielsweise B oder A adaptiert haben ohne, dass dies seine Entscheidung beeinflusst, da nach Definition in Auflistung \ref{enum_graphConditions} Niemand als sein eigener Nachbar zählt.
+ %
+  \begin{equation}
+ \label{formel_payoffCompare}
+ p*a*d \geq (1-p)*b*d
+ \end{equation}
+ %
+Verhalten A wäre folglich die bessere Wahl wenn Formel \ref{formel_payoffCompare} erfüllt ist. Dabei gehen wir hier und in allen folgenden Beispielen davon aus, dass geprüft wird ob ein Netzwerk in dem initial alle Personen Verhalten B verwenden ein Wechsel hin zu Verhalten A möglich ist. Unter dieser Annahme wird dem Verhalten A auch der Vorteil gegeben, dass bei einem Gleichstand der beiden Payoffs $P_a$ und $P_b$ das Verhalten A adaptiert wird.
+%
+  \begin{equation}
+ \label{formel_payoffFraction}
+ p \geq \frac{b}{a+b}
+ \end{equation}
+ %
+Formel \ref{formel_payoffFraction} erhält man durch Umformulierung der Formel \ref{formel_payoffCompare} und kann somit die Aussage treffen, dass wenn ein $p$ Bruchteil der Nachbarn eines Individuums das Verhalten A adaptiert haben, diese Person ebenfalls zu Verhalten A wechseln wird. Die Rechte Seite der Formel \ref{formel_payoffFraction} wird als Threshold bezeichnet und im weiteren Verlauf mit $q$ adressiert. Der Threshold ist, im homogenen Fall, für das gesamte Netzwerk identisch. Er beschreibt den Bruchteil an Nachbarn welche, abhängig von den Payoffs $a$ und $b$ mindestens nötig sind, um ein Individuum zur Adaption von Verhalten A zu bewegen.
+
+\subsubsection{Heterogener Threshold}
+Die Vorstellung, dass alle Personen innerhalb eines sozialen Netzwerks den gleichen Threshold besitzen, ist künstlich ideal und für eine einfache Analyse sehr dankbar, entspricht jedoch nur unzureichend der Realität. Unter dieser Bedingung könnte man beispielhaft davon ausgehen, dass wenn $50\%$ der Nachbarn eines Individuums Verhalten A adaptiert haben, wird diese Person ebenfalls wechseln. Allerdings ist jeder Mensch verschieden und besitzt somit seinen ganz individuellen Threshold. Manche lassen sich leichter beeinflussen und es genügen schon $30\%$ der Nachbarn um sie zum Wechsel zu bringen. Andere sind hartnäckiger und benötigen den Zuspruch von $80\%$ ihrer Nachbarn um alte Gewohnheiten aufzugeben. Diesen Umstand repräsentiert das hier vorgestellte Modell der Verhaltensausbreitung mit der Möglichkeit heterogene Thresholds zu verwenden.\\\\
+
+Bei der Anwendung von heterogenen Thresholds besitzt nun jeder Spieler einen ganz eigenen Payoff für die beiden zur Verfügung stehenden Verhalten. Dies spiegelt sich auch in der Payoff Matrix für den Fall eines Networked Coordination Game mit heterogenen Thresholds wieder(\ref{table_payofHetero}.
+
+\begin{table}[h]
+\centering
+\caption{Payoff Matrix mit heterogenen Thresholds}
+\label{table_payofHetero}
+\begin{tabular}{|l|l|l|l|}
+\hline
+                           & \multicolumn{3}{l|}{Spieler 1}           \\ \hline
+\multirow{3}{*}{Spieler 2} &             & Verhalten A  & Verhalten B \\ \cline{2-4} 
+                           & Verhalten A & p($a_1$,$a_2$) & p(0,0)      \\ \cline{2-4} 
+                           & Verhalten B & p(0,0)       & p($b_1$,$b_2$)      \\ \hline
+\end{tabular}
+\end{table}
+
+Somit besitzt jeder Knoten $k$ seinen individuellen Threshold $q_k$ dargestellt in Formel \ref{formel_thresholdHetero}.
+
+%
+  \begin{equation}
+ \label{formel_thresholdHetero}
+ q_k =  \frac{b_k}{a_k+b_k}
+ \end{equation}
+ %
+
+\subsubsection{Beispiel mit homogenen Thresholds}
+In den folgenden Bildern ist der Ablauf einer Verhaltensausbreitung in einem Netzwerk mit 10 Knoten sichtbar. Als Ausgangssituation ist das gesamte Netzwerk auf Verhalten B eingespielt (grün markiert). Ausgehend von einem zufällig gewählten initialen Adopter unter Berücksichtigung der Payoffs $a=2$ und $b=1$ kann für jeden Schritt separat nachvollzogen werden warum die einzelnen Knoten von Rot auf Grün gewechselt haben.
+
+
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=\textwidth]{cascadeHomo/cascade.png}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=\textwidth]{cascadeHomo/cascade0.png}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=\textwidth]{cascadeHomo/cascade1.png}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=\textwidth]{cascadeHomo/cascade2.png}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=\textwidth]{cascadeHomo/cascade3.png}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+\includegraphics[width=\textwidth]{cascadeHomo/cascade1.png}
+\end{minipage}
+
 \subsection{Definition einer Kaskade}
-Nachdem der Begriff der Netzwerke und auch schon die ersten rudimentären Details der Verhaltensausbreitung in ihnen geklärt ist soll nun beschrieben werden was genau eine Kaskade ist. Eine Kaskade ist die Ausbreitung eines neuen Verhaltens in einem Netzwerk das zu Begin homogen verhalten A haben kann. Als erster Schritt wird immer davon ausgegangen, dass einige wenige Individueen meistens auch solche mit hohem Einflussfaktor auf andere sich zu einem Wechsel hin zu einer neuen Innovation durchringen. Sie werden daher auch als Change Agents benannt (wenn das Stimmt dann hier einen Verweis auf das vorherige Kapitel in dem Change Agents bereits erklärt wurden). Diese INdividuen wechseln zu Verhalten B.
-\subsection{Formale Beschreibung einer Kaskade}
-Definition von Nachbarn, Seeds, Innovatoren, Threshold(homogen oder heterogen), Entscheidungsregel zur Ausbreitung, 
-\subsection{Modellierung der Ausbreitung einer Kaskade}
-Erklären des formalen Modells mit allen dazu gehörigen Formeln die beschreiben wie und unter welchen voraussetzungen sich eine Kaskade in einem Netzwerk ausbreiten kann. Auch hier vielleicht noch Vorstellen des Begriffs Seed als initiale ADopter.
-\subsubsection{Cluster als natürliche Hindernisse}
-Hier beschreiben warum Cluster sich als natürliche Hindernisse für eine Kaskade erwähnen. Da lässt sich vielleicht auch eine Hinführung zum nächsten Kapitel machen da die Entscheidung ob eine Kaskade ein netzwerk eindeutig durchdringen kann damit zusammen hängt ob es innerhalb des Netzwerkes einen Cluster mit höherer DIchte als die Kapazität einer Kaskadef gibt.
+Die im Beispiel [REF EXAMPLE] zu beobachtende Kettenreaktion wird im Rahmen der Verhaltensausbreitung als Kaskade bezeichnet. Der Begriff ursprünglich aus dem Französischen stammend ("`cascade"' - Wasserfall) wird auch im Deutschen oft verwendet bei der Beschreibung von über mehrere Stufen abfallenden Wasserfällen. Diese Interpretation lässt sich nun direkt auf die Verhaltensausbreitung übertragen wo auch in mehreren Stufen sich ein Verhalten immer weiter ausbreitet. Allgemein lässt sich von einer Kaskade sprechen, wenn in einem Netzwerk, welches den unter {REF] genannten Definitionen genügt, ausgehend von einem kleinen Kreis initialer Innovatoren, ein neues Verhalten nach und nach das vollständige Netzwerk erobert.
+\subsection{Cluster als natürliche Hindernisse}
+Hier beschreiben warum Cluster sich als natürliche Hindernisse für eine Kaskade erwähnen. Da lässt sich vielleicht auch eine Hinführung zum nächsten Kapitel machen da die Entscheidung ob eine Kaskade ein Netzwerk eindeutig durchdringen kann damit zusammen hängt ob es innerhalb des Netzwerkes einen Cluster mit höherer DIchte als die Kapazität einer Kaskade gibt.
 \subsection{Kapazität einer Kaskade}
 Formal belegen und erklären, was die Kapazität einer Kaskade ist und wie sich diese berechnen lässt. Was die Bedeutung dahinter ist und das ganze am besten auch mit einem bildlichen Beispiel belegt.
+\subsection{Bilinguale Option}
 
 
 \section{Simulation einer Kaskade mit Igraph und Python}
@@ -173,7 +267,7 @@ Möglichkeiten die Ausbreitung eines Verhaltens in einem Netzwerk künstlich zu 
 Einfachst Variante der Verbesserung des Thresholds um über Kanäle sich verbreiten zu können die zuvor noch aufgrund des zu niedrigen Thresholds verschlossen gewesen waren. Sehr gut ist hier sicehrlich auch ein Beispiel anzubringen. Am besten ein Netzwerk bei dem es einen Cluster gibt der zunächst als Barriere wirkt. Diese kann überwunden werden indem der Threshold weit genug angehoben wird damit auch diese Grenze überwunden wird. Allerdings muss dabei auch die FOrmale Berechunung aus dem vorherigen Kapitel betrachtet werden.
 \subsection{Einflussreiche Agenten}
 Wenn in Clustern bestimmte Seeds gesetzt werden sollen ist es von großem Vorteil Personen dafür auszusuchen die eine sehr starke Position im sozialen Gefüge haben. Als Alternative zu dem vorherig genannten Muster können auch anstatt die Brücke zu überwinden in dem neuen Netzwerk einflussreiche Personen gekauft werden damit diese als INnovatoren sich hervortuen und das Produkt den anderen empfehlen. Wieder ein Faktor warum Justin Bieber mit 50 mio Twitter followern ein beliebter Werbeträger ist. Wenn er etwas twittert sehen das direkt millionen von Menschen. 
-\subsection{Virales Marketing in Online Netzwerken}
+\subsection{Beispiele für Virales Marketing}
 Mit Bezug auf die neue Arbeit über Kaskadeneffekte in sozialen Medien, dass auch wenn diese auf den ersten Blick prädestiniert für einen solchen Einsatz wirken, sie nicht immer den gewünschten Erfolg erzielen. 
 
 \section{Fazit}

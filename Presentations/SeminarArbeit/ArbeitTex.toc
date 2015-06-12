@@ -9,21 +9,19 @@
 \contentsline {paragraph}{Weak Ties}{6}
 \contentsline {subsection}{\numberline {2.3}Zeit als Faktor}{7}
 \contentsline {subsection}{\numberline {2.4}Historische Beispiele}{7}
-\contentsline {section}{\numberline {3}Modellierung eines soziale Netzwerks}{7}
-\contentsline {subsection}{\numberline {3.1}Formale Definition und Bedingungen}{9}
-\contentsline {subsection}{\numberline {3.2}Besondere Netzwerkkonstrukte}{9}
-\contentsline {subsubsection}{\numberline {3.2.1}Weak Tie - Strong Tie}{9}
-\contentsline {subsubsection}{\numberline {3.2.2}Cluster}{9}
-\contentsline {section}{\numberline {4}Modellierung der Verhaltensausbreitung}{9}
-\contentsline {subsection}{\numberline {4.1}A Networked Coordination Game}{9}
-\contentsline {subsection}{\numberline {4.2}Definition einer Kaskade}{9}
-\contentsline {subsection}{\numberline {4.3}Formale Beschreibung einer Kaskade}{10}
-\contentsline {subsection}{\numberline {4.4}Modellierung der Ausbreitung einer Kaskade}{10}
-\contentsline {subsubsection}{\numberline {4.4.1}Cluster als nat\IeC {\"u}rliche Hindernisse}{11}
-\contentsline {subsection}{\numberline {4.5}Kapazit\IeC {\"a}t einer Kaskade}{11}
-\contentsline {section}{\numberline {5}Simulation einer Kaskade mit Igraph und Python}{11}
-\contentsline {section}{\numberline {6}Virales Marketing}{11}
-\contentsline {subsection}{\numberline {6.1}Verbesserung des Thresholds}{12}
-\contentsline {subsection}{\numberline {6.2}Einflussreiche Agenten}{12}
-\contentsline {subsection}{\numberline {6.3}Virales Marketing in Online Netzwerken}{12}
-\contentsline {section}{\numberline {7}Fazit}{12}
+\contentsline {section}{\numberline {3}Modellierung eines soziale Netzwerks}{8}
+\contentsline {subsection}{\numberline {3.1}Weak- und Strong Ties}{10}
+\contentsline {section}{\numberline {4}Modellierung der Verhaltensausbreitung}{10}
+\contentsline {subsection}{\numberline {4.1}Networked Coordination Game}{10}
+\contentsline {subsubsection}{\numberline {4.1.1}Heterogener Threshold}{13}
+\contentsline {subsubsection}{\numberline {4.1.2}Beispiel mit homogenen Thresholds}{14}
+\contentsline {subsection}{\numberline {4.2}Definition einer Kaskade}{15}
+\contentsline {subsection}{\numberline {4.3}Cluster als nat\IeC {\"u}rliche Hindernisse}{15}
+\contentsline {subsection}{\numberline {4.4}Kapazit\IeC {\"a}t einer Kaskade}{16}
+\contentsline {subsection}{\numberline {4.5}Bilinguale Option}{16}
+\contentsline {section}{\numberline {5}Simulation einer Kaskade mit Igraph und Python}{16}
+\contentsline {section}{\numberline {6}Virales Marketing}{16}
+\contentsline {subsection}{\numberline {6.1}Verbesserung des Thresholds}{16}
+\contentsline {subsection}{\numberline {6.2}Einflussreiche Agenten}{17}
+\contentsline {subsection}{\numberline {6.3}Beispiele f\IeC {\"u}r Virales Marketing}{17}
+\contentsline {section}{\numberline {7}Fazit}{17}
