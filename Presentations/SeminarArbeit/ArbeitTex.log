@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.20)  12 JUN 2015 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.20)  17 JUN 2015 17:53
 entering extended mode
 **ArbeitTex.tex
 (ArbeitTex.tex
@@ -376,13 +376,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
-[2] <pic_diffusion.png, id=23, 331.2375pt x 248.93pt>
+[2] [3] <pic_diffusion.png, id=26, 331.2375pt x 248.93pt>
 File: pic_diffusion.png Graphic file (type png)
- <use pic_diffusion.png>
+
+<use pic_diffusion.png>
 Package pdftex.def Info: pic_diffusion.png used on input line 85.
 (pdftex.def)             Requested size: 312.00119pt x 234.4842pt.
-
-[3] [4 <./pic_diffusion.png>] [5] [6]
+ [4 <./pic_diffusion.png>] [5] [6]
 Overfull \hbox (6.53363pt too wide) in paragraph at lines 111--112
 []\T1/cmr/m/n/12 Der Ent-schei-dungs-fin-dungs-pro-zess durch-läuft ent-lang de
 r Zeitach-se meh-
@@ -403,13 +403,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-<pic_simpleGraph.png, id=42, 602.25pt x 602.25pt>
+<pic_simpleGraph.png, id=45, 602.25pt x 602.25pt>
 File: pic_simpleGraph.png Graphic file (type png)
  <use pic_simpleGraph.png>
 Package pdftex.def Info: pic_simpleGraph.png used on input line 125.
 (pdftex.def)             Requested size: 234.00238pt x 234.00354pt.
 
-[8] [9 <./pic_simpleGraph.png>] <pic_tieGraph.png, id=49, 602.25pt x 602.25pt>
+[8] [9 <./pic_simpleGraph.png>] <pic_tieGraph.png, id=52, 602.25pt x 602.25pt>
 File: pic_tieGraph.png Graphic file (type png)
 
 <use pic_tieGraph.png>
@@ -435,84 +435,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
-[13] <cascadeHomo/cascade.png, id=67, 602.25pt x 602.25pt>
+[13] <cascadeHomo/cascade.png, id=68, 602.25pt x 602.25pt>
 File: cascadeHomo/cascade.png Graphic file (type png)
 
 <use cascadeHomo/cascade.png>
-Package pdftex.def Info: cascadeHomo/cascade.png used on input line 234.
+Package pdftex.def Info: cascadeHomo/cascade.png used on input line 235.
 (pdftex.def)             Requested size: 117.00119pt x 117.00177pt.
 
-<cascadeHomo/cascade0.png, id=68, 602.25pt x 602.25pt>
+<cascadeHomo/cascade0.png, id=69, 602.25pt x 602.25pt>
 File: cascadeHomo/cascade0.png Graphic file (type png)
 
 <use cascadeHomo/cascade0.png>
-Package pdftex.def Info: cascadeHomo/cascade0.png used on input line 237.
+Package pdftex.def Info: cascadeHomo/cascade0.png used on input line 238.
 (pdftex.def)             Requested size: 117.00119pt x 117.00177pt.
 
-<cascadeHomo/cascade1.png, id=69, 602.25pt x 602.25pt>
+<cascadeHomo/cascade1.png, id=70, 602.25pt x 602.25pt>
 File: cascadeHomo/cascade1.png Graphic file (type png)
 
 <use cascadeHomo/cascade1.png>
-Package pdftex.def Info: cascadeHomo/cascade1.png used on input line 240.
+Package pdftex.def Info: cascadeHomo/cascade1.png used on input line 241.
 (pdftex.def)             Requested size: 117.00119pt x 117.00177pt.
 
-<cascadeHomo/cascade2.png, id=70, 602.25pt x 602.25pt>
+<cascadeHomo/cascade2.png, id=71, 602.25pt x 602.25pt>
 File: cascadeHomo/cascade2.png Graphic file (type png)
 
 <use cascadeHomo/cascade2.png>
-Package pdftex.def Info: cascadeHomo/cascade2.png used on input line 243.
+Package pdftex.def Info: cascadeHomo/cascade2.png used on input line 244.
 (pdftex.def)             Requested size: 117.00119pt x 117.00177pt.
 
-<cascadeHomo/cascade3.png, id=71, 602.25pt x 602.25pt>
+<cascadeHomo/cascade3.png, id=72, 602.25pt x 602.25pt>
 File: cascadeHomo/cascade3.png Graphic file (type png)
 
 <use cascadeHomo/cascade3.png>
-Package pdftex.def Info: cascadeHomo/cascade3.png used on input line 246.
+Package pdftex.def Info: cascadeHomo/cascade3.png used on input line 247.
 (pdftex.def)             Requested size: 117.00119pt x 117.00177pt.
 File: cascadeHomo/cascade1.png Graphic file (type png)
  <use cascadeHomo/cascade1.png>
-Package pdftex.def Info: cascadeHomo/cascade1.png used on input line 249.
+Package pdftex.def Info: cascadeHomo/cascade1.png used on input line 250.
 (pdftex.def)             Requested size: 117.00119pt x 117.00177pt.
 
-Overfull \hbox (103.46104pt too wide) in paragraph at lines 233--251
+Overfull \hbox (103.46104pt too wide) in paragraph at lines 234--252
 [][] [] [] []
  []
 
-[14] [15 <./cascadeHomo/cascade.png> <./cascadeHomo/cascade0.png> <./cascadeHom
-o/cascade1.png> <./cascadeHomo/cascade2.png> <./cascadeHomo/cascade3.png>]
-[16] [17] [18] (ArbeitTex.aux) )
-(\end occurred inside a group at level 1)
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 259--264
 
-### simple group (level 1) entered at line 253 ({)
-### bottom level 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--264
+
+ []
+
+[15 <./cascadeHomo/cascade.png> <./cascadeHomo/cascade0.png> <./cascadeHomo/cas
+cade1.png> <./cascadeHomo/cascade2.png> <./cascadeHomo/cascade3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
+
+ []
+
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
+
+ []
+
+[18] [19] [20] [21] (ArbeitTex.aux) ) 
 Here is how much of TeX's memory you used:
- 2172 strings out of 493698
- 27054 string characters out of 3141991
- 90729 words of memory out of 3000000
- 5473 multiletter control sequences out of 15000+200000
+ 2177 strings out of 493698
+ 27118 string characters out of 3141991
+ 90770 words of memory out of 3000000
+ 5478 multiletter control sequences out of 15000+200000
  15949 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,10n,23p,2017b,264s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecti1200.pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Fabian\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Fabian\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Use
-rs\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.
-pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecti1440.pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecbx2488.pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ArbeitTex.pdf (20 pages, 372606 bytes).
+ <C:\Users\Fabian\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Fabian\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Fabian\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\User
+s\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.p
+k> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbx1728.pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecrm1440.pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecti1440.pk> <C:\Users\Fabian\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Fabian\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\Fabian\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on ArbeitTex.pdf (23 pages, 393569 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
+ 516 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
