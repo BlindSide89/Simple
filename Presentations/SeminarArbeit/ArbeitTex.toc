@@ -6,21 +6,22 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Personen}{5}
 \contentsline {subsubsection}{\numberline {2.2.2}Kan\IeC {\"a}le der Verhaltensausbreitung}{6}
 \contentsline {paragraph}{Strong Ties}{6}
-\contentsline {paragraph}{Weak Ties}{6}
+\contentsline {paragraph}{Weak Ties}{7}
 \contentsline {subsection}{\numberline {2.3}Zeit als Faktor}{7}
 \contentsline {subsection}{\numberline {2.4}Historische Beispiele}{8}
 \contentsline {section}{\numberline {3}Modellierung eines soziale Netzwerks}{9}
-\contentsline {subsection}{\numberline {3.1}Weak- und Strong Ties}{10}
+\contentsline {subsection}{\numberline {3.1}Weak- und Strong Ties}{11}
 \contentsline {section}{\numberline {4}Modellierung der Verhaltensausbreitung}{11}
-\contentsline {subsection}{\numberline {4.1}Networked Coordination Game}{11}
+\contentsline {subsection}{\numberline {4.1}Networked Coordination Game}{12}
 \contentsline {subsubsection}{\numberline {4.1.1}Heterogener Threshold}{14}
-\contentsline {subsubsection}{\numberline {4.1.2}Beispiel mit homogenen Thresholds}{14}
+\contentsline {subsubsection}{\numberline {4.1.2}Beispiel mit homogenen Thresholds}{15}
 \contentsline {subsection}{\numberline {4.2}Definition einer Kaskade}{15}
-\contentsline {subsection}{\numberline {4.3}Cluster als nat\IeC {\"u}rliche Hindernisse}{16}
-\contentsline {subsection}{\numberline {4.4}Kapazit\IeC {\"a}t einer Kaskade}{17}
-\contentsline {subsubsection}{\numberline {4.4.1}Kapazit\IeC {\"a}t des infiniten Pfades}{18}
-\contentsline {subsection}{\numberline {4.5}Bilinguale Option}{18}
-\contentsline {section}{\numberline {5}Virales Marketing}{19}
-\contentsline {subsection}{\numberline {5.1}Change Agents}{20}
-\contentsline {subsection}{\numberline {5.2}Beispiele f\IeC {\"u}r Virales Marketing}{21}
-\contentsline {section}{\numberline {6}Fazit}{21}
+\contentsline {subsection}{\numberline {4.3}Cluster als nat\IeC {\"u}rliche Hindernisse}{17}
+\contentsline {subsubsection}{\numberline {4.3.1}Cluster mit heterogenen Thresholds}{18}
+\contentsline {subsection}{\numberline {4.4}Kapazit\IeC {\"a}t einer Kaskade}{18}
+\contentsline {subsubsection}{\numberline {4.4.1}Kapazit\IeC {\"a}t des infiniten Pfades}{19}
+\contentsline {subsection}{\numberline {4.5}Bilinguale Option}{19}
+\contentsline {section}{\numberline {5}Virales Marketing}{20}
+\contentsline {subsection}{\numberline {5.1}Change Agents}{21}
+\contentsline {subsection}{\numberline {5.2}Beispiele f\IeC {\"u}r Virales Marketing}{22}
+\contentsline {section}{\numberline {6}Fazit}{23}
