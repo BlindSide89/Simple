@@ -45,7 +45,8 @@ class SimpleWindow(QtGui.QMainWindow):
         event.accept()
 
     def load_questions(self):
-        self.centerWidget.question_pack = self.question_importer.read_questions_from_file()
+        filePath = QtGui.QFileDialog.getOpenFileName()
+        self.centerWidget.question_pack = self.question_importer.read_questions_from_file(filePath)
         self.centerWidget.question_pack_loaded()
 
     def toggle_random(self):
