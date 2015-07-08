@@ -1,2366 +1,683 @@
-﻿OA	Altusried, M
-	OA112AGGE » Aggensteinweg
-	OA112AHOR » Ahornweg
-	OA112ALPE » Alpenblickstraße
-	OA112ALPS » Alpspitzweg
-	OA112ALTEB » Alte Burgstraße
-	OA112ALTEL » Alte Landstraße
-	OA112ALTU » Altungstraße
-	OA112AMANG » Am Anger
-	OA112AMBÄC » Am Bächle
-	OA112AMBÜ » Am Bühl
-	OA112AMBUC » Am Buchweg
-	OA112AMDOR » Am Dorfbach
-	OA112AMELL » Am Ellenberg
-	OA112AMFUC » Am Fuchsberg
-	OA112AMGEY » Am Geyersbühl
-	OA112AMGUG » Am Guggenbühl
-	OA112AMHEI » Am Heinzenhang
-	OA112AMHOH » Am Hohlgraben
-	OA112AMILL » Am Illerfeld
-	OA112AMKAT » Am Katzenbuckel
-	OA112AMKIR » Am Kirchberg
-	OA112AMKUH » Am Kuhnenberg
-	OA112AMMAN » Am Manzele
-	OA112AMRIE » Am Ried
-	OA112AMRN » Am Rain
-	OA112AMROD » Am Rodelhang
-	OA112AMRÖT » Am Röthenbach
-	OA112AMSAN » Am Sand
-	OA112AMSTE » Am Steinebühl
-	OA112AMVOGEBG » Am Vogelberg
-	OA112AMVOGELS » Am Vogelsang
-	OA112AMWEG » Am Wegäcker
-	OA112ANDRH » Andreas-Hofer-Straße
-	OA112ANGE » Angerweg
-	OA112ÄUßEI » Äußere Illerstraße
-	OA112ÄUßEK » Äußere Kemptener Straße
-	OA112ÄUßEL » Äußere Leutkircher Straße
-	OA112BÄCK » Bäckergasse
-	OA112BEIDE » Bei den Weiden
-	OA112BERG » Bergstraße
-	OA112BIRK » Birkenweg
-	OA112BLEN » Blenderweg
-	OA112BLUM » Blumenstraße
-	OA112DEIC » Deichelweg
-	OA112DIES » Dieselstraße
-	OA112DORF » Dorfstraße
-	OA112DREC » Drechslerweg
-	OA112ERLE » Erlenweg
-	OA112FELL » Fellhornweg
-	OA112FINK » Finkenstraße
-	OA112FLÖß » Flößerstraße
-	OA112FLOß » Floßlände
-	OA112FÖRS » Försterweg
-	OA112FRIE » Friedenstraße
-	OA112FRÜH » Frühlingstraße
-	OA112GEIß » Geißhornstraße
-	OA112GERB » Gerberweg
-	OA112GEWE » Gewerbestraße
-	OA112GOET » Goethestraße
-	OA112GRÜN » Grüntenstraße
-	OA112HAFN » Hafnerweg
-	OA112HATT » Hattenbergstraße
-	OA112HAUP » Hauptstraße
-	OA112HILD » Hildegardstraße
-	OA112HIRS » Hirschdorfer Straße
-	OA112HIRT » Hirtenweg
-	OA112HOCH » Hochvogelweg
-	OA112HÖFA » Höfatsweg
-	OA112HOHE » Hoher Weg
-	OA112HOLL » Hollgasse
-	OA112HOPF » Hopfenweg
-	OA112HOPM » Hopmannweg
-	OA112HUMM » Hummelstraße
-	OA112HUPO » Hupoldweg
-	OA112ILLE » Illerstraße
-	OA112IMBE » Imbergstraße
-	OA112IMSCH » Im Schönen Grund
-	OA112IMTL » Im Tal
-	OA112ISNY » Isnyer Straße
-	OA112JOSE » Josefshöhe
-	OA112KALD » Kaldener Straße
-	OA112KAPE » Kapellenweg
-	OA112KAST » Kastanienweg
-	OA112KELT » Keltenstraße
-	OA112KEMPTEN » Kemptener Straße
-	OA112KEMPTER » Kempterweg
-	OA112KIEF » Kiefernweg
-	OA112KIRC » Kirchstraße
-	OA112KOPP » Koppachweg
-	OA112KORN » Kornweg
-	OA112KUNI » Kunibertstraße
-	OA112LAND » Landstraße
-	OA112LANG » Langer Steig
-	OA112LEGA » Legauer Straße
-	OA112LERCHEN » Lerchenstraße
-	OA112LERCHER » Lercherhalde
-	OA112LESS » Lessingstraße
-	OA112LEUT » Leutkircher Straße
-	OA112LIND » Lindenstraße
-	OA112LUSI » Lusignanstraße
-	OA112MANG » Mangstraße
-	OA112MARI » Marienstraße
-	OA112MAYR » Mayrhalde
-	OA112MEIS » Meisenweg
-	OA112MESN » Mesnergasse
-	OA112MÜHL » Mühlenweg
-	OA112NEBE » Nebelhornstraße
-	OA112NORD » Nordstraße
-	OA112ORTS » Ortsstraße
-	OA112OST » Oststraße
-	OA112PAPP » Pappenheimer Weg
-	OA112PFAR » Pfarrwaldweg
-	OA112POST » Poststraße
-	OA112RATHASTR » Rathausstraße
-	OA112RATHAUPL » Rathausplatz
-	OA112RAUH » Rauhhornweg
-	OA112REIC » Reichlinstraße
-	OA112RIED » Riedheimstraße
-	OA112RING » Ringstraße
-	OA112RITT » Ritterstraße
-	OA112RÖME » Römerweg
-	OA112ROSE » Rosenweg
-	OA112ROTH » Rothensteinstraße
-	OA112RUBI » Rubihornstraße
-	OA112SATT » Sattlerweg
-	OA112SÄUL » Säulingstraße
-	OA112SCHEI » Scheibenstraße
-	OA112SCHEL » Schellenbergstraße
-	OA112SCHI » Schillerstraße
-	OA112SCHL » Schleifweg
-	OA112SCHM » Schmiedstraße
-	OA112SCHU » Schulstraße
-	OA112SCHW » Schwalbenweg
-	OA112SIED » Siedlerweg
-	OA112SONN » Sonnenhalde
-	OA112SPOR » Sportstraße
-	OA112STFLO » St.-Florian-Weg
-	OA112STIF » Stiftsstraße
-	OA112STMIC » St.-Michael-Straße
-	OA112STUI » Stuibenweg
-	OA112TANN » Tannenweg
-	OA112TRET » Trettachweg
-	OA112UNTES » Untere Schulstraße
-	OA112VONFI » Von-Finsterlin-Straße
-	OA112WALD » Waldstraße
-	OA112WEST » Weststraße
-	OA112WIDU » Widumstraße
-	OA112WIES » Wiesenweg
-	OA112WINK » Winkelgasse
-	OA112ZUGS » Zugspitzstraße
-	OA112ZURBU » Zur Burgschmiede
-OA	Bad Hindelang, M
-	OA123ALPE » Alpenstraße
-	OA123ALPGS » Alpgasse
-	OA123ALTEJ » Alte Jochstraße
-	OA123AMANG » Am Anger
-	OA123AMAUWLD » Am Auwald
-	OA123AMBAU » Am Bauernmarkt
-	OA123AMEDE » Am Edelsberg
-	OA123AMGEH » Am Gehren
-	OA123AMHAU » Am Hausacker
-	OA123AMKAL » Am Kalvarienberg
-	OA123AMKRE » Am Kressler
-	OA123AMMAY » Am Mayerling
-	OA123AMÖSC » Am Öschbach
-	OA123AMPFA » Am Pfannenstiel
-	OA123AMPRI » Am Prinzenwald
-	OA123AMRIE » Am Riedbrand
-	OA123AMSCH » Am Schmittebichl
-	OA123AMSOH » Am Sohler
-	OA123AMZEH » Am Zehrer
-	OA123ANDER » An der Lexenmühle
-	OA123ANDRGROS » Andreas-Gross-Straße
-	OA123ANDRGROß » Andreas-Groß-Weg
-	OA123ANGE » Angergasse
-	OA123AUFDEM » Auf dem Buck
-	OA123AUFDER » Auf der Höh
-	OA123BACH » Bachweg
-	OA123BADOB » Bad Oberdorfer Straße
-	OA123BADSTR » Badstraße
-	OA123BÄRENGS » Bärengasse
-	OA123BÄRENWG » Bärenweg
-	OA123BERG » Bergweg
-	OA123BREC » Brecheweg
-	OA123BREI » Breitenbergweg
-	OA123BRUNNÄ » Brunnäcker
-	OA123BRUNNE » Brunnengasse
-	OA123BUCH » Buchäckergasse
-	OA123BÜRGL » Bürglesweg
-	OA123BÜRGS » Bürgermeister-Scholl-
-	OA123DORF » Dorfstraße
-	OA123EISE » Eisenhammerweg
-	OA123ENGE » Engelgasse
-	OA123ERLE » Erlenweg
-	OA123FÄRB » Färbergasse
-	OA123FIEG » Fiegenschuhweg
-	OA123FRIE » Friedhofweg
-	OA123FUGG » Fuggerweg
-	OA123GAIL » Gailenbergstraße
-	OA123GERB » Gerberweg
-	OA123GIEB » Giebelstraße
-	OA123GUND » Gundstraße
-	OA123HALD » Haldenweg
-	OA123HASE » Haselschwande
-	OA123HAUP » Hauptstraße
-	OA123HEUL » Heulandweg
-	OA123HIND » Hindelanger Straße
-	OA123HINTERE » Hintere Gasse
-	OA123HINTERS » Hintersteiner Straße
-	OA123HIRSCHA » Hirschackerweg
-	OA123HIRSCHBA » Hirschbachweg
-	OA123HIRSCHBE » Hirschbergstraße
-	OA123HORN » Hornweg
-	OA123HOTZ » Hotzenweg
-	OA123IMMO » Im Moos
-	OA123IMSCH » Im Schlauchen
-	OA123IMWÄL » Im Wäldle
-	OA123ISEL » Iselerstraße
-	OA123JÄGE » Jägersteig
-	OA123JAHN » Jahnstraße
-	OA123JOCH » Jochstraße
-	OA123JÖRGL » Jörg-Lederer-Straße
-	OA123JUBI » Jubiläumsweg
-	OA123KANZR » Kanzel-Ringweg
-	OA123KAPE » Kapellengasse
-	OA123KARLH » Karl-Hafner-Straße
-	OA123KIRC » Kirchstraße
-	OA123KONRE » Konrad-Eberhard-Weg
-	OA123KÜH » Kühgasse
-	OA123KURZ » Kurze Gasse
-	OA123LANG » Lange Gasse
-	OA123LEISB » Leisings Buind
-	OA123LUIT » Luitpoldstraße
-	OA123MARK » Marktstraße
-	OA123MOORSTR » Moorstraße
-	OA123MOORWG » Moorweg
-	OA123MÜHL » Mühlweg
-	OA123NAGL » Naglergasse
-	OA123OBERB » Oberer Buigenweg
-	OA123OBERE » Obere Gasse
-	OA123OBERH » Obere Hirschäcker
-	OA123ORNA » Ornachstraße
-	OA123OSTR » Ostrachstraße
-	OA123PAß » Paßstraße
-	OA123POST » Poststraße
-	OA123RAIN » Rainbühlgasse
-	OA123RAUHE » Rauher Weg
-	OA123RAUHO » Rauhornweg
-	OA123RECK » Reckenberger Weg
-	OA123RICHM » Richard-Mahn-Straße
-	OA123RIED » Riedlesweg
-	OA123ROSE » Rosengasse
-	OA123SALEK » Salewa Klettersteig
-	OA123SALZ » Salzgasse
-	OA123SANG » Sangenweg
-	OA123SAU » Sausteig
-	OA123SCHI » Schindackerweg
-	OA123SCHL » Schloßplatz
-	OA123SCHM » Schmittenweg
-	OA123SCHR » Schrotweg
-	OA123SCHU » Schulgasse
-	OA123SCHÜ » Schützenstraße
-	OA123SCHW » Schwandenweg
-	OA123SEBAKNWG » Sebastian-Kneipp-Weg
-	OA123SEBAKSTR » Sebastian-Kneipp-Straße
-	OA123SONN » Sonnenstraße
-	OA123SONT » Sonthofer Straße
-	OA123SORG » Sorgschrofenstraße
-	OA123STEI » Steinebergweg
-	OA123TAL » Talstraße
-	OA123UNTEB » Unterer Buigenweg
-	OA123VATE » Vaterlandsweg
-	OA123WANK » Wankleite
-	OA123WEBE » Weberstraße
-	OA123WEID » Weidachstraße
-	OA123WEIH » Weihergasse
-	OA123WINKELGS » Winkelgasse
-	OA123WINKELL » Winkelleitenweg
-	OA123ZILL » Zillenbachstraße
-	OA123ZUMST » Zum Stegacker
-OA	Balderschwang
-	OA113ALPCH » Alp Chalet
-	OA113OBER » Oberberg
-OA	Betzigau
-	OA114ALTEL » Alte Landstraße
-	OA114AMLEX » Am Lexgraben
-	OA114AMSE » Amselweg
-	OA114ANDERL » An der Letze
-	OA114ANDERSG » An der Steig
-	OA114ANEM » Anemonenweg
-	OA114AURI » Aurikelweg
-	OA114BACHSTR » Bachstraße
-	OA114BACHT » Bachtelweg
-	OA114BAHN » Bahnhofstraße
-	OA114BERG » Bergstraße
-	OA114BUSS » Bussardweg
-	OA114DROS » Drosselweg
-	OA114DURA » Duracher Straße
-	OA114FALK » Falkenstraße
-	OA114FASA » Fasanstraße
-	OA114FINK » Finkenweg
-	OA114GART » Gartenstraße
-	OA114GEIE » Geierstraße
-	OA114GEWE » Gewerbestraße
-	OA114GOTT » Gottesackerweg
-	OA114GRÜN » Grüntenring
-	OA114HAUP » Hauptstraße
-	OA114KEMPW » Kempter-Wald-Straße
-	OA114KIRC » Kirchstraße
-	OA114KOLP » Kolpingweg
-	OA114KROK » Krokusweg
-	OA114LEIT » Leiterberger Straße
-	OA114LERC » Lerchenweg
-	OA114MARG » Margeritenstraße
-	OA114NELK » Nelkenstraße
-	OA114PRIM » Primelstraße
-	OA114RAIF » Raiffeisenstraße
-	OA114ROTK » Rotkreuzstraße
-	OA114SONN » Sonnenhalde
-	OA114STAR » Starenweg
-	OA114STUI » Stuibenweg
-	OA114TANN » Tannenweg
-	OA114TROL » Trollblumenweg
-	OA114WAGE » Wagegger Straße
-	OA114WEST » Westendstraße
-	OA114WIES » Wiesstraße
-OA	Blaichach
-	OA115AHOR » Ahornweg
-	OA115ALTH » Althausstraße
-	OA115AMAUBCH » Am Aubach
-	OA115AMBRA » Am Brand
-	OA115AMHAS » Am Hasenacker
-	OA115AMHUR » Am Hursch
-	OA115AMKAP » Am Kappelbichl
-	OA115AMSCH » Am Scheibenbach
-	OA115ANDER » An der Marienbrücke
-	OA115ARNI » Arnikaweg
-	OA115AUFDE » Auf der Bende
-	OA115AUTA » Autalweg
-	OA115BAHNHOFS » Bahnhofsplatz
-	OA115BAHNHOWG » Bahnhofweg
-	OA115BÄRE » Bärenkopfstraße
-	OA115BGMKR » Bgm.-Kreiter-Straße
-	OA115BIRKA » Birkachweg
-	OA115BIRKE » Birkenweg
-	OA115BLUM » Blumenweg
-	OA115BUCH » Buchenweg
-	OA115BURG » Burgberger Straße
-	OA115DORF » Dorfstraße
-	OA115EDEL » Edelweißweg
-	OA115ENDE » Enderstraße
-	OA115ENZI » Enzianweg
-	OA115ERLE » Erlenweg
-	OA115ETTE » Ettensberger Straße
-	OA115GART » Gartenstraße
-	OA115GRAD » Gradnerstraße
-	OA115GRÜN » Grüntenstraße
-	OA115HEING » Heinrich-Gyr-Straße
-	OA115HOFA » Hofackerstraße
-	OA115HOFES » Hofen Stichstraße
-	OA115HÖHE » Höhenweg
-	OA115HORN » Hornstraße
-	OA115HÜTT » Hüttenberger Weg
-	OA115ILLERSTR » Illerstraße
-	OA115ILLERU » Illeruferweg
-	OA115IMBAC » Im Bachtel
-	OA115IMGRU » Im Grund
-	OA115IMKAN » Im Kanzelthal
-	OA115IMKRU » Im Krummen
-	OA115IMME » Immenstädter Straße
-	OA115IMWAS » Im Wasen
-	OA115INDU » Industriestraße
-	OA115JAHN » Jahnstraße
-	OA115KANZ » Kanzelthal
-	OA115KAPE » Kapellenweg
-	OA115KAPL » Kaplanweg
-	OA115KIRC » Kirchplatz
-	OA115KÖNI » Königseggstraße
-	OA115KÜH » Kühberg
-	OA115MART » Martinstraße
-	OA115MITT » Mittagstraße
-	OA115MONT » Montfortstraße
-	OA115MOOS » Moosackerweg
-	OA115NEUK » Neukreuth
-	OA115OBERE » Oberer Weg
-	OA115OBERZ » Oberzollbrückestraße
-	OA115OSTERBG » Osterberg
-	OA115OSTERT » Ostertalweg
-	OA115PFARW » Pfarrer-Walser-Straße
-	OA115REUT » Reuteweg
-	OA115ROBEB » Robert-Bosch-Straße
-	OA115ROTH » Rothenfelsstraße
-	OA115SCHL » Schloßbergweg
-	OA115SCHÜ » Schützenstraße
-	OA115SCHW » Schwandener Straße
-	OA115SIED » Siedlerstraße
-	OA115SONT » Sonthofener Straße
-	OA115STEI » Steinebergstraße
-	OA115STUI » Stuibenstraße
-	OA115TAL » Talstraße
-	OA115UNTEB » Unterm Bild
-	OA115UNTED » Unter den Eichen
-	OA115WEID » Weidachstraße
-	OA115WIES » Wiesachweg
-	OA115ZELL » Zellwegerstraße
-OA	Bolsterlang
-	OA116AMBÄC » Am Bächle
-	OA116AMSTI » Am Stieg
-	OA116ANGE » Angerweg
-	OA116BERG » Bergweg
-	OA116BOLG » Bolgenstraße
-	OA116DORF » Dorfstraße
-	OA116FLUR » Flurstraße
-	OA116GOLD » Goldbachweg
-	OA116HIRT » Hirtenstein
-	OA116HOCH » Hochwiesweg
-	OA116HÖRN » Hörnerstraße
-	OA116KAPE » Kapellenweg
-	OA116ORTS » Ortsstraße
-	OA116RATH » Rathausweg
-	OA116RIED » Riedbergstraße
-	OA116STUI » Stuibenstraße
-	OA116WEIH » Weiherkopfweg
-	OA116WIES » Wiesenweg
-	OA116ZUMHA » Zum Hasenacker
-OA	Buchenberg, M
-	OA117ALBR » Albriser Straße
-	OA117ALP » Alpweg
-	OA117AMBAH » Am Bahnhof
-	OA117AMBRÜ » Am Brühl
-	OA117AMBUR » Am Burggraben
-	OA117AMWHR » Am Weiher
-	OA117ANDER » An der Rottach
-	OA117AUGUB » August-Bader-Weg
-	OA117BAD » Badweg
-	OA117BIRK » Birkenweg
-	OA117BUCH » Buchenberger Straße
-	OA117BURG » Burgusring
-	OA117CAMP » Campimontweg
-	OA117CARLO » Carl-Oskar-Renner-Weg
-	OA117CRAO » Craon-Weg
-	OA117DORF » Dorfstraße
-	OA117DREI » Dreisenmühlstraße
-	OA117EMMAH » Emma-Hefele-Weg
-	OA117ESCH » Eschacher Straße
-	OA117FRANS » Franz-Sommer-Straße
-	OA117FRIE » Friedensstraße
-	OA117GALLZ » Gallus-Zeiler-Straße
-	OA117GERS » Gerstlandenweg
-	OA117GESCS » Geschwister-Scholl-Straße
-	OA117GOHR » Gohrersbergerweg
-	OA117HALD » Haldenweg
-	OA117HEINR » Heinrich-Rizner-Straße
-	OA117HELD » Heldelinstraße
-	OA117HINT » Hintereggweg
-	OA117IMAHE » Im Ahegg
-	OA117IMESC » Im Eschachthal
-	OA117IMKRE » Im Kreuzbachthal
-	OA117JAKOF » Jakob-Foberer-Weg
-	OA117JÖRGF » Jörg-Funk-Straße
-	OA117JOSEA » Josef-Adler-Straße
-	OA117KAPE » Kapellenweg
-	OA117KEMP » Kemptener Straße
-	OA117KIRC » Kirchweg
-	OA117KÜRN » Kürnacher Straße
-	OA117LIND » Lindauer Straße
-	OA117LUDWG » Ludwig-Geiger-Straße
-	OA117MAYE » Mayenne-Ring
-	OA117MÜHLBCH » Mühlbach
-	OA117MÜHLE » Mühlenstraße
-	OA117OTTOM » Otto-Merkt-Straße
-	OA117PFAR » Pfarrwiddum
-	OA117POST » Postweg
-	OA117RATH » Rathaussteige
-	OA117RÖME » Römerstraße
-	OA117RUPEV » Rupert-von-Neuenstein-Straße
-	OA117SCHO » Schorenstraße
-	OA117SCHU » Schulstraße
-	OA117SOMM » Sommerau
-	OA117STGEO » St.-Georgs-Straße
-	OA117WALTV » Walter-von-Hohenegg-Straße
-	OA117WIDD » Widdumweg
-	OA117WIRL » Wirlinger Straße
-	OA117WIRT » Wirthsbergweg
-	OA117WOLF » Wolfgartenweg
-	OA117XAVEP » Xaver-Prestel-Straße
-	OA117ZUREI » Zur Einöde
-	OA117ZURKR » Zur Kreuzleshöhe
-OA	Burgberg i.Allgäu
-	OA118AGAT » Agathazeller Weg
-	OA118ALPE » Alpenrosenstraße
-	OA118ALTBK » Altbgm.-Köberle-Straße
-	OA118AMBIC » Am Bichel
-	OA118AMBRU » Am Brunnenbach
-	OA118AMKRE » Am Krebsbach
-	OA118AMPRI » Am Priel
-	OA118AMROß » Am Roßbach
-	OA118AMSON » Am Sonnenhang
-	OA118AMSPE » Am Speckgraben
-	OA118AMSTE » Am Steinbruch
-	OA118AMWHR » Am Weiher
-	OA118AMWUS » Am Wustbach
-	OA118ANDERH » An der Halde
-	OA118ANDERO » An der Ostrach
-	OA118ANDERSÄ » An der Sägemühle
-	OA118ANDERSC » An der Schanz
-	OA118AURI » Aurikelweg
-	OA118BACH » Bachtelweg
-	OA118BERG » Bergstraße
-	OA118BIRK » Birkenweg
-	OA118BLAI » Blaichacher Straße
-	OA118BLUM » Blumenstraße
-	OA118BUIG » Buigenweg
-	OA118BURGB » Burgberger Straße
-	OA118BURGWG » Burgweg
-	OA118DAMM » Dammweg
-	OA118DORF » Dorfstraße
-	OA118EDEL » Edelweißstraße
-	OA118ENZI » Enzianstraße
-	OA118ERNSK » Ernst-Kottek-Weg
-	OA118ESS » Essweg
-	OA118FLUR » Flurstraße
-	OA118GART » Gartenstraße
-	OA118GRÜN » Grüntenstraße
-	OA118HÄUS » Häuserer Allee
-	OA118HEIM » Heimenhofenstraße
-	OA118HOCH » Hochgratstraße
-	OA118HÖRN » Hörnleweg
-	OA118IMESC » Im Esch
-	OA118IMSAC » Im Sack
-	OA118IMSTO » Im Storchennest
-	OA118JÄGE » Jägerweg
-	OA118KAPE » Kapellenweg
-	OA118KARLK » Karl-Kleinhans-Weg
-	OA118KIRC » Kirchstraße
-	OA118KNAP » Knappenweg
-	OA118KÖPF » Köpfleweg
-	OA118LUßÄ » Lußäckerweg
-	OA118MANG » Mangoldsweg
-	OA118MITT » Mittagstraße
-	OA118MOOS » Moosweg
-	OA118MÜHL » Mühlenstraße
-	OA118OBER » Oberortwang
-	OA118ORTWA » Ortwanger Au
-	OA118ORTWB » Ortwanger Buind
-	OA118ORTWE » Ortwanger Esch
-	OA118ORTWF » Ortwanger Flur
-	OA118PANO » Panoramaweg
-	OA118RAUH » Rauhenzeller Straße
-	OA118RETT » Rettenberger Straße
-	OA118ROHR » Rohrachweg
-	OA118ROSE » Rosenweg
-	OA118SONT » Sonthofener Straße
-	OA118STAR » Starzlachweg
-	OA118STUI » Stuibenweg
-	OA118UNTE » Unterortwang
-	OA118WEIN » Weinbergstraße
-OA	Dietmannsried, M
-	OA119AHOR » Ahornstraße
-	OA119ALL » Allee
-	OA119ALLG » Allgäustraße
-	OA119ALPENR » Alpenrosenweg
-	OA119ALPENSTR » Alpenstraße
-	OA119ALTEP » Alte Poststraße
-	OA119AMFÄR » Am Färberbach
-	OA119AMFOR » Am Forsthaus
-	OA119AMINS » Am Inselweiher
-	OA119AMKAL » Am Kalvarienberg
-	OA119AMLEI » Am Leisenbühl
-	OA119AMWEI » Am weißen Bühl
-	OA119ANDERH » An der Halde
-	OA119ANDERS » An der Steige
-	OA119ANDERW » An der Wilhelmshöhe
-	OA119BAHNH » Bahnhofstraße
-	OA119BAHNWG » Bahnweg
-	OA119BEIMK » Beim Küfer
-	OA119BERG » Bergstraße
-	OA119BIRK » Birkenweg
-	OA119BLAS » Blasiusweg
-	OA119BLUM » Blumenstraße
-	OA119BURG » Burgweg
-	OA119BUSS » Bussardweg
-	OA119CORN » Corneliusweg
-	OA119CYPR » Cypriansweg
-	OA119DIETMAN » Dietmannsried
-	OA119DIETMAR » Dietmarstraße
-	OA119EBER » Eberhardstraße
-	OA119EDEL » Edelweißweg
-	OA119EICH » Eichenstraße
-	OA119ENZI » Enzianweg
-	OA119ESCH » Eschenallee
-	OA119FACK » Fackelsberg
-	OA119FALK » Falkenweg
-	OA119FELL » Fellenbergstraße
-	OA119FISC » Fischerweg
-	OA119FLOR » Florianweg
-	OA119FÖHR » Föhrenschachenweg
-	OA119FUGG » Fuggerstraße
-	OA119FÜRS » Fürstenstraße
-	OA119GABRV » Gabriel-Vogt-Straße
-	OA119GALL » Gallusweg
-	OA119GART » Gartenstraße
-	OA119GEME » Gemeinderieder Weg
-	OA119GESCR » Geschwister-Roth-Straße
-	OA119GLAS » Glaserstraße
-	OA119GRAF » Grafeneggstraße
-	OA119GRÖN » Grönenbacher Straße
-	OA119GRÜN » Grüntenweg
-	OA119HABE » Habersbergstraße
-	OA119HALDENWA » Haldenwanger Straße
-	OA119HALDENWG » Haldenweg
-	OA119HASL » Haslachweg
-	OA119HAUP » Hauptstraße
-	OA119HEIS » Heisinger Straße
-	OA119HENK » Henkelsweg
-	OA119HILD » Hildegardisstraße
-	OA119HOCHG » Hochgratweg
-	OA119HOCHV » Hochvogelweg
-	OA119HÖFA » Höfatsweg
-	OA119HOHE » Hohenegg
-	OA119HÖHE » Höhenweg
-	OA119ILLE » Illerstraße
-	OA119IMG'F » Im G'fäll
-	OA119IMKNO » Im Knobele
-	OA119IMOST » Im Ostried
-	OA119IMSEE » Im Seegader
-	OA119IMWIN » Im Winkel
-	OA119INDEN » In den Storchenwiesen
-	OA119JAHN » Jahnstraße
-	OA119KAPF » Kapfweg
-	OA119KELT » Keltenstraße
-	OA119KEMP » Kemptner Weg
-	OA119KIRCHPL » Kirchplatz
-	OA119KIRCHWG » Kirchweg
-	OA119KOLP » Kolpingring
-	OA119KRUG » Krugzeller Straße
-	OA119LAAR » Laarstraße
-	OA119LÄRC » Lärchenweg
-	OA119LAUB » Laubener Straße
-	OA119LIND » Lindenstraße
-	OA119MAGN » Magnusweg
-	OA119MATHG » Mathias-Graf-Straße
-	OA119MEMM » Memminger Straße
-	OA119MOOS » Moosstraße
-	OA119MÜHLB » Mühlbachweg
-	OA119MÜHLE » Mühlenweg
-	OA119PAPI » Papiererweg
-	OA119PFAN » Pfandweg
-	OA119PROB » Probstrieder Weg
-	OA119RAIF » Raiffeisenweg
-	OA119RATH » Rathausplatz
-	OA119RATI » Ratisstraße
-	OA119RECH » Rechbergstraße
-	OA119REIC » Reicholzrieder Straße
-	OA119RICH » Richolfstraße
-	OA119RING » Ringstraße
-	OA119RITT » Ritterstraße
-	OA119RIZN » Riznerweg
-	OA119RÖME » Römerstraße
-	OA119RUDO » Rudolfstraße
-	OA119SCHM » Schmiedstraße
-	OA119SCHU » Schulstraße
-	OA119SCHÜ » Schützenweg
-	OA119SCHWA » Schwabenweg
-	OA119SCHWE » Schwedenstraße
-	OA119SEEB » Seebachweg
-	OA119SONN » Sonnenstraße
-	OA119STAM » Stampfweg
-	OA119STEI » Steinriesel
-	OA119STGEO » St.-Georg-Straße
-	OA119STIF » Stiftsstraße
-	OA119STNIK » St.-Nikolaus-Straße
-	OA119STUI » Stuibenweg
-	OA119SUDE » Sudetenstraße
-	OA119TANN » Tannenweg
-	OA119ULRI » Ulrichsweg
-	OA119UNTEV » Unterer Vornerweg
-	OA119VORN » Vornerweg
-	OA119VORS » Vorstadtweg
-	OA119WELS » Welserstraße
-	OA119WIES » Wiesenweg
-	OA119WIRT » Wirthshalder Weg
-	OA119WOHL » Wohlmutser Weg
-	OA119ZEIL » Zeilholzweg
-	OA119ZUGS » Zugspitzweg
-	OA119ZURAL » Zur alten Mühle
-	OA119ZURGR » Zur Grotte
-OA	Durach
-	OA120AHOR » Ahornweg
-	OA120ALPE » Alpenblickstraße
-	OA120ALTEL » Alte Landstraße
-	OA120ALTER » Alte Römerstraße
-	OA120AMHUN » Am Hungersberg
-	OA120AMKAT » Am Katzenbühl
-	OA120AMLEI » Am Leitenacker
-	OA120AMMAR » Am Margeritenhang
-	OA120AMMOH » Am Mohnfeld
-	OA120AMSON » Am Sonnenhang
-	OA120AMWHR » Am Weiher
-	OA120ANDERH » An der Halde
-	OA120ANDERL » An der Linde
-	OA120ANWA » Anwandenweg
-	OA120ARNI » Arnikaweg
-	OA120BACH » Bachtelweg
-	OA120BAHN » Bahnhofstraße
-	OA120BÄRE » Bärenkopfweg
-	OA120BÄUE » Bäuerlinger Weg
-	OA120BERG » Bergweg
-	OA120BIRK » Birkenstraße
-	OA120BLEN » Blenderstraße
-	OA120BRÄC » Brächleweg
-	OA120BUCH » Buchenweg
-	OA120BÜRGB » Bürgermeister-Batzer-
-	OA120BÜRGN » Bürgermeister-Notz-Straße
-	OA120DEKAF » Dekan-Fischer-Straße
-	OA120DORF » Dorfstraße
-	OA120DURA » Duracher Straße
-	OA120EICH » Eichenstraße
-	OA120ELHA » Elhardtplatz
-	OA120ERLE » Erlenweg
-	OA120ESCH » Eschenweg
-	OA120FELD » Feldweg
-	OA120FÜSS » Füssener Straße
-	OA120GART » Gartenstraße
-	OA120GEIG » Geigerweg
-	OA120GEWE » Gewerbestraße
-	OA120GRÜN » Grüntenstraße
-	OA120HALD » Halde
-	OA120HAMM » Hammerschmiede
-	OA120HANSZ » Hans-Zischka-Straße
-	OA120HEBE » Heberlinger Straße
-	OA120HEGG » Heggener Straße
-	OA120HEIM » Heimkehrerstraße
-	OA120HEUB » Heubachstraße
-	OA120HOCH » Hochgratstraße
-	OA120HÖFA » Höfatsstraße
-	OA120HÖHE » Höhenweg
-	OA120IFEN » Ifenstraße
-	OA120IMBRÄ » Im Brächle
-	OA120JOHAG » Johann-Georg-Halske-Straße
-	OA120JOHAL » Johann-Lingg-Straße
-	OA120KAPE » Kapellenweg
-	OA120KARL » Karlsberger Straße
-	OA120KAST » Kastanienstraße
-	OA120KIES » Kieswerkstraße
-	OA120KIRC » Kirchenweg
-	OA120KLOSH » Kloster-Helfta-Weg
-	OA120LIND » Lindenhöhe
-	OA120LING » Linggener Straße
-	OA120MAXSC » Max-Schaidhauf-Straße
-	OA120MIES » Miesenbacher Straße
-	OA120MITT » Mittagstraße
-	OA120MÜHLENPL » Mühlenplatz
-	OA120MÜHLENWG » Mühlenweg
-	OA120OBER- » Oberhof
-	OA120OBERSTR » Oberhofer Straße
-	OA120PAPP » Pappelweg
-	OA120PFARH » Pfarrer-Hörmann-Straße
-	OA120ROTK » Rotkleeweg
-	OA120ROTT » Rottachbergstraße
-	OA120RUBI » Rubihornweg
-	OA120SÄGM » Sägmühlenweg
-	OA120SCHU » Schulweg
-	OA120SIED » Siedlerstraße
-	OA120SONN » Sonnenstraße
-	OA120SPOR » Sportplatzweg
-	OA120STEI » Steinebergstraße
-	OA120STRA » Straßösch
-	OA120STUI » Stuibenstraße
-	OA120SUDE » Sudetenstraße
-	OA120SULZ » Sulzberger Straße
-	OA120ULME » Ulmenweg
-	OA120VORW » Vorwaldstraße
-	OA120WEBE » Webereistraße
-	OA120WEIDA » Weidacher Straße
-	OA120WEIDEN » Weidenstraße
-	OA120WEIDS » Weidach-Siedlung
-	OA120WERNV » Werner-von-Siemens-Straße
-	OA120WIDD » Widdersteinstraße
-	OA120WURMB » Wurms Bichl
-	OA120ZANK » Zankerweg
-	OA120ZIEG » Ziegelholzweg
-OA	Fischen i.Allgäu
-	OA121ACH » Achweg
-	OA121ALTEB » Alter Badweg
-	OA121ALTS » Altstädter Straße
-	OA121AMANG » Am Anger
-	OA121AMBUR » Am Burgstall
-	OA121AMMAL » Am Malerwinkel
-	OA121AMNÄG » Am Nägelesberg
-	OA121ANDER » An der Breitach
-	OA121AUFDERH » Auf der Höh
-	OA121AUFDERI » Auf der Insel
-	OA121AURI » Aurikelweg
-	OA121BAHN » Bahnhofstraße
-	OA121BERGE » Berger Weg
-	OA121BERGS » Berger Steige
-	OA121BESL » Beslerstraße
-	OA121BOLG » Bolgenstraße
-	OA121BURG » Burgstraße
-	OA121DORFSTR » Dorfstraße
-	OA121DORFWG » Dorfweg
-	OA121ENZI » Enzianweg
-	OA121EYBA » Eybachweg
-	OA121GERB » Gerberstraße
-	OA121GRAFV » Graf-Vojkffy-Weg
-	OA121GRUN » Grundbachweg
-	OA121GRÜN » Grüntenstraße
-	OA121GUND » Gundelsberger Weg
-	OA121HALD » Haldenweg
-	OA121HASL » Haslachweg
-	OA121HAUP » Hauptstraße
-	OA121HÖRN » Hörnerweg
-	OA121ILLE » Illerstraße
-	OA121IMBE » Imbergweg
-	OA121IMWIE » Im Wiesle
-	OA121JÄGE » Jägersberger Weg
-	OA121KAPF » Kapfstraße
-	OA121KIPF » Kipfelerweg
-	OA121KIRC » Kirchweg
-	OA121KROK » Krokusweg
-	OA121LOCH » Lochleiteweg
-	OA121MADE » Maderhalmer Weg
-	OA121MOOS » Moosäcker Weg
-	OA121MÜHL » Mühlenstraße
-	OA121OCHS » Ochsenkopfweg
-	OA121ORNA » Ornachstraße
-	OA121PFAR » Pfarrstraße
-	OA121POST » Postgasse
-	OA121RATH » Rathausgasse
-	OA121RIEDH » Riedberger-Horn-Weg
-	OA121RUBI » Rubihornweg
-	OA121SÄGE » Sägestraße
-	OA121SCHU » Schustergasse
-	OA121SENN » Sennereiweg
-	OA121SONN » Sonnenkopfweg
-	OA121STFLO » St.-Florian-Straße
-	OA121WANN » Wannenkopfweg
-	OA121WEIH » Weiherkopfweg
-	OA121WEIL » Weilerstraße
-	OA121WIES » Wiesenweg
-	OA121WINK » Winkelstraße
-	OA121ZUMSO » Zum Sonnenbergle
-	OA121ZUMTA » Zum Tannacker
-	OA121ZURRE » Zur Reite
-OA	Haldenwang
-	OA122ALPE » Alpenstraße
-	OA122AMDOR » Am Dorfbach
-	OA122AMFOR » Am Forsthaus
-	OA122AMPRI » Am Prinzenbuckel
-	OA122AMSAL » Am Salzstadel
-	OA122AMSCH » Am Schwimmbad
-	OA122AMZEI » Am Zeil
-	OA122ANDER » An der Gasse
-	OA122BEIDE » Bei den Eschen
-	OA122BEIME » Beim Entenweiher
-	OA122BEIMF » Beim Frick
-	OA122BEIMH » Beim Högner
-	OA122BEIMW » Beim Wiedebauer
-	OA122BERGSTR » Bergstraße
-	OA122BERGWG » Bergweg
-	OA122BÜRGH » Bürgermeister-Herb-Straße
-	OA122BURGHAWG » Burghaldeweg
-	OA122BURGHSTR » Burghaldestraße
-	OA122FLES » Fleschützer Straße
-	OA122FRANF » Franz-Flach-Weg
-	OA122GEBRL » Gebr.-Lerff-Weg
-	OA122GEORG » Georg-Guggenmos-Straße
-	OA122GRÜN » Grüntenstraße
-	OA122HALDENWA » Haldenwanger Straße
-	OA122HALDENWG » Haldenweg
-	OA122HAUP » Hauptstraße
-	OA122IMMO » Im Moos
-	OA122IMÖSC » Im Ösch
-	OA122IMPFA » Im Pfaffental
-	OA122IMSTE » Im Stegacker
-	OA122JOSEW » Josef-Welle-Weg
-	OA122KEMP » Kemptener Straße
-	OA122KIND » Kindberg
-	OA122KIRC » Kirchweg
-	OA122KLOS » Klosterweg
-	OA122KOLP » Kolpingweg
-	OA122LEON » Leonhardstraße
-	OA122LILI » Liliosa-Weg
-	OA122MALEH » Maler-Hiltensperger-Straße
-	OA122MÜHL » Mühlenweg
-	OA122OTTI » Ottisrieder Straße
-	OA122RÖME » Römerstraße
-	OA122SALZ » Salzstraße
-	OA122SCHA » Schafgasse
-	OA122SCHU » Schulstraße
-	OA122SCHW » Schwabenweg
-	OA122SONN » Sonnenstraße
-	OA122STAD » Stadelösch
-	OA122UNTED » Unter der Burghalde
-	OA122VOCK » Vockener Weg
-	OA122WAGE » Wagegger Straße
-	OA122WEIH » Weiherweg
-	OA122WENG » Wengener Straße
-	OA122WIES » Wiesenweg
-	OA122ZUMAN » Zum Angerhof
-	OA122ZUMEI » Zum Eisweiher
-	OA122ZUMST » Zum Stampf
-	OA122ZUNF » Zunftstraße
-OA	Immenstadt i.Allgäu, St
-	OA124ADOLP » Adolph-Probst-Straße
-	OA124AKAM » Akamser Straße
-	OA124ALLE » Alleestraße
-	OA124ALLG » Allgäuer Straße
-	OA124ALPE » Alpenstraße
-	OA124ALTED » Alte Dorfstraße
-	OA124AMANG » Am Anger
-	OA124AMECK » Am Eckschachen
-	OA124AMERG » Am Ergel
-	OA124AMGAL » Am Galgenbichl
-	OA124AMGRA » Am Graben
-	OA124AMHOC » Am Hochrainebach
-	OA124AMHOR » Am Hornbach
-	OA124AMKLEINE » Am Kleinen Stuiben
-	OA124AMKLESEE » Am Kleinen Alpsee
-	OA124AMKRE » Am Kreuzbach
-	OA124AMMÜH » Am Mühlbach
-	OA124AMPLÄ » Am Plätz
-	OA124AMREI » Am Reiser Hof
-	OA124AMRIE » Am Riedtobel
-	OA124AMWIN » Am Winkelbach
-	OA124ANDERA » An der Aach
-	OA124ANDERB » An der Bundesstraße
-	OA124ANDERF » An der Fleschermühle
-	OA124ANDERI » An der Illerau
-	OA124ANDERM » An der Mälzerei
-	OA124ANDERSC » An der Schießstätte
-	OA124ANDERST » An der Stadtmauer
-	OA124AUFDENE » Auf den Ecken
-	OA124AUFDENK » Auf den Kreuzwiesen
-	OA124AUFDERB » Auf der Breite
-	OA124AUFDERH » Auf der Höh
-	OA124ÄUßEW » Äußere Welzereute
-	OA124BACH » Bachreute
-	OA124BADE » Badeweg
-	OA124BAHN » Bahnhofstraße
-	OA124BEIDE » Bei der Steinmühle
-	OA124BEIMA » Bei Maria Stern
-	OA124BERGSTÄ » Bergstättstraße
-	OA124BERGSTR » Bergstraße
-	OA124BIRK » Birkengrund
-	OA124BLAI » Blaichacher Straße
-	OA124BRÄUHAPL » Bräuhausplatz
-	OA124BRÄUHSTR » Bräuhausstraße
-	OA124BUCH » Buchwaldstraße
-	OA124BURGL » Burg-Laubenberg-Straße
-	OA124BURGWG » Burgweg
-	OA124DAUM » Daumenweg
-	OA124EDMUP » Edmund-Probst-Straße
-	OA124EICHEECK » Eicheneck
-	OA124EICHEND » Eichendorffstraße
-	OA124EICHWLD » Eichwald
-	OA124FÄRB » Färberstraße
-	OA124FISC » Fischerweg
-	OA124FLUR » Flurstraße
-	OA124FORE » Forellenweg
-	OA124GAIS » Gaisbühlstraße
-	OA124GART » Gartenweg
-	OA124GERB » Gerbergasse
-	OA124GNAD » Gnadenberger Weg
-	OA124GOTT » Gottesackerstraße
-	OA124GRÜN » Grüntenstraße
-	OA124GSCHH » Gschwender-Horn-Weg
-	OA124HINTD » Hinter der Schießstätte
-	OA124HIRS » Hirschstraße
-	OA124HIRT » Hirtenbichel
-	OA124HOCHRA » Hochraineweg
-	OA124HOCHRI » Hochriedstraße
-	OA124HOFG » Hofgartenstraße
-	OA124HÖHE » Höhenweg
-	OA124HÖLL » Hölltobelweg
-	OA124HORN » Hornstraße
-	OA124HUGO » Hugofelsweg
-	OA124ILLE » Illerstraße
-	OA124IMENG » Im Engelfeld
-	OA124IMESC » Im Esch
-	OA124IMGRU » Im Grund
-	OA124IMME » Immeweg
-	OA124IMSTE » Im Steinach
-	OA124IMSTI » Im Stillen
-	OA124INDER » In der Hub
-	OA124JAHN » Jahnstraße
-	OA124JOER » Joergstraße
-	OA124JOHA » Johannisgäßchen
-	OA124JULIK » Julius-Kunert-Straße
-	OA124KALV » Kalvarienbergstraße
-	OA124KAPE » Kapellenweg
-	OA124KAPU » Kapuzinergasse
-	OA124KARLH » Karl-Hirnbein-Straße
-	OA124KÄST » Kästobel
-	OA124KEMP » Kemptener Straße
-	OA124KIRCHBI » Kirchbichl
-	OA124KIRCHBÜ » Kirchbühlstraße
-	OA124KIRCHPL » Kirchplatz
-	OA124KIRCHS » Kirchsteige
-	OA124KLOSTEPL » Klosterplatz
-	OA124KLOSTGÄß » Klostergäßchen
-	OA124KOLP » Kolpingstraße
-	OA124KÖNI » Königseggstraße
-	OA124KREU » Kreuzacker
-	OA124LACH » Lachener Weg
-	OA124LAND » Landwehrplatz
-	OA124LÄRC » Lärchenweg
-	OA124LIEB » Liebherrstraße
-	OA124LILL » Lillebonner Straße
-	OA124LINDA » Lindauer Straße
-	OA124LINDEGÄß » Lindengäßchen
-	OA124LINDENWG » Lindenweg
-	OA124LIST » Liststraße
-	OA124LUDWG » Ludwig-Glötzle-Straße
-	OA124LUIT » Luitpoldstraße
-	OA124LUST » Lustgartenstraße
-	OA124MARI » Marienplatz
-	OA124MISS » Missener Straße
-	OA124MITT » Mittagstraße
-	OA124MONT » Montfortstraße
-	OA124MÜHL » Mühlhaldeweg
-	OA124MUMM » Mummener Straße
-	OA124NEBE » Nebelhornweg
-	OA124NEUM » Neumummen
-	OA124OBDER » Ob der Aach
-	OA124OBERD » Oberdorfer Weg
-	OA124OBEREFLD » Oberes Feld
-	OA124OBERESG » Obere Steig
-	OA124OBERK » Obere Kolonie
-	OA124OTTOK » Otto-Keck-Straße
-	OA124PARK » Parkweg
-	OA124RAIF » Raiffeisenstraße
-	OA124RETT » Rettenberger Straße
-	OA124RIEDE » Riederbühl
-	OA124RIEDS » Rieder Steige
-	OA124RIEM » Riemengasse
-	OA124ROBEB » Robert-Bosch-Straße
-	OA124ROTHENFE » Rothenfels
-	OA124ROTHESTR » Rothenfelsstraße
-	OA124ROTS » Rotspitzweg
-	OA124ROTT » Rottachbergstraße
-	OA124RUBI » Rubihornweg
-	OA124SALZ » Salzstraße
-	OA124SCHA » Schanzenstraße
-	OA124SCHLOßGS » Schloßgasse
-	OA124SCHLOßPL » Schloßplatz
-	OA124SCHÜ » Schützenstraße
-	OA124SCHWG » Schwarzer Gundweg
-	OA124SEEP » Seepromenade
-	OA124SEESTR » Seestraße
-	OA124SIED » Siedlerstraße
-	OA124SONNENB » Sonnenbichl
-	OA124SONNENK » Sonnenkopfweg
-	OA124SONT » Sonthofener Straße
-	OA124SPIT » Spitalstraße
-	OA124STAU » Staufner Straße
-	OA124STEIG » Steigbachtal
-	OA124STEIN » Steinebergstraße
-	OA124STEN » Stengerstraße
-	OA124STNIK » St. Nikolaus-Platz
-	OA124STUI » Stuibenstraße
-	OA124SUDE » Sudetenstraße
-	OA124TANN » Tannachstraße
-	OA124THEOB » Theo-Bechteler-Straße
-	OA124TOBE » Tobelweg
-	OA124TRIE » Trieblingser Weg
-	OA124UNTED » Unter den Eichen
-	OA124UNTEH » Unterm Horn
-	OA124UNTEK » Untere Kolonie
-	OA124UNTERE » Untere Steig
-	OA124UNTERZ » Unterzollbrücke
-	OA124VIEH » Viehmarktplatz
-	OA124WEID » Weidachweg
-	OA124WEIß » Weißstraße
-	OA124WELL » Wellingtoner Straße
-	OA124WELZ » Welzereute
-	OA124WERD » Werdensteiner Straße
-	OA124WIES » Wiesenweg
-	OA124ZIEG » Zieglerstraße
-	OA124ZUREI » Zur Einöde
-OA	Lauben
-	OA125AFRA » Afrastraße
-	OA125AHOR » Ahornweg
-	OA125ALLG » Allgäustraße
-	OA125ALPE » Alpenrosenweg
-	OA125AMBCH » Am Bach
-	OA125AMDRU » Am Drumlin
-	OA125ARNI » Arnikaweg
-	OA125AUF'K » Auf'm Kirchenbühl
-	OA125BAHN » Bahnhofstraße
-	OA125BIRK » Birkenweg
-	OA125BLEN » Blenderstraße
-	OA125BLUM » Blumenstraße
-	OA125BRAUU » Braut- und Bahrweg
-	OA125BRUDK » Bruder-Klaus-Weg
-	OA125BUCH » Buchenstraße
-	OA125DIET » Dietmannsrieder Straße
-	OA125DOMP » Dompfaffweg
-	OA125DORF » Dorfstraße
-	OA125EDEL » Edelweißweg
-	OA125EICH » Eichenstraße
-	OA125ELLE » Ellensberger Straße
-	OA125ENZI » Enzianweg
-	OA125FINK » Finkenweg
-	OA125FURT » Furtweg
-	OA125GART » Gartenstraße
-	OA125GOTT » Gottesackerweg
-	OA125GRIE » Griesösch
-	OA125GRUN » Grundweg
-	OA125GRÜN » Grüntenstraße
-	OA125HALD » Haldenwanger Straße
-	OA125HIRS » Hirschdorfer Straße
-	OA125HOCHG » Hochgratweg
-	OA125HOCHV » Hochvogelstraße
-	OA125HÖFA » Höfatsstraße
-	OA125HOFE » Hofener Weg
-	OA125HÖSL » Höslestraße
-	OA125ILLE » Illerblick
-	OA125IMBRÜ » Im Brühl
-	OA125IMWIE » Im Wiesengrund
-	OA125JÖRGT » Jörg-Täuber-Weg
-	OA125KAPE » Kapellenweg
-	OA125KEMP » Kemptener Straße
-	OA125KÖSE » Köselstraße
-	OA125KROK » Krokusweg
-	OA125LÄRC » Lärchenweg
-	OA125LAUB » Laubener Straße
-	OA125LEUBAST » Leubastalstraße
-	OA125LEUBASWG » Leubasweg
-	OA125LIND » Lindenstraße
-	OA125MOOS » Moosstraße
-	OA125MÜHL » Mühlweg
-	OA125NELK » Nelkenweg
-	OA125NEPO » Nepomukweg
-	OA125NOTB » Notburgastraße
-	OA125ÖSCHB » Öschbachstraße
-	OA125ÖSCHWG » Öschweg
-	OA125PARK » Parkweg
-	OA125RIEP » Rieppstraße
-	OA125RINGSTR » Ringstraße
-	OA125RINGWG » Ringweg
-	OA125RÖME » Römerstraße
-	OA125ROSE » Rosenweg
-	OA125SÄUL » Säulingstraße
-	OA125SCHRG » Schreiners Gässele
-	OA125SCHWAB » Schwabenweg
-	OA125SCHWAR » Schwarzer Weg
-	OA125SONN » Sonnenbühl
-	OA125SPOR » Sportplatzstraße
-	OA125STAI » Staigweg
-	OA125STEI » Steinspringweg
-	OA125STIE » Stielinger Straße
-	OA125STUI » Stuibenstraße
-	OA125TAL » Talweg
-	OA125UFER » Uferweg
-	OA125ULRI » Ulrichstraße
-	OA125VEIL » Veilchenweg
-	OA125WALD » Waldweg
-	OA125WEIH » Weiherweg
-	OA125WEND » Wendelinstraße
-	OA125WINK » Winklerstraße
-	OA125ZUGS » Zugspitzstraße
-OA	Missen-Wilhams
-	OA127AMBCH » Am Bach
-	OA127AMFRE » Am Freibad
-	OA127AMHAU » Am Hauchen
-	OA127AMHIN » Am Hintereck
-	OA127AMKAP » Am Kapf
-	OA127AMKAT » Am Katzensteig
-	OA127AMOCH » Am Ochsenkopf
-	OA127ANDER » An der Argen
-	OA127AUFDERB » Auf der Breite
-	OA127AUFDERH » Auf der Höh
-	OA127BEIDE » Bei der Schmiede
-	OA127BERG » Bergstätter Straße
-	OA127BRÄU » Bräuweg
-	OA127DORF » Dorfstraße
-	OA127EBNA » Ebnat
-	OA127FALK » Falkatweg
-	OA127GERA » Geratsrieder Straße
-	OA127HAUP » Hauptstraße
-	OA127IMGER » Im Gern
-	OA127IMTL » Im Tal
-	OA127IMWIE » Im Wiesengrund
-	OA127KAPE » Kapellenweg
-	OA127KIRC » Kirchweg
-	OA127KREU » Kreuzwiesen
-	OA127MÜHL » Mühlhalde
-	OA127RIED » Riedleweg
-	OA127SCHU » Schulweg
-	OA127SONN » Sonnenhalde
-	OA127UNTE » Unterwilhams
-	OA127WEISSEGS » Weisse Gasse
-	OA127WEISSEN » Weissenberg
-	OA127ZURTH » Zur Thaler Höhe
-OA	Obermaiselstein
-	OA131ACH » Achweg
-	OA131ALTES » Alter Sennereiweg
-	OA131AMAUWLD » Am Auwald
-	OA131AMBUC » Am Buchrain
-	OA131AMGOL » Am Goldbach
-	OA131AMHER » Am Herrenberg
-	OA131AMSCH » Am Scheid
-	OA131BICH » Bichelweg
-	OA131BURG » Burgschrofenweg
-	OA131ESCH » Eschenweg
-	OA131HAUB » Haubenegg
-	OA131HOIS » Hoistaig
-	OA131KIRC » Kirchgasse
-	OA131KÖNI » Königsweg
-	OA131PAß » Paßstraße
-	OA131RIED » Riedbergstraße
-	OA131WEID » Weidachstraße
-	OA131WIES » Wiesenweg
-OA	Oberstaufen, M
-	OA132AACH » Aachrain
-	OA132ALPENR » Alpenrosenweg
-	OA132ALPENSTR » Alpenstraße
-	OA132ALTES » Alte Schulstraße
-	OA132AMALT » Am Alten Weiher
-	OA132AMANG » Am Anger
-	OA132AMGEM » Am Gemsholz
-	OA132AMGIE » Am Giebel
-	OA132AMGIR » Am Girrenbach
-	OA132AMHÖß » Am Hößl
-	OA132AMHUN » Am Hungerbach
-	OA132AMKAL » Am Kalvarienberg
-	OA132AMKÜH » Am Kühlen Grund
-	OA132AMKUR » Am Kurpark
-	OA132AMLIN » Am Lindele
-	OA132AMLOH » Am Lohacker
-	OA132AMMÜH » Am Mühlacker
-	OA132AMPFA » Am Pfarrhof
-	OA132AMSAN » Am Sandbühl
-	OA132AMSCHWA » Am Schwandweg
-	OA132AMSCHWE » Am Schwedenkreuz
-	OA132AMSEE » Am Seelesgraben
-	OA132AMSIL » Am Silberbühl
-	OA132AMSTA » Am Staufen
-	OA132AMSTE » Am Steinbruch
-	OA132AMTAU » Am Taufachmoos
-	OA132ANDERM » An der Mühlhalde
-	OA132ANDERS » An der Sonnhalde
-	OA132ARGE » Argenstraße
-	OA132ARNI » Arnikaweg
-	OA132AUFDEM » Auf dem Kapf
-	OA132AUFDER » Auf der Höh
-	OA132AURES » Aurel-Stadler-Weg
-	OA132BAD » Badstraße
-	OA132BAHNHOFS » Bahnhofsplatz
-	OA132BAHNHSTR » Bahnhofstraße
-	OA132BAUH » Bauhofweg
-	OA132BEIDE » Bei den Eichen
-	OA132BEIMD » Beim Dannelar
-	OA132BEIMO » Beim Obermüller
-	OA132BERG » Bergstraße
-	OA132BIRK » Birkenweg
-	OA132BLUM » Blumenstraße
-	OA132BURG » Burgangerweg
-	OA132BÜRGA » Bürgermeister-Aichele-Weg
-	OA132BÜRGH » Bürgermeister-Hertlein-Straße
-	OA132BÜRGW » Bürgermeister-Wucherer-Straße
-	OA132DRHER » Dr.-Hermann-Brosig-Weg
-	OA132EDEL » Edelweißweg
-	OA132EIBELES » Eibelesweg
-	OA132EIBELSTR » Eibelestraße
-	OA132ENZI » Enzianweg
-	OA132FALK » Falkenweg
-	OA132FÄRB » Färberweg
-	OA132FIDEB » Fidelis-Bentele-Straße
-	OA132FLUH » Fluhstraße
-	OA132FRANM » Franz-Mader-Weg
-	OA132FREI » Freibadweg
-	OA132GARA » Garagenweg
-	OA132GEBHK » Gebhard-Kirchmann-Weg
-	OA132GOTTR » Gottfried-Resl-Weg
-	OA132HÄDR » Hädrichweg
-	OA132HALD » Haldenweg
-	OA132HAMM » Hammerschmiede
-	OA132HOCHB » Hochbühlstraße
-	OA132HOCHG » Hochgratstraße
-	OA132HOCHS » Hochsträß
-	OA132HOHEF » Hohe-Fluh-Weg
-	OA132HOMP » Hompessenweg
-	OA132HUGOV » Hugo-von-Königsegg-
-	OA132IMDOR » Im Dorf
-	OA132IMME » Immenstädter Straße
-	OA132IMMO » Im Moos
-	OA132IMRIE » Im Ried
-	OA132IMSTE » Im Steinach
-	OA132IMWEI » Im Weidach
-	OA132IMWUR » Im Wurzach
-	OA132INDER » In der Au
-	OA132INPFA » In Pfalzen
-	OA132ISNY » Isnyer Straße
-	OA132JAHN » Jahnstraße
-	OA132JOHAS » Johann-Schroth-Straße
-	OA132JUGE » Jugetweg
-	OA132KALZ » Kalzhofer Straße
-	OA132KAPE » Kapellenweg
-	OA132KAPF » Kapfweg
-	OA132KIRCHD » Kirchdorfer Straße
-	OA132KIRCHPL » Kirchplatz
-	OA132KLOS » Klosterstraße
-	OA132KREU » Kreuzwiesenweg
-	OA132LANZ » Lanzenbach
-	OA132LENZ » Lenzhalde
-	OA132LIND » Lindauer Straße
-	OA132LUDWM » Ludwig-Maier-Weg
-	OA132MARK » Markschachen
-	OA132MAXOS » Max-Ostheimer-Straße
-	OA132MEER » Meerau
-	OA132MONT » Montfortweg
-	OA132MOOS » Moosweg
-	OA132MÜHLENWG » Mühlenweg
-	OA132MÜHLESTR » Mühlenstraße
-	OA132ORTH » Orthalde
-	OA132OTTOK » Otto-Keck-Straße
-	OA132PARA » Paradiesweg
-	OA132PAULR » Paul-Rieder-Straße
-	OA132PETES » Peter-Sutter-Straße
-	OA132RAIN » Rainwaldstraße
-	OA132RIND » Rindalphornstraße
-	OA132ROTH » Rothenfelsstraße
-	OA132SÄG » Sägmühle
-	OA132SALZ » Salzstraße
-	OA132SÄNT » Säntisweg
-	OA132SCHE » Schellenbergstraße
-	OA132SCHLOßW » Schloßwiesweg
-	OA132SCHLOSTR » Schloßstraße
-	OA132SEEL » Seelekopfweg
-	OA132SEEWG » Seeweg
-	OA132SENN » Sennereiweg
-	OA132SONNENWE » Sonnenweide
-	OA132SONNENWG » Sonnenweg
-	OA132STIE » Stießberg
-	OA132STROC » St.-Rochus-Weg
-	OA132UMDEN » Um den Staufen
-	OA132UNTER » Unterdorf
-	OA132UNTES » Unterm Schloß
-	OA132WEIß » Weißachstraße
-	OA132ZURHO » Zur Holzschleife
-	OA132ZURLI » Zur Linde
-OA	Oberstdorf, M
-	OA1332LÄND » 2-Länder-Sportklettersteig
-	OA133AHOR » Ahornstraße
-	OA133ALPE » Alpenrosenstraße
-	OA133ALPG » Alpgaustraße
-	OA133ALTES » Alter Steinachweg
-	OA133ALTEW » Alte Walserstraße
-	OA133AMALB » Am Albergätter
-	OA133AMBAN » Am Bannholz
-	OA133AMBUR » Am Burgbichl
-	OA133AMDUM » Am Dummelsmoos
-	OA133AMEGG » Am Egg
-	OA133AMFAL » Am Faltenbach
-	OA133AMFIR » Am First
-	OA133AMGST » Am Gstad
-	OA133AMMÜH » Am Mühlacker
-	OA133AMOTT » Am Otterrohr
-	OA133AMRAU » Am Rauhen
-	OA133AMSCH » Am Schelmenhag
-	OA133AMSEE » Am Seeler
-	OA133AMSEL » Amselweg
-	OA133AMSTI » Am Stiegele
-	OA133AMTAL » Am Talacker
-	OA133AMWHR » Am Weiher
-	OA133ANDERF » An der Flachsröste
-	OA133ANDERW » An der Walserbrücke
-	OA133ANTOH » Anton-Henkel-Straße
-	OA133AUFDERE » Auf der Ebene
-	OA133AUFDERHÖ » Auf der Höhe
-	OA133AUFDERL » Auf der Leiter
-	OA133AURI » Aurikelstraße
-	OA133BACH » Bachstraße
-	OA133BAHNHOPL » Bahnhofplatz
-	OA133BAHNHSTR » Bahnhofstraße
-	OA133BAUM » Baumannstraße
-	OA133BERG » Bergöschweg
-	OA133BICH » Bichlweg
-	OA133BIEN » Bienengasse
-	OA133BIRG » Birgsauer Straße
-	OA133BIRK » Birkenweg
-	OA133BLUM » Blumengasse
-	OA133BREI » Breitachstraße
-	OA133BRUN » Brunnackerweg
-	OA133BUCH » Buchenhainweg
-	OA133BUIN » Buindgasse
-	OA133BURG » Burgstallsteig
-	OA133BURM » Burmentengässle
-	OA133CLEMW » Clemens-Wenzeslaus-Straße
-	OA133DIEN » Dienersberger Weg
-	OA133DORF » Dorfstraße
-	OA133EDEL » Edelweißstraße
-	OA133EHRE » Ehrenbergerstraße
-	OA133ENZE » Enzenspergerweg
-	OA133ENZI » Enzianstraße
-	OA133ESEL » Eselweg
-	OA133FALK » Falkenstraße
-	OA133FÄRB » Färberstraße
-	OA133FELL » Fellhornstraße
-	OA133FINK » Finkenstraße
-	OA133FISC » Fischerstraße
-	OA133FÖRD » Förderreutherstraße
-	OA133FÖRS » Försterstraße
-	OA133FRAU » Frauenschuhstraße
-	OA133FREIBA » Freibauernstraße
-	OA133FREIBE » Freibergstraße
-	OA133FREIV » Freiherr-von-Brutscher-Straße
-	OA133FROH » Frohmarkt
-	OA133FUGG » Fuggerstraße
-	OA133GART » Gartenstraße
-	OA133GELBB » Gelbe Buind
-	OA133GERB » Gerberstraße
-	OA133GERTV » Gertrud-von-le-Fort-Weg
-	OA133GLEI » Gleitweg
-	OA133GRAFV » Graf-Vojkffy-Weg
-	OA133GREI » Greitweg
-	OA133GRUB » Grubenweg
-	OA133GRUN » Grundmannstraße
-	OA133HALD » Haldenweg
-	OA133HAMM » Hammerspitzweg
-	OA133HANSB » Hans-Besler-Straße
-	OA133HAUP » Hauptstraße
-	OA133HEIL » Heilbronner Weg
-	OA133HEIM » Heimenhofenstraße
-	OA133HEINZ » Heinrich-Zirkel-Straße
-	OA133HERMV » Hermann-von-Barth-Straße
-	OA133HESS » Hessenwinkel
-	OA133HEUL » Heuländerweg
-	OA133HEUWG » Heuweg
-	OA133HINDK » Hindelanger Klettersteig
-	OA133HOCH » Hochstiftstraße
-	OA133HOLZ » Holzerstraße
-	OA133ILLE » Illerweg
-	OA133IMEBN » Im Ebnat
-	OA133IMHAS » Im Haslach
-	OA133IMOBE » Im Oberen Winkel
-	OA133IMSTE » Im Steinach
-	OA133IMWEI » Im Weidach
-	OA133IMWIN » Im Winkel
-	OA133INDER » In der Leite
-	OA133KALK » Kalkofenweg
-	OA133KAPE » Kapellenweg
-	OA133KARA » Karatsbichlweg
-	OA133KARW » Karweidach
-	OA133KIRCHB » Kirchbichl
-	OA133KIRCHPL » Kirchplatz
-	OA133KIRCHSTR » Kirchstraße
-	OA133KLAM » Klammstraße
-	OA133KRAP » Krappberg
-	OA133KRAT » Kratzerstraße
-	OA133KÜFE » Küferstraße
-	OA133LAUF » Laufbachstiege
-	OA133LERC » Lerchenstraße
-	OA133LIND » Lindenstraße
-	OA133LOCH » Lochbachstraße
-	OA133LORE » Lorettostraße
-	OA133LUDW » Ludwigstraße
-	OA133LUIT » Luitpoldstraße
-	OA133MARK » Marktplatz
-	OA133MAXI » Maximilianstraße
-	OA133MEGE » Megever Platz
-	OA133METZ » Metzgerstraße
-	OA133MEYE » Meyersoygasse
-	OA133MINDK » Mindelheimer Klettersteig
-	OA133MONT » Montfortstraße
-	OA133MÜHLB » Mühlbachstraße
-	OA133MÜHLENWG » Mühlenweg
-	OA133MÜHLESTR » Mühlenstraße
-	OA133NAGL » Naglergasse
-	OA133NEBE » Nebelhornstraße
-	OA133OBERB » Obere Bahnhofstraße
-	OA133OBERSTD » Oberstdorfer Straße
-	OA133OBERSTI » Obere Stillachstraße
-	OA133OESC » Oeschlesweg
-	OA133OIB » Oibweg
-	OA133OST » Oststraße
-	OA133OYTA » Oytalstraße
-	OA133PANO » Panoramaweg
-	OA133PAULG » Paul-Gerhardt-Straße
-	OA133PFAR » Pfarrstraße
-	OA133PLAT » Plattenbichlstraße
-	OA133POST » Poststraße
-	OA133PRIM » Primelstraße
-	OA133PRINZE » Prinzenstraße
-	OA133PRINZR » Prinzregenten-Platz
-	OA133PROMENWG » Promenadeweg
-	OA133PROMESTR » Promenadestraße
-	OA133RAIN » Rainweg
-	OA133RANK » Rankgasse
-	OA133RAUT » Rautweg
-	OA133RECH » Rechbergstraße
-	OA133REIS » Reiserstraße
-	OA133REIT » Reithallenweg
-	OA133RETT » Rettenberger Straße
-	OA133RIED » Riedweg
-	OA133ROHR » Rohrmooser Straße
-	OA133ROßB » Roßbichlstraße
-	OA133ROTH » Rothenfelserstraße
-	OA133RUBIH » Rubihornstraße
-	OA133RUBIN » Rubinger Straße
-	OA133SACH » Sachsenweg
-	OA133SCHAN » Schanzenstraße
-	OA133SCHAT » Schattenbergweg
-	OA133SCHEI » Scheibenstraße
-	OA133SCHELC » Schelchwangweg
-	OA133SCHELLEN » Schellenoy
-	OA133SCHELSTR » Schellenbergerstraße
-	OA133SCHLA » Schlappoldweg
-	OA133SCHLO » Schlosserstraße
-	OA133SCHM » Schmittegasse
-	OA133SCHRA » Schraudolphstraße
-	OA133SCHRO » Schrofengasse
-	OA133SCHU » Schustergasse
-	OA133SCHÜ » Schützenstraße
-	OA133SEBAK » Sebastian-Kneipp-Weg
-	OA133SEIL » Seilergasse
-	OA133SESS » Sesselweg
-	OA133SIGI » Sigismundstraße
-	OA133SOLD » Soldanellenstraße
-	OA133SÖLL » Söllengasse
-	OA133SONNENK » Sonnenkopfweg
-	OA133SONNESTR » Sonnenstraße
-	OA133SONT » Sonthofener Straße
-	OA133SPEI » Speichackerstraße
-	OA133SPIE » Spielhahnstraße
-	OA133STIL » Stillachstraße
-	OA133STÜT » Stützlestraße
-	OA133TIGE » Tigenstraße
-	OA133TRET » Trettachstraße
-	OA133UNTEW » Unterer Winkelweg
-	OA133WAGN » Wagnergasse
-	OA133WALD » Waldburgstraße
-	OA133WALL » Wallrafweg
-	OA133WALSERSG » Walsersteig
-	OA133WALSESTR » Walserstraße
-	OA133WALT » Waltenbergerstraße
-	OA133WANN » Wannackerstraße
-	OA133WASA » Wasachstraße
-	OA133WEBE » Weberstraße
-	OA133WEST » Weststraße
-	OA133WIDU » Widum
-	OA133WIESA » Wiesackerstraße
-	OA133WIESE » Wiesenweg
-	OA133WILHG » Wilhelm-Geiger-Straße
-	OA133WIND » Windgasse
-	OA133WITT » Wittelsbacherstraße
-	OA133WURZ » Wurzergasse
-	OA133ZOLL » Zollstraße
-	OA133ZUDEN » Zu den Höfen
-	OA133ZWEI » Zweistapfenweg
-OA	Ofterschwang
-	OA134AMLUß » Am Luß
-	OA134AMTOB » Am Tobel
-	OA134AUFDE » Auf der Steig
-	OA134DORF » Dorfstraße
-	OA134ENG » Enggasse
-	OA134HÖRN » Hörnerweg
-	OA134IMEIN » Im Einfang
-	OA134KIRC » Kirchgasse
-	OA134LEIT » Leitenweg
-	OA134MOOS » Moosweg
-	OA134OIB » Oibweg
-	OA134PANO » Panoramaweg
-OA	Oy-Mittelberg
-	OA128AGGE » Aggensteinweg
-	OA128ALOIW » Alois-Wagner-Straße
-	OA128ALPE » Alpenweg
-	OA128ALPS » Alpspitzweg
-	OA128ALTES » Alte Schulstraße
-	OA128AMALP » Am Alpenblick
-	OA128AMANG » Am Anger
-	OA128AMBUX » Am Bux
-	OA128AMHOL » Am Holzwerk
-	OA128AMPET » Am Petersbach
-	OA128AMVOG » Am Vogatsbichel
-	OA128AMWIE » Am Wiesenrain
-	OA128ANDER » An der Baumschule
-	OA128AUEN » Auenweg
-	OA128AUFDE » Auf den Lehen
-	OA128BACH » Bachtelstraße
-	OA128BAHNHOWG » Bahnhofweg
-	OA128BAHNHSTR » Bahnhofstraße
-	OA128BERG » Bergstraße
-	OA128BERS » Berschwaldweg
-	OA128BIRK » Birkenweg
-	OA128BLUM » Blumenweg
-	OA128BRUN » Brunnenstraße
-	OA128BUCHEN » Buchenweg
-	OA128BUCHER » Bucher Straße
-	OA128BURGSTA » Burgstallweg
-	OA128BURGSTR » Burgstraße
-	OA128DORFB » Dorfbrunnenstraße
-	OA128DORFSTR » Dorfstraße
-	OA128EDELS » Edelsbergstraße
-	OA128EDELW » Edelweißweg
-	OA128ENZI » Enzianstraße
-	OA128ERLE » Erlenweg
-	OA128ESCH » Eschenweg
-	OA128FAIS » Faistenoyer Straße
-	OA128FALK » Falkenweg
-	OA128FERI » Ferienheimweg
-	OA128FLOR » Florianstraße
-	OA128FÖHR » Föhrenweg
-	OA128FÜSS » Füssener Straße
-	OA128GART » Gartenweg
-	OA128GERH » Gerhaldeweg
-	OA128GEWE » Gewerbepark
-	OA128GRÜNTENS » Grüntenseestraße
-	OA128GRÜNTEWG » Grüntenweg
-	OA128HAAG » Haager Straße
-	OA128HAUP » Hauptstraße
-	OA128HOCH » Hochmoos
-	OA128HOFÄ » Hofäckerstraße
-	OA128HORN » Hornweg
-	OA128IMLEE » Im Leer
-	OA128IMSTE » Im Steinäcker
-	OA128INDER » In der Sal
-	OA128KAPE » Kapellenweg
-	OA128KIRCHLE » Kirchleithe
-	OA128KIRCHLI » Kirchlinde
-	OA128KIRCHWG » Kirchweg
-	OA128KRES » Kressener Straße
-	OA128LÄRC » Lärchenweg
-	OA128LIND » Lindenstraße
-	OA128MARIR » Maria-Rainer-Straße
-	OA128MITTELBE » Mittelberger Straße
-	OA128MITTELBU » Mittelburgweg
-	OA128MITTELGS » Mittelgasse
-	OA128MÜHL » Mühlbachstraße
-	OA128OBER » Oberzollhaus
-	OA128OYMÜ » Oymühlenstraße
-	OA128PANO » Panoramastraße
-	OA128POST » Poststraße
-	OA128RING » Ringweg
-	OA128RÖME » Römerweg
-	OA128ROSE » Rosenweg
-	OA128ROßB » Roßbachtelweg
-	OA128ROTA » Rotachstraße
-	OA128SÄUL » Säulingweg
-	OA128SCHA » Schachenstraße
-	OA128SCHM » Schmiedegasse
-	OA128SCHWÄ » Schwändlesteig
-	OA128SCHWA » Schwarzenberger Straße
-	OA128SEBAK » Sebastian-Kneipp-Weg
-	OA128SEEB » Seeblickstraße
-	OA128SIED » Siedlungsstraße
-	OA128SONNENB » Sonnenbichl
-	OA128SONNENM » Sonnenmulde
-	OA128SONNESTR » Sonnenstraße
-	OA128STEI » Steingartenweg
-	OA128STWOL » St.-Wolfgang-Straße
-	OA128TANNENH » Tannenhofstraße
-	OA128TANNENWG » Tannenweg
-	OA128THAL » Thalstraße
-	OA128WANG » Wanger Weg
-	OA128WERTACHE » Wertacher Straße
-	OA128WERTASTR » Wertachstraße
-	OA128WIESENB » Wiesenblick
-	OA128WIESENWG » Wiesenweg
-	OA128WILD » Wildberger Weg
-	OA128WOLF » Wolfsgrubenstraße
-	OA128WURZ » Wurzelweg
-	OA128ZUGS » Zugspitzweg
-OA	Rettenberg
-	OA137ACH » Achstraße
-	OA137AHOR » Ahornweg
-	OA137ALP » Alpweg
-	OA137ALTES » Alte Salzstraße
-	OA137AMANG » Am Anger
-	OA137AMDOR » Am Dorfbach
-	OA137AMERC » Am Erch
-	OA137AMGAL » Am Galetschbach
-	OA137AMHOH » Am Hohenbühl
-	OA137AMKUR » Am Kurpark
-	OA137AMMÜH » Am Mühlbach
-	OA137AMPFA » Am Pfaffenbichl
-	OA137AMSCHE » Am Scheidplatz
-	OA137AMSCHIE » Am Schießplatz
-	OA137AMSCHIL » Am Schilf
-	OA137AMSCHL » Am Schleifenbach
-	OA137AMTH » Amthausstraße
-	OA137AMWID » Am Widdum
-	OA137AMWIL » Am Wildbach
-	OA137ANDERH » An der Halde
-	OA137ANDERS » An der Staig
-	OA137AUFDERA » Auf der Au
-	OA137AUFDERE » Auf der Egg
-	OA137BERG » Bergstraße
-	OA137BICH » Bichelweg
-	OA137BIRK » Birkenweg
-	OA137BREI » Breitensteinweg
-	OA137BUCH » Buchenweg
-	OA137BURGB » Burgberger Straße
-	OA137BURGWG » Burgweg
-	OA137DORF » Dorfstraße
-	OA137EICH » Eichenweg
-	OA137FALK » Falkensteinweg
-	OA137FLUR » Flurstraße
-	OA137FREI » Freidorfer Straße
-	OA137FRITB » Fritz-Bilek-Weg
-	OA137GART » Gartenäckerweg
-	OA137GROß » Großdorfer Straße
-	OA137GRÜN » Grüntenstraße
-	OA137HALD » Halde
-	OA137HAND » Handwerkshof
-	OA137HAUP » Hauptstraße
-	OA137HAUS » Hausäckerweg
-	OA137HUMB » Humbacher Straße
-	OA137ILLE » Illerweg
-	OA137IMME » Immenstädter Straße
-	OA137JOSEH » Josef-Hofmiller-Weg
-	OA137KALC » Kalchenbachweg
-	OA137KAMM » Kammeregger Weg
-	OA137KAPE » Kapellenweg
-	OA137KIRCHB » Kirchbichl
-	OA137KIRCHD » Kirchdorfer Straße
-	OA137KIRCHSTR » Kirchstraße
-	OA137KRAN » Kranzegger Straße
-	OA137LAFRE » La-Frenaye-Weg
-	OA137LANG » Langeneggerweg
-	OA137LÄRC » Lärchenweg
-	OA137LIFT » Liftweg
-	OA137LUS » Luswiese
-	OA137MALEW » Maler-Weiß-Weg
-	OA137MÜHL » Mühlenweg
-	OA137OBER » Oberer Weg
-	OA137OY » Oyweg
-	OA137PFAR » Pfarrweg
-	OA137REIC » Reichener Straße
-	OA137ROTT » Rottachbergweg
-	OA137SONT » Sonthofener Straße
-	OA137STER » Sterkliser Weg
-	OA137SULZ » Sulzberger Straße
-	OA137VORD » Vorderburger Straße
-	OA137WACH » Wacholderweg
-	OA137WALD » Waldweg
-	OA137WEID » Weidachstraße
-	OA137WERT » Wertacher Straße
-	OA137WIES » Wiesenweg
-OA	Sonthofen, St
-	OA139ABTRE » Abt-Reubi-Straße
-	OA139ALBES » Albert-Schweitzer-Straße
-	OA139ALBRD » Albrecht-Dürer-Straße
-	OA139ALEM » Alemannenweg
-	OA139ALPE » Alpenrosenweg
-	OA139ALPGS » Alpgasse
-	OA139ALTS » Altstädter Straße
-	OA139AMALT » Am Alten Bahnhof
-	OA139AMANG » Am Anger
-	OA139AMBRU » Am Brunnenbach
-	OA139AMBURGS » Am Burgstalltobel
-	OA139AMBURWLD » Am Burgwald
-	OA139AMENT » Am Entenmoos
-	OA139AMG'H » Am G'haubach
-	OA139AMGRI » Am Gribesgraben
-	OA139AMHÖL » Am Höldersberg
-	OA139AMILL » Am Illerdamm
-	OA139AMKAL » Am Kalvarienberg
-	OA139AMKÖN » Am Königsbächle
-	OA139AMNAG » Am Naglerweg
-	OA139AMOST » Am Ostrachdamm
-	OA139AMSCH » Am Schwarzenstein
-	OA139AMSON » Am Sonnenhof
-	OA139ANDER » An der Eisenschmelze
-	OA139ARNI » Arnikaweg
-	OA139AUER » Auerhahnweg
-	OA139AUFDE » Auf der Gerbe
-	OA139AURI » Aurikelweg
-	OA139BACH » Bachtelweg
-	OA139BAHNHOFS » Bahnhofsplatz
-	OA139BAHNHSTR » Bahnhofstraße
-	OA139BAUM » Baumannstraße
-	OA139BEIL » Beilenberger Straße
-	OA139BERGH » Berghofer Straße
-	OA139BERGSTR » Bergstraße
-	OA139BERGWG » Bergweg
-	OA139BISM » Bismarckstraße
-	OA139BLUM » Blumenstraße
-	OA139BOGE » Bogenstraße
-	OA139BOLG » Bolgenstraße
-	OA139BOMM » Bommerstallstraße
-	OA139BREI » Breitener Weg
-	OA139BUCH » Buchfinkenweg
-	OA139BURGB » Burgbergstraße
-	OA139BURGS » Burgsiedlung
-	OA139BURGWG » Burgweg
-	OA139DAMM » Dammweg
-	OA139DEKAR » Dekan-Ried-Straße
-	OA139EDEL » Edelweißstraße
-	OA139EICH » Eichendorffstraße
-	OA139ELSAB » Elsa-Brandström-Straße
-	OA139ENTS » Entschenburgweg
-	OA139ENZI » Enzianstraße
-	OA139FALK » Falkenstraße
-	OA139FELD » Feldkreuzweg
-	OA139FLUH » Fluhensteinweg
-	OA139FLUR » Flurstraße
-	OA139FÖRD » Förderreutherstraße
-	OA139FRAU » Frauenschuhweg
-	OA139FREIBAWG » Freibadweg
-	OA139FREIBSTR » Freibadstraße
-	OA139FRIE » Friedhofstraße
-	OA139FRÜH » Frühlingstraße
-	OA139FUCH » Fuchsmühlstraße
-	OA139GAIß » Gaißhornstraße
-	OA139GARTENWG » Gartenweg
-	OA139GARTESTR » Gartenstraße
-	OA139GOET » Goethestraße
-	OA139GRÜN » Grüntenstraße
-	OA139GSCH » Gschwenderweg
-	OA139HANSB » Hans-Böckler-Straße
-	OA139HANSS » Hans-Strigel-Straße
-	OA139HEIM » Heimenhofenstraße
-	OA139HERD » Herderstraße
-	OA139HERMV » Hermann-von-Barth-Straße
-	OA139HINA » Hinanger Straße
-	OA139HIND » Hindelanger Straße
-	OA139HIRN » Hirnbeinstraße
-	OA139HIRS » Hirschstraße
-	OA139HOCHG » Hochgratstraße
-	OA139HOCHSTR » Hochstraße
-	OA139HOCHV » Hochvogelstraße
-	OA139HOFACKWG » Hofackerweg
-	OA139HOFACSTR » Hofackerstraße
-	OA139HOFE » Hofener Straße
-	OA139HÖRNERB » Hörnerblick
-	OA139HÖRNESTR » Hörnerstraße
-	OA139ILLERSI » Illersiedlung
-	OA139ILLERSTR » Illerstraße
-	OA139IMBE » Imberger Straße
-	OA139IMME » Immenstädter Straße
-	OA139IMÖSC » Im Ösch
-	OA139IMTAN » Im Tannach
-	OA139IMWEI » Im Weidach
-	OA139INDER » In der Reite
-	OA139ISEL » Iselerstraße
-	OA139JAHN » Jahnstraße
-	OA139JOHAA » Johann-Althaus-Straße
-	OA139JOHAS » Johann-Socher-Straße
-	OA139KANT » Kantstraße
-	OA139KAPE » Kapellenweg
-	OA139KIRC » Kirchstraße
-	OA139KNAP » Knappenweg
-	OA139KOLO » Koloniestraße
-	OA139LEYB » Leybachweg
-	OA139LUGE » Lugerstraße
-	OA139MALE » Malerwinkelweg
-	OA139MARG » Margarethener Straße
-	OA139MARKTPL » Marktplatz
-	OA139MARKTSTR » Marktstraße
-	OA139MARTL » Martin-Luther-Straße
-	OA139METZ » Metzlerstraße
-	OA139MITT » Mittagstraße
-	OA139MOLT » Moltkestraße
-	OA139MONT » Montfortstraße
-	OA139MÜHL » Mühlenweg
-	OA139NORD » Nordstraße
-	OA139OBERA » Oberallgäuer Platz
-	OA139OBERE » Obere Mühle
-	OA139OBERS » Oberstdorfer Straße
-	OA139OST » Oststraße
-	OA139ÖSTLA » Östliche Alpenstraße
-	OA139OSTR » Ostrachstraße
-	OA139PANO » Panoramaweg
-	OA139PETED » Peter-Dörfler-Straße
-	OA139PFAF » Pfaffensteige
-	OA139PFAR » Pfarrstraße
-	OA139PRINL » Prinz-Luitpold-Straße
-	OA139PROM » Promenadestraße
-	OA139RATH » Rathausplatz
-	OA139RAUH » Rauhhornstraße
-	OA139RETT » Rettenbergstraße
-	OA139RICHW » Richard-Wagner-Straße
-	OA139ROTB » Rotbachweg
-	OA139ROTS » Rotspitzweg
-	OA139RUDOD » Rudolf-Diesel-Straße
-	OA139RUDOH » Rudolf-Harbig-Straße
-	OA139SALZ » Salzweg
-	OA139SAMUB » Samuel-Bachmann-Straße
-	OA139SCHE » Schellenbergstraße
-	OA139SCHI » Schillerstraße
-	OA139SCHL » Schloßstraße
-	OA139SCHN » Schnitzerstraße
-	OA139SCHÜ » Schützenstraße
-	OA139SINW » Sinwagstraße
-	OA139SIPL » Siplingerstraße
-	OA139SOLD » Soldanellenweg
-	OA139SONKOWG » Sonnenkopfweg
-	OA139SONKOSTR » Sonnenkopfstraße
-	OA139SONNE- » Sonnenstraße
-	OA139SONT » Sonthofer Straße
-	OA139STAD » Stadionweg
-	OA139STAR » Starzlachweg
-	OA139STEI » Steinebergstraße
-	OA139STIE » Stieglitzweg
-	OA139STOC » Stockach
-	OA139STRA » Strausbergstraße
-	OA139STUIBEWG » Stuibenweg
-	OA139STUIBSTR » Stuibenstraße
-	OA139SÜD » Südstraße
-	OA139SUDE » Sudetenstraße
-	OA139SÜDLA » Südliche Alpenstraße
-	OA139TAL » Talweg
-	OA139TANN » Tannachweg
-	OA139THAL » Thalhofer Straße
-	OA139THEOA » Theodor-Aufsberg-Straße
-	OA139THEOH » Theodor-Heuss-Straße
-	OA139TIEF » Tiefenbacher Straße
-	OA139TÖPF » Töpferweg
-	OA139UNTEE » Untere Ebnat
-	OA139VOGE » Vogelherdweg
-	OA139VÖLK » Völkstraße
-	OA139VORDB » Vordere Burgauffahrt
-	OA139WALT » Waltener Straße
-	OA139WEIH » Weiherkopfweg
-	OA139WEIN » Weingartenweg
-	OA139WEST » Weststraße
-	OA139WINK » Winkeler Straße
-	OA139WINT » Wintergasse
-	OA139ZAIN » Zainschmiedeweg
-	OA139ZÖR » Zörstraße
-	OA139ZUMHI » Zum Hirtehäusle
-	OA139ZURAL » Zur Alten Zollbrücke
-	OA139ZURMÜ » Zur Mühle
-OA	Sulzberg, M
-	OA140AHOR » Ahornstraße
-	OA140ALLG » Allgäustraße
-	OA140ALPE » Alpenblickstraße
-	OA140ALTED » Alte Dorfstraße
-	OA140AMBCH » Am Bach
-	OA140AMFIC » Am Fichtenholz
-	OA140AMSE » Amselweg
-	OA140AMSON » Am Sonnenhang
-	OA140BACH » Bachtelweg
-	OA140BAHN » Bahnhofstraße
-	OA140BERG » Bergstraße
-	OA140BGMHE » Bgm.-Herz-Platz
-	OA140BIRK » Birkenweg
-	OA140BURGR » Burgratzer Straße
-	OA140BURGWG » Burgweg
-	OA140CHAI » Chaillandstraße
-	OA140DORF » Dorfstraße
-	OA140DROS » Drosselweg
-	OA140DURA » Duracher Straße
-	OA140EICH » Eichenstraße
-	OA140ENZI » Enzianstraße
-	OA140ERLE » Erlenweg
-	OA140FELC » Felchenweg
-	OA140FELL » Fellhornstraße
-	OA140FINK » Finkenweg
-	OA140GEWE » Gewerbepark
-	OA140GROT » Grottenweg
-	OA140GRÜN » Grüntenstraße
-	OA140HECH » Hechtweg
-	OA140HOCHG » Hochgratstraße
-	OA140HOCHV » Hochvogelweg
-	OA140HÖFA » Höfatsweg
-	OA140IFEN » Ifenstraße
-	OA140ILLE » Illerstraße
-	OA140IMWIE » Im Wiesengrund
-	OA140INDU » Industriestraße
-	OA140JODB » Jodbadstraße
-	OA140KARP » Karpfenweg
-	OA140KEMP » Kemptener Straße
-	OA140KIRC » Kirchweg
-	OA140LANG » Langschwander Weg
-	OA140LIND » Lindenstraße
-	OA140MART » Martinszeller Straße
-	OA140NEBE » Nebelhornweg
-	OA140PANO » Panoramastraße
-	OA140PFAR » Pfarrweg
-	OA140RATH » Rathausplatz
-	OA140RING » Ringstraße
-	OA140ROSE » Rosenstraße
-	OA140ROTT » Rottachstraße
-	OA140SÄNT » Säntisstraße
-	OA140SCHE » Schellenbergstraße
-	OA140SCHM » Schmiedweg
-	OA140SCHO » Schorenmühlenweg
-	OA140SCHU » Schulstraße
-	OA140SONT » Sonthofener Straße
-	OA140STUI » Stuibenweg
-	OA140VORDE » Vor dem Langholz
-	OA140WALL » Wallerstraße
-OA	Waltenhofen
-	OA143AHOR » Ahornweg
-	OA143ALFOS » Alfons-Steinhauser-Straße
-	OA143ALPS » Alpspitzweg
-	OA143AMALT » Am Altersheim
-	OA143AMANG » Am Angerfeld
-	OA143AMBAHND » Am Bahndamm
-	OA143AMBAHNHF » Am Bahnhof
-	OA143AMDOR » Am Dorfbach
-	OA143AMDRU » Am Drumlin
-	OA143AMDUR » Am Durchlaß
-	OA143AMGER » Am Gersbühl
-	OA143AMHER » Am Herrenbühl
-	OA143AMLET » Am Letten
-	OA143AMPFA » Am Pfarrgarten
-	OA143AMSON » Am Sonnenbühl
-	OA143AMSÜD » Am Südhang
-	OA143AMTOB » Am Tobel
-	OA143AMWER » Am Wertstoffhof
-	OA143AMWLD » Am Wald
-	OA143ANDERH » An der Halde
-	OA143ANDERM » An der Marktwiese
-	OA143ANNA » Annaweg
-	OA143AU » Auweg
-	OA143BAHNH » Bahnhofstraße
-	OA143BAHNWG » Bahnweg
-	OA143BENZ » Benzstraße
-	OA143BERG » Bergstraße
-	OA143BLUM » Blumenweg
-	OA143BLÜT » Blütenweg
-	OA143BUCHEN » Buchenberger Straße
-	OA143BUCHER » Bucher Weg
-	OA143BURG » Burgstraße
-	OA143BÜRGH » Bürgermeister-Hengeler-Straße
-	OA143BÜRGK » Bürgermeister-Karl-Fritz-Straße
-	OA143BÜRGW » Bürgermeister-Wegmann-Straße
-	OA143CHRI » Christophorusweg
-	OA143DAIM » Daimlerstraße
-	OA143DEKAE » Dekan-Erhard-Straße
-	OA143DIES » Dieselstraße
-	OA143DIETB » Dietrich-Bonhoeffer-Straße
-	OA143EDEL » Edelsbergstraße
-	OA143EGGE » Eggener Weg
-	OA143EIBE » Eibenweg
-	OA143ENZI » Enzianweg
-	OA143ERLE » Erlenweg
-	OA143ESCH » Eschenweg
-	OA143FALK » Falkensteinweg
-	OA143FICH » Fichtenweg
-	OA143FISC » Fischener Straße
-	OA143FÖHR » Föhrenweg
-	OA143FRIES » Friedrich-Silcher-Straße
-	OA143GART » Gartenstraße
-	OA143GEORH » Georg-Haindl-Straße
-	OA143GEWE » Gewerbestraße
-	OA143GROT » Grotzstraße
-	OA143GRÜNTEWG » Grüntenweg
-	OA143GRÜNTSTR » Grüntenstraße
-	OA143HASE » Haselnußweg
-	OA143HAUP » Hauptstraße
-	OA143HEINS » Heinz-Staab-Straße
-	OA143HOCH » Hochgratweg
-	OA143HÖHE » Höhenweg
-	OA143HOLZ » Holzachweg
-	OA143HORB » Horbenstraße
-	OA143HORN » Hornweg
-	OA143ILLERSTR » Illerstraße
-	OA143ILLERT » Illertalstraße
-	OA143IMME » Immenstädter Straße
-	OA143IMWEG » Im Weggenturm
-	OA143INDU » Industriestraße
-	OA143INSTH » Ins Thal
-	OA143JAHN » Jahnstraße
-	OA143KALV » Kalvarienberg
-	OA143KAPE » Kapellenweg
-	OA143KAST » Kastanienweg
-	OA143KEMP » Kemptener Straße
-	OA143KETT » Kettelerstraße
-	OA143KIEF » Kiefernweg
-	OA143KIRCHBG » Kirchberg
-	OA143KIRCHPL » Kirchplatz
-	OA143KOHL » Kohlerbergstraße
-	OA143KOLP » Kolpingstraße
-	OA143KÖNI » Königplatz
-	OA143KORN » Kornacherstraße
-	OA143KUCH » Kuchener Weg
-	OA143LÄRC » Lärchenweg
-	OA143LAUB » Laubgarten
-	OA143LERC » Lerchenweg
-	OA143LEUTENE » Leutener Weg
-	OA143LEUTENH » Leutenhofener Straße
-	OA143LIND » Lindenweg
-	OA143LUDWP » Ludwig-Prandtl-Straße
-	OA143MAGN » Magnusstraße
-	OA143MARI » Marienplatz
-	OA143METZ » Metzgergasse
-	OA143MICHB » Michael-Beer-Straße
-	OA143MITT » Mittagweg
-	OA143MÜHL » Mühlenbergstraße
-	OA143NEBE » Nebelhornstraße
-	OA143NEST » Nestlestraße
-	OA143NIED » Niedersonthofener Straße
-	OA143OTTO » Ottostraße
-	OA143PAULZ » Paul-Zoll-Straße
-	OA143PLAB » Plabennecstraße
-	OA143RATH » Rathausstraße
-	OA143RAUH » Rauholzstraße
-	OA143RING » Ringstraße
-	OA143ROHR » Rohrer Straße
-	OA143ROTT » Rottachbergstraße
-	OA143SCHL » Schlesierstraße
-	OA143SCHO » Schorrenweg
-	OA143SEESTR » Seestraße
-	OA143SEEW » Seewiesenweg
-	OA143SERR » Serrostraße
-	OA143SOND » Sonderter Weg
-	OA143SONN » Sonnenstraße
-	OA143SPOR » Sportplatzstraße
-	OA143STEI » Steinebergstraße
-	OA143STMAR » St.-Martin-Straße
-	OA143STOF » Stoffelbergweg
-	OA143STUI » Stuibenweg
-	OA143SUDE » Sudetenstraße
-	OA143TANN » Tannenweg
-	OA143TOSS » Tossostraße
-	OA143ULRI » Ulrichgasse
-	OA143UNTED » Untere Dorfstraße
-	OA143VEIT » Veitser Straße
-	OA143WALD » Waldstraße
-	OA143WANK » Wankelstraße
-	OA143WEID » Weidenweg
-	OA143WERDENWG » Werdensteiner Weg
-	OA143WERDESTR » Werdensteiner Straße
-	OA143WIES » Wiesenweg
-	OA143WILHB » Wilhelm-Brehm-Weg
-	OA143YVESF » Yves-Fily-Straße
-	OA143ZETT » Zettlerstraße
-	OA143ZIEG » Ziegeleiweg
-	OA143ZIRB » Zirbenweg
-	OA143ZUDEN » Zu den Birken
-	OA143ZUGS » Zugspitzstraße
-	OA143ZUMBA » Zum Badeplatz
-	OA143ZUMSTN » Zum Stein
-OA	Weitnau, M
-	OA144ALPEE » Alpe-Egg-Weg
-	OA144ALPG » Alpgaustraße
-	OA144ALTEL » Alte Landstraße
-	OA144ALTS » Altschwande
-	OA144AMBAH » Am Bahnhof
-	OA144AMFEL » Am Feldweg
-	OA144AMGAL » Am Galgenbühl
-	OA144AMHIM » Am Himmelschachen
-	OA144AMHOL » Am Holzplatz
-	OA144AMKAP » Am Kapf
-	OA144AMKRE » Am Kreuzberg
-	OA144AMLAN » Am Langenberg
-	OA144AMNEL » Am Nellenberg
-	OA144AMSCH » Am Schidel
-	OA144AMSE » Amselweg
-	OA144AMSPO » Am Sportplatz
-	OA144AMSTE » Am Steinacker
-	OA144AMWAS » Am Wasenmoos
-	OA144AMWEI » Am Weihbach
-	OA144AMWER » Am Werkhaus
-	OA144ANDERK » An der Kugel
-	OA144ANDERS » An der Stelze
-	OA144ARGENRG » Argenring
-	OA144ARGENS » Argensiedlung
-	OA144BACH » Bachsiedlung
-	OA144BAD » Badweg
-	OA144BAUH » Bauhofweg
-	OA144BEIDE » Bei den Eschen
-	OA144BEIMK » Beim Kreuzle
-	OA144BERG » Bergstraße
-	OA144BICH » Bichelackerstraße
-	OA144BIRK » Birkenweg
-	OA144BLUM » Blumenweg
-	OA144BOSC » Boschensäge
-	OA144BRAUU » Braut- und Bahrweg
-	OA144BRUN » Brunnenstraße
-	OA144BUCH » Buchenberger Straße
-	OA144BURGSTA » Burgstallweg
-	OA144BURGSTR » Burgstraße
-	OA144DORF » Dorfstraße
-	OA144ENGELH » Engelhirscher Straße
-	OA144ENGELSG » Engelsteig
-	OA144ETTE » Ettensberger Weg
-	OA144FICH » Fichtenweg
-	OA144FINK » Finkenweg
-	OA144FLOR » Florianweg
-	OA144FRANV » Franz-von-Miller-Straße
-	OA144GALT » Galtenbrunnerweg
-	OA144GART » Gartenweg
-	OA144GEWE » Gewerbering
-	OA144GROß » Großholzleuter Weg
-	OA144HAMM » Hammerschmiede
-	OA144HAUC » Hauchenbergweg
-	OA144HAUP » Hauptstraße
-	OA144HEINN » Heinrich-Nicolaus-Straße
-	OA144HELI » Helingerstraße
-	OA144HERD » Herdebuchweg
-	OA144HIRN » Hirnbeinstraße
-	OA144HOCH » Hochmoorstraße
-	OA144HOFE » Hofenerbergweg
-	OA144HOHE » Hoheneggstraße
-	OA144IMALT » Im Altach
-	OA144IMDIE » Im Diethen
-	OA144IMESC » Im Eschachthal
-	OA144IMGOS » Im Gosbolz
-	OA144IMGRE » Im Greit
-	OA144IMKRE » Im Kreuztal
-	OA144JAHN » Jahnstraße
-	OA144JAKO » Jakobsweg
-	OA144KAPE » Kapellenweg
-	OA144KAPL » Kaplaneiweg
-	OA144KEMP » Kemptener Straße
-	OA144KIRCHSTR » Kirchstraße
-	OA144KIRCHWG » Kirchweg
-	OA144KLAU » Klausenmühle
-	OA144KULM » Kulmuswiese
-	OA144LÄRC » Lärchenweg
-	OA144LETZ » Letzweg
-	OA144LIND » Lindauer Straße
-	OA144MAGDG » Magdalena-Glötter-Weg
-	OA144MAGN » Magneweg
-	OA144MARK » Marktstraße
-	OA144MARTJ » Martin-Jäger-Weg
-	OA144MEIS » Meisenweg
-	OA144MORG » Morgenbrunnenweg
-	OA144MÜHL » Mühlweg
-	OA144PETEF » Peter-Früh-Weg
-	OA144PFAR » Pfarrgässle
-	OA144PFRÜ » Pfründeweg
-	OA144RICHR » Richter-Ress-Weg
-	OA144RÖME » Römerweg
-	OA144ROß » Roßsteig
-	OA144SCHI » Schilterstraße
-	OA144SCHL » Schlesierweg
-	OA144SCHW » Schwalbenweg
-	OA144SONNEC » Sonneckstraße
-	OA144SONNEN » Sonnenhalde
-	OA144STAR » Starenweg
-	OA144STMAR » St.-Margarethen-Weg
-	OA144STWEN » St.-Wendelin-Straße
-	OA144SUDE » Sudetenweg
-	OA144TRAU » Trauchburgstraße
-	OA144UNTEÖ » Unteres Ösch
-	OA144UNTER » Unterrieder Weg
-	OA144VOGT » Vogteiweg
-	OA144WEID » Weidachweg
-	OA144WEIH » Weiherweg
-	OA144WIDD » Widdumring
-	OA144WIDM » Widmannweg
-	OA144ZUREI » Zur Eisenschmiede
-OA	Wertach, M
-	OA145ALPE » Alpenstraße
-	OA145AMBG » Am Berg
-	OA145AMNAT » Am Nattererhof
-	OA145AUEN » Auenweg
-	OA145BAHN » Bahnhofstraße
-	OA145BÄRE » Bärenwinkel
-	OA145BICH » Bichelweg
-	OA145DRBAC » Dr.-Bach-Straße
-	OA145GRÜN » Grüntenseestraße
-	OA145HAAG » Haaggasse
-	OA145HOCH » Hochvogelweg
-	OA145IGEL » Igelsbach
-	OA145IMANG » Im Anger
-	OA145IMHAA » Im Haag
-	OA145INDU » Industriestraße
-	OA145KOLP » Kolpingstraße
-	OA145KRAM » Kramerweg
-	OA145LANG » Langgasse
-	OA145MARK » Marktstraße
-	OA145PANO » Panoramaweg
-	OA145RATH » Rathausstraße
-	OA145SCHI » Schimmelreiterweg
-	OA145SCHL » Schleifweg
-	OA145SONN » Sonnenhang
-	OA145STAR » Starzlachauen
-	OA145STULR » St.-Ulrich-Straße
-	OA145UNTE » Untere Mühle
-	OA145WANN » Wannenblick
-	OA145ZURST » Zur Stocka-Tanne
-OA	Wiggensbach, M
-	OA146AHOR » Ahornstraße
-	OA146AMANG » Am Anger
-	OA146AMBIR » Am Birkenmoos
-	OA146AMDOR » Am Dorfbach
-	OA146AMDUX » Am Dux
-	OA146AMKNÖ » Am Knöbele
-	OA146AMLIN » Am Lindenbühl
-	OA146AMLUI » Am Luisenhof
-	OA146AMMO » Am Moos
-	OA146AMMÜH » Am Mühlbach
-	OA146AMSE » Amselweg
-	OA146AMSON » Am Sonnenhang
-	OA146ANDERH » An der Halde
-	OA146ANDERSÄ » An der Säge
-	OA146ANDERSCH » An der Schmiede
-	OA146ANDERSG » An der Steig
-	OA146BADS » Badstubweg
-	OA146BAHN » Bahnweg
-	OA146BERG » Bergstraße
-	OA146BINZ » Binzerweg
-	OA146BIRK » Birkenweg
-	OA146BLEN » Blenderweg
-	OA146BURG » Burgweg
-	OA146EICH » Eichenstraße
-	OA146ELSÄ » Elsässer Straße
-	OA146FEUE » Feuerwehrstraße
-	OA146GART » Gartenstraße
-	OA146HATT » Hattstattweg
-	OA146ILLE » Illerstraße
-	OA146IMHF » Im Hof
-	OA146IMÖSC » Im Ösch
-	OA146IMSTE » Im Steinrüssel
-	OA146IMWAN » Im Wang
-	OA146JUGE » Jugendstraße
-	OA146KEMP » Kempter Straße
-	OA146KIRC » Kirchplatz
-	OA146KÜRN » Kürnacher Straße
-	OA146MARI » Mariabergstraße
-	OA146MARK » Marktplatz
-	OA146MAXSW » Max-Swoboda-Straße
-	OA146MÜHL » Mühlweg
-	OA146PFAR » Pfarrweg
-	OA146RABE » Rabensteinweg
-	OA146ROHR » Rohrachstraße
-	OA146RÖME » Römerstraße
-	OA146SCHU » Schulstraße
-	OA146SCHW » Schwellweg
-	OA146SÖLL » Söllerweg
-	OA146SONN » Sonnenstraße
-	OA146STEI » Steinbühlweg
-	OA146STRA » Straßacker
-	OA146TANN » Tannenweg
-	OA146VOGE » Vogesenweg
-	OA146WEIH » Weiherweg
-	OA146XAVEK » Xaver-Knoll-Weg
-OA	Wildpoldsried
-	OA147ALPE » Alpenweg
-	OA147AMHUN » Am Hungersberg
-	OA147AMMIC » Am Michelsberg
-	OA147AMRIE » Am Riedbach
-	OA147AMSCH » Am Schiebelsberg
-	OA147AUFDE » Auf dem G'hau
-	OA147BADE » Badenberg
-	OA147BAHN » Bahnhofstraße
-	OA147BERG » Bergstraße
-	OA147BURG » Burgstraße
-	OA147CYPR » Cypriansstraße
-	OA147DAMM » Dammweg
-	OA147DORF » Dorfmühlstraße
-	OA147FLOR » Floriansgasse
-	OA147GÄRT » Gärtnerweg
-	OA147GRÜN » Grüntenstraße
-	OA147GÜNZ » Günzacher Straße
-	OA147HALD » Haldenweg
-	OA147HANG » Hangweg
-	OA147HOCH » Hochstraße
-	OA147HÖHE » Höhenweg
-	OA147IMÖSC » Im Öschle
-	OA147INDER » In der Oy
-	OA147JUST » Justinaweg
-	OA147KAPE » Kapellenweg
-	OA147KEMP » Kemptener Straße
-	OA147KIRC » Kirchweg
-	OA147MARK » Marktoberdorfer Straße
-	OA147PANO » Panoramaweg
-	OA147POST » Poststraße
-	OA147RING » Ringstraße
-	OA147SALZ » Salzstraße
-	OA147SCHU » Schulstraße
-	OA147WALD » Waldweg
-	OA147WANN » Wanneweg
-	OA147WEID » Weidachstraße
-	OA147WOLK » Wolkenberger Straße
+﻿KE	Kempten (Allgäu)
+	KE000ABELR » Abelin-Rogel-Weg
+	KE000ADALS » Adalbert-Stifter-Weg
+	KE000ADEL » Adelharzer Weg
+	KE000ADEN » Adenauerring
+	KE000AGGE » Aggensteinstraße
+	KE000AGNEW » Agnes-Wyssach-Straße
+	KE000AHOR » Ahornhöhe
+	KE000AJEN » Ajener Weg
+	KE000AKOS » Akosweg
+	KE000ALBEE » Albert-Einstein-Straße
+	KE000ALBEO » Albert-Ott-Straße
+	KE000ALBEW » Albert-Wehr-Platz
+	KE000ALEM » Alemannenweg
+	KE000ALFRK » Alfred-Kranzfelder-Straße
+	KE000ALFRW » Alfred-Weitnauer-Straße
+	KE000ALLE » Allensteiner Weg
+	KE000ALLG » Allgäuer Straße
+	KE000ALPENR » Alpenrosenstraße
+	KE000ALPENSTR » Alpenstraße
+	KE000ALTEB » Alte Bleiche
+	KE000ALTH » Althausstraße
+	KE000ALTU » Altusrieder Straße
+	KE000AMALP » Am Alpenblick
+	KE000AMALT » Am Alten Holzplatz
+	KE000AMAUGTN » Am Augarten
+	KE000AMBACW » Am Bachtelweiher
+	KE000AMBCH- » Am Bach
+	KE000AMBRA » Am Brand
+	KE000AMDEN » Am Denzlerpark
+	KE000AMFEI » Am Feilbergbach
+	KE000AMFOH » Am Fohlenhof
+	KE000AMFRI » Am Frickenland
+	KE000AMGÖH » Am Göhlenbach
+	KE000AMHAL » Am Haldenhof
+	KE000AMHEG » Am Heggersbach
+	KE000AMHEU » Am Heubach
+	KE000AMHOF » Am Hof Stiftallmey
+	KE000AMHOH » Am Hohen Weg
+	KE000AMKÖN » Am Königsplatz
+	KE000AMKRE » Am Kreuzbergele
+	KE000AMLEU » Am Leubastobel
+	KE000AMLIN » Am Lindenberg
+	KE000AMLOT » Am Lotterberg
+	KE000AMPET » Am Petzenbühl
+	KE000AMROT » Am Rotschlößle
+	KE000AMSCHLO » Am Schloßgut
+	KE000AMSCHLÖ » Am Schlößle
+	KE000AMSCHÜ » Am Schützenhaus
+	KE000AMSE » Amselweg
+	KE000AMSTA » Am Stadtpark
+	KE000AMSTI » Am Stiftskeller
+	KE000AMTHE » Am Theater
+	KE000AMWLD » Am Wald
+	KE000AMZIE » Am Ziegelstadel
+	KE000AMZOL » Am Zollhaus
+	KE000ANDERH » An der Hehle
+	KE000ANDERLE » An der Letze
+	KE000ANDERLÜ » An der Lützelburg
+	KE000ANDERM » An der Malstatt
+	KE000ANDERSC » An der Schmiede
+	KE000ANDERSTA » An der Stadtmauer
+	KE000ANDERSTI » An der Stiftsbleiche
+	KE000ANDERSU » An der Sutt
+	KE000ANDERW » An der Weberei
+	KE000ANETT » Anette-Thoma-Weg
+	KE000ANGEK » Angelica-Kauffmann-Weg
+	KE000ANKE » Ankergässele
+	KE000ANNEK » Annette-Kolb-Weg
+	KE000ANNIS » Anni-Staehlin-Straße
+	KE000ANTOF » Anton-Fehr-Straße
+	KE000ANWA » Anwanden
+	KE000ARNI » Arnikaweg
+	KE000AUDO » Audogarplatz
+	KE000AUFDEMBÜ » Auf dem Bühl
+	KE000AUFDEMD » Auf dem Drumlin
+	KE000AUFDERB » Auf der Breite
+	KE000AUFDERH » Auf der Halde
+	KE000AUFDERL » Auf der Ludwigshöhe
+	KE000AUF'P » Auf'm Plätzle
+	KE000AUGA » Augartenweg
+	KE000AUGUF » August-Fischer-Platz
+	KE000AUGUS » Augustinerstraße
+	KE000AURI » Aurikelweg
+	KE000ÄUßER » Äußere Rottach
+	KE000AYBÜ » Aybühlweg
+	KE000BACHS » Bachstelzenweg
+	KE000BACHT » Bachtelmühlstraße
+	KE000BÄCK » Bäckerstraße
+	KE000BADDÜ » Bad Dürkheimer Weg
+	KE000BAHNHOPL » Bahnhofplatz
+	KE000BAHNHSTR » Bahnhofstraße
+	KE000BALTN » Balthasar-Neumann-Straße
+	KE000BARBH » Barbara-Hackl-Straße
+	KE000BAUM » Baumannweg
+	KE000BEET » Beethovenstraße
+	KE000BEIDEN » Bei den Birken
+	KE000BEIDERR » Bei der Rose
+	KE000BEIDERW » Bei der Wagnerei
+	KE000BEIMF » Beim Floßerhäusle
+	KE000BEIMK » Beim Keck
+	KE000BEIMR » Beim Rottacheck
+	KE000BEIMSC » Beim Scharfrichter
+	KE000BEIMSO » Beim Sonnenbad
+	KE000BEIMT » Beim Thingerstobel
+	KE000BENZ » Benzstraße
+	KE000BERGG » Berggässele
+	KE000BERGSTR » Bergstraße
+	KE000BERL » Berliner Platz
+	KE000BERT » Bertholdstraße
+	KE000BEUT » Beuthener Weg
+	KE000BIBE » Biberacher Straße
+	KE000BINZ » Binzenrieder Weg
+	KE000BIRK » Birkensteig
+	KE000BISCF » Bischof-Freundorfer-Weg
+	KE000BISCH » Bischof-Haneberg-Straße
+	KE000BLEICRÖ » Bleicheröschstraße
+	KE000BLEIC- » Bleicherstraße
+	KE000BLEN » Blenksteig
+	KE000BLUM » Blumenstraße
+	KE000BLÜT » Blütenweg
+	KE000BODM » Bodmanstraße
+	KE000BOLEI-» Boleite
+	KE000BOLESTÄ » Boleitestäffele
+	KE000BRAC » Brachgasse
+	KE000BRÄU » Bräuhausberg
+	KE000BRAUU » Braut- und Bahrweg
+	KE000BREG » Bregenzer Weg
+	KE000BREN » Brennergasse
+	KE000BRES » Breslauer Straße
+	KE000BROD » Brodkorbweg
+	KE000BRUNE » Brunellenweg
+	KE000BRUNN » Brunnenweg
+	KE000BUCHA » Buchauer Weg
+	KE000BUCHENB » Buchenberger Weg
+	KE000BUCHENWG » Buchenweg
+	KE000BÜRGH » Bürgermeister-Hummel-Straße
+	KE000BURGHAGS » Burghaldegasse
+	KE000BURGHALD » Burghalde
+	KE000BURGSTA » Burgstallweg
+	KE000BURGSTR » Burgstraße
+	KE000BUSS » Bussardweg
+	KE000CALG » Calgeerstraße
+	KE000CAMB » Cambodunumweg
+	KE000CARLR » Carl-Rabus-Straße
+	KE000CHEM » Chemnitzer Weg
+	KE000CRESH » Crescentia-Höß-Weg
+	KE000DAIM » Daimlerstraße
+	KE000DANZ » Danziger Straße
+	KE000DIES » Dieselstraße
+	KE000DOHL » Dohlenweg
+	KE000DOMIZ » Dominikus-Zimmermann-Straße
+	KE000DOMP » Dompfaffweg
+	KE000DORNI » Dornierstraße
+	KE000DORNSTR » Dornstraße
+	KE000DRAH » Drahtzug
+	KE000DREH » Dreherstraße
+	KE000DREI » Dreifaltigkeitsweg
+	KE000DROS » Drosselweg
+	KE000DRUM » Drumlinweg
+	KE000DURA » Duracher Straße
+	KE000DÜWE » Düwellstraße
+	KE000EBERH » Eberhardstraße
+	KE000EBERS » Eberhard-Schobacher-Weg
+	KE000EDEL » Edelweißweg
+	KE000EDIS » Edisonstraße
+	KE000EGER » Egerlandstraße
+	KE000EGGE » Eggener Berg
+	KE000EICHB » Eichbergweg
+	KE000EICHEN » Eichendorffweg
+	KE000EICHER » Eicher Straße
+	KE000EICHK » Eicher Kapellenweg
+	KE000EICHR » Eicher Ringweg
+	KE000ELIAH » Elias-Holl-Straße
+	KE000ELISD » Elisabeth-Duda-Hartnig-Straße
+	KE000ELISS » Elisabeth-Selbert-Straße
+	KE000ELLHARSG » Ellharter Steig
+	KE000ELLHASTR » Ellharter Straße
+	KE000ELST » Elsterweg
+	KE000EMILM » Emil-Marent-Straße
+	KE000ENTE » Entengässchen
+	KE000ENZI » Enzianweg
+	KE000ERLE » Erlenweg
+	KE000ERME » Ermengerster Straße
+	KE000ERTI » Ertingerweg
+	KE000ESCHA » Eschacher Weg
+	KE000ESCHE » Eschenweg
+	KE000ESTI » Estionenweg
+	KE000FABRIKS » Fabrikstäffele
+	KE000FABRISTR » Fabrikstraße
+	KE000FALC » Falchenstraße
+	KE000FALK » Falkenweg
+	KE000FASA » Fasanenweg
+	KE000FEIC » Feichtmayrstraße
+	KE000FEIL » Feilbergstraße
+	KE000FELDK » Feldkircher Weg
+	KE000FELDWG » Feldweg
+	KE000FERDB » Ferdinand-Beutel-Weg
+	KE000FINK » Finkenweg
+	KE000FISCHERÖ » Fischerösch
+	KE000FISCHERS » Fischersteige
+	KE000FISCHSTR » Fischerstraße
+	KE000FISCV » Fischer-von-Erlach-Straße
+	KE000FLAC » Flachswiesenweg
+	KE000FLOß » Floßerweg
+	KE000FÖHR » Föhrenweg
+	KE000FÖRD » Förderreutherweg
+	KE000FRANK » Franz-Köpf-Weg
+	KE000FRANT » Franz-Tröger-Straße
+	KE000FRANV » Franz-von-Ried-Straße
+	KE000FRANW » Franz-Weiß-Straße
+	KE000FRANX » Franz-Xaver-Unterseher-Weg
+	KE000FRANZI » Franziskanerweg
+	KE000FRANZO » Franzosenbauerweg
+	KE000FREUDEBG » Freudenberg
+	KE000FREUDETL » Freudental
+	KE000FRIEDEPL » Friedensplatz
+	KE000FRIEDEWG » Friedensweg
+	KE000FRIEDH » Friedhofweg
+	KE000FRIEDHA » Friedrichshafener Straße
+	KE000FRIEDR- » Friedrichstraße
+	KE000FRIEE » Friedrich-Ebert-Straße
+	KE000FRIESSTR » Friesstraße
+	KE000FRÜH » Frühlingsstraße
+	KE000FUCH » Fuchsbühlstraße
+	KE000FÜRS » Fürstenstraße
+	KE000FÜSS » Füssener Straße
+	KE000GAIS » Gaishornweg
+	KE000GART » Gartenstraße
+	KE000GEBH » Gebhartstraße
+	KE000GEBI » Gebirgsjägerweg
+	KE000GEBRA » Gebrüder-Asam-Straße
+	KE000GEORK » Georg-Krug-Straße
+	KE000GEORQ » Georg-Queri-Straße
+	KE000GERB » Gerberstraße
+	KE000GERHA » Gerhardingerweg
+	KE000GERHH » Gerhart-Hauptmann-Straße
+	KE000GERHW » Gerhard-Winkler-Weg
+	KE000GESCS » Geschwister-Scholl-Straße
+	KE000GESE » Gesellenweg
+	KE000GEWE » Gewerbestraße
+	KE000GIEL » Gielsbergstraße
+	KE000GLAT » Glatzer Weg
+	KE000GLEI » Gleiwitzer Straße
+	KE000GLOG » Glogauer Weg
+	KE000GOET » Goethestraße
+	KE000GÖRL » Görlitzer Weg
+	KE000GÖRR » Görresweg
+	KE000GOTTE » Gottesackerweg
+	KE000GOTTS » Gottlob-Schüßel-Weg
+	KE000GRAB » Grabengasse
+	KE000GRAS » Grasmückenweg
+	KE000GROßK » Großer Kornhausplatz
+	KE000GRÜNB » Grünbaumgasse
+	KE000GRÜNT » Grüntenweg
+	KE000GUSTR » Gustav-Rett-Weg
+	KE000GUTE » Gutenbergstraße
+	KE000HÄBE » Häberlinweg
+	KE000HABI » Habichtweg
+	KE000HAFN » Hafnergässele
+	KE000HAGG » Haggenmüllerstraße
+	KE000HAINR » Hain-Raidel-Weg
+	KE000HALD » Haldenweg
+	KE000HALL » Hallgässele
+	KE000HANE » Hanebergstraße
+	KE000HANSS » Hans-Schnitzer-Weg
+	KE000HASE » Hasengasse
+	KE000HASLACBG » Haslacher Berg
+	KE000HASLACH- » Haslach
+	KE000HASLASTR » Haslacher Straße
+	KE000HAUBENPL » Haubenschloßplatz
+	KE000HAUBENST » Haubensteigweg
+	KE000HAUBESTR » Haubenschloßstraße
+	KE000HAUF » Hauffstraße
+	KE000HEBE » Hebelstraße
+	KE000HEGG » Heggener Straße
+	KE000HEID » Heidengässele
+	KE000HEIL » Heiligkreuzer Straße
+	KE000HEINF » Heinrich-Findelkind-Weg
+	KE000HEINK » Heini-Klopfer-Weg
+	KE000HEINR » Heinrichgasse
+	KE000HEINT » Heinz-Templer-Weg
+	KE000HEIS » Heisinger Straße
+	KE000HENGE » Hengelerstraße
+	KE000HENGG » Henggeweg
+	KE000HENK » Henkelstraße
+	KE000HERB » Herbststraße
+	KE000HERK » Herkomerstraße
+	KE000HERMA » Hermannstraße
+	KE000HERMD » Hermann-Dietze-Weg
+	KE000HERMV » Hermann-von-Barth-Straße
+	KE000HERR » Herrenstraße
+	KE000HERZ » Herzstraße
+	KE000HEUB » Heubachhof
+	KE000HEUS » Heussring
+	KE000HEYD » Heydeckerstraße
+	KE000HIEB » Hieberstraße
+	KE000HIERH » Hieronymus-Hau-Straße
+	KE000HILD » Hildegardplatz
+	KE000HINTER' » Hinter'm Holz
+	KE000HINTERB » Hinterbacher Straße
+	KE000HINTR » Hintere Rottach
+	KE000HINTS » Hinter'm Siechenbach
+	KE000HIRN » Hirnbeinstraße
+	KE000HIRSCHB » Hirschberger Weg
+	KE000HIRSCHD » Hirschdorfer Weg
+	KE000HIRSCHSG » Hirschsteig
+	KE000HIRSCSTR » Hirschstraße
+	KE000HOCHB » Hochbrunnenweg
+	KE000HOCHV » Hochvogelstraße
+	KE000HOCHW » Hochwegstraße
+	KE000HOEF » Hoefelmayrweg
+	KE000HÖFA » Höfatsweg
+	KE000HOFF » Hoffeldweg
+	KE000HOFG » Hofgartenstraße
+	KE000HOFÖ » Hoföschle
+	KE000HÖHE » Höhenweg
+	KE000HOHEGS » Hohe Gasse
+	KE000HOHENE » Hohenemser Weg
+	KE000HOHENR » Hohenrader Straße
+	KE000HOHENS » Hohenstaufenstraße
+	KE000HOLB » Holbeinstraße
+	KE000HOLZ » Holzbachweg
+	KE000HONE » Honeggerstraße
+	KE000HORC » Horchlerstraße
+	KE000HUB » Hubweg
+	KE000HUGOV » Hugo-von-Höfl-Platz
+	KE000IGNAK » Ignaz-Kiechle-Straße
+	KE000ILLERD » Illerdamm
+	KE000ILLERSTR » Illerstraße
+	KE000IMALL » Im Allmey
+	KE000IMBUCHA » Im Bucharts
+	KE000IMBUCHÖ » Im Buchösch
+	KE000IMME » Immenstädter Straße
+	KE000IMMO » Im Moos
+	KE000IMOBEFLD » Im Oberfeld
+	KE000IMOBERÖ » Im Oberösch
+	KE000IMOBERWA » Im Oberwang
+	KE000IMOBERWI » Im Oberwies
+	KE000IMROT » Im Rothkreuz
+	KE000IMSEG » Im Seggers
+	KE000IMSTEI » Im Steinbichl
+	KE000IMSTEU » Im Steufzgen
+	KE000IMSTI » Im Stiftallmey
+	KE000IMTHI » Im Thingers
+	KE000INDERB » In der Brandstatt
+	KE000INDERE » In der Eich
+	KE000INDERK » In der Klims
+	KE000INNER » Innere Rottach
+	KE000IRIS » Irisweg
+	KE000ISNY » Isnyer Straße
+	KE000JÄGE » Jägerstraße
+	KE000JAHN » Jahnweg
+	KE000JAKOZ » Jakob-Zeller-Straße
+	KE000JENI » Jenischstraße
+	KE000JERGR » Jerg-Rist-Weg
+	KE000JOHAN » Johannisweg
+	KE000JOHAS » Johann-Schütz-Straße
+	KE000JÖRGL » Jörg-Lederer-Weg
+	KE000JÖRGSTR » Jörgstraße
+	KE000JOSEK » Joseph-Kösel-Weg
+	KE000KANA » Kanalweg
+	KE000KANT » Kantstraße
+	KE000KAPELLPL » Kapellenplatz
+	KE000KAPELLWG » Kapellenweg
+	KE000KARLB » Karl-Böhm-Straße
+	KE000KARLD » Karl-Diem-Weg
+	KE000KARLSTR » Karlstraße
+	KE000KARR » Karrerstraße
+	KE000KÄTHK » Käthe-Kollwitz-Weg
+	KE000KAUF » Kaufbeurer Straße
+	KE000KELLEN » Kellenbergerstraße
+	KE000KELLER » Kellerstraße
+	KE000KELT » Keltenweg
+	KE000KEPL » Keplerstraße
+	KE000KESE » Keselstraße
+	KE000KESS » Kesselgasse
+	KE000KETT » Kettelerweg
+	KE000KIEB » Kiebitzweg
+	KE000KIRCHBG » Kirchberg
+	KE000KIRCHE » Kirchenweg
+	KE000KLEIK » Kleiner Kornhausplatz
+	KE000KLIN » Klingener Weg
+	KE000KLOSTERS » Klostersteige
+	KE000KLOSTEWS » Klosterwiese
+	KE000KNUS » Knussertstraße
+	KE000KOLL » Kollerbachstraße
+	KE000KOLP » Kolpingstraße
+	KE000KONE » Konebergweg
+	KE000KÖNIBER » Königsberger Straße
+	KE000KÖNIGSPL » Königsplatz
+	KE000KÖNIGSTR » Königstraße
+	KE000KONS » Konstanzer Straße
+	KE000KORB » Korbinianweg
+	KE000KOTT » Kotterner Straße
+	KE000KREM » Kremserstraße
+	KE000KROK » Krokusweg
+	KE000KRON » Kronenstraße
+	KE000KROT » Krottenkopfstraße
+	KE000KUCK » Kuckuckweg
+	KE000KÜRN » Kürnacher Straße
+	KE000LAND » Landwehrstraße
+	KE000LAUB » Laubener Straße
+	KE000LEHR » Lehrndorferweg
+	KE000LEIC » Leichtleweg
+	KE000LENAC » Lena-Christ-Weg
+	KE000LENZ » Lenzfrieder Straße
+	KE000LEON » Leonhardstraße
+	KE000LERC » Lerchenweg
+	KE000LERP » Lerpscherweg
+	KE000LESS » Lessingstraße
+	KE000LEUBAS- » Leubas
+	KE000LEUBASTR » Leubaser Straße
+	KE000LEUP » Leupolzer Straße
+	KE000LEUT » Leutkircher Straße
+	KE000LIEC » Liechtensteiner Straße
+	KE000LIEG » Liegnitzer Straße
+	KE000LINDA » Lindauer Straße
+	KE000LINDE » Lindenweg
+	KE000LINGGE » Linggener Straße
+	KE000LINGGSTR » Linggstraße
+	KE000LINUS » Linus-Seif-Platz
+	KE000LOHG » Lohgässele
+	KE000LOHM » Lohmühltobel
+	KE000LORE » Lorenzstraße
+	KE000LOTT » Lotterbergstraße
+	KE000LUDWI » Ludwigstraße
+	KE000LUDWT » Ludwig-Thoma-Straße
+	KE000LUGE » Lugemannsweg
+	KE000LUIT » Luitpoldstraße
+	KE000LÜTZ » Lützelburgweg
+	KE000LUXMA » Lux-Maurus-Straße
+	KE000MÄDE » Mädelegabelweg
+	KE000MADL » Madlenerstraße
+	KE000MAGD » Magdalenenweg
+	KE000MAGN » Magnusstraße
+	KE000MAI » Maistraße
+	KE000MALEL » Maler-Lochbihler-Straße
+	KE000MANZ » Manzweg
+	KE000MARGA » Margarethenstraße
+	KE000MARGU » Margaretha- und Josefinenweg
+	KE000MARIA » Mariaberger Straße
+	KE000MARIEH » Marianne-Ehrmann-Straße
+	KE000MARIEN » Marienstraße
+	KE000MARIJ » Marie-Juchacz-Weg
+	KE000MAUE » Mauergässele
+	KE000MAXI » Maximilianstraße
+	KE000MAXSC » Max-Schaidhauf-Straße
+	KE000MAYB » Maybachstraße
+	KE000MEHL » Mehlstraße
+	KE000MEIS » Meisenweg
+	KE000MEME » Memeler Straße
+	KE000MEMM » Memminger Straße
+	KE000MERKS » Merksteige
+	KE000MERKT » Merktstraße
+	KE000MESM » Mesmergässele
+	KE000MESS » Messerschmittstraße
+	KE000MICHB » Michael-Beer-Straße
+	KE000MIES » Miesenbacher Straße
+	KE000MILC » Milchgasse
+	KE000MITTEI » Mittlere Eicher Straße
+	KE000MITTEL » Mittelgasse
+	KE000MITTEN » Mittleres Entenmoos
+	KE000MOOS » Moosbruggerweg
+	KE000MÖRI » Mörikeweg
+	KE000MOZA » Mozartstraße
+	KE000MÜHLBG » Mühlberg
+	KE000MÜHLWG » Mühlweg
+	KE000MULT » Multscherweg
+	KE000NACH » Nachtigallenweg
+	KE000NEBE » Nebelhornstraße
+	KE000NEIS » Neisser Straße
+	KE000NEUB » Neubronnerstraße
+	KE000NEUD » Neudorfer Straße
+	KE000NEUH » Neuhauser Weg
+	KE000OBERD » Oberhalb der Iller
+	KE000OBEREI » Obere Eicher Straße
+	KE000OBEREN » Oberes Entenmoos
+	KE000OBERH » Oberer Haldenweg
+	KE000OBERI » Ober'm Illerfeld
+	KE000OBERSE » Ober'm Seggers
+	KE000OBERSTA » Ober'm Stadtweiher
+	KE000OBERSTD » Oberstdorfer Straße
+	KE000OBERWA » Oberwanger Straße
+	KE000OERT » Oertelweg
+	KE000OPPE » Oppelner Straße
+	KE000ORAN » Orangerieweg
+	KE000ÖSCH » Öschstraße
+	KE000OSKAM » Oskar-Maria-Graf-Straße
+	KE000OSTB » Ostbahnhofstraße
+	KE000PARK » Parkstraße
+	KE000PATEO » Pater-Odilo-Weg
+	KE000PAULD » Paul-Diethei-Straße
+	KE000PETED » Peter-Dörfler-Straße
+	KE000PETT » Pettenkoferstraße
+	KE000PFAN » Pfanderstraße
+	KE000PFAR » Pfarrhofweg
+	KE000PFAU » Pfaudlerweg
+	KE000PFEI » Pfeilergraben
+	KE000PORS » Porschestraße
+	KE000POST » Poststraße
+	KE000PRÄLG » Prälat-Götz-Straße
+	KE000PROM » Promenadestraße
+	KE000PULVERGS » Pulvergasse
+	KE000PULVERM » Pulvermühlweg
+	KE000QUIB » Quiberonstraße
+	KE000RATHASTR » Rathausstraße
+	KE000RATHAUPL » Rathausplatz
+	KE000RAVE » Ravensburger Straße
+	KE000REICHEL » Reichelsbergweg
+	KE000REICHEN » Reichenberger Straße
+	KE000REICHL » Reichlinstraße
+	KE000REICHS » Reichsstraße
+	KE000REIN » Reinhartser Straße
+	KE000REIS » Reiserweg
+	KE000REIT » Reitstallweg
+	KE000RESI » Residenzplatz
+	KE000REUT » Reutlinger Straße
+	KE000RHEI » Rheinlandstraße
+	KE000RIED » Riederauweg
+	KE000RING » Ringstraße
+	KE000ROBEK » Robert-Koch-Weg
+	KE000ROBEW » Robert-Weixler-Straße
+	KE000ROLA » Rolandstraße
+	KE000RÖME » Römerstraße
+	KE000RÖNT » Röntgenweg
+	KE000ROSENABG » Rosenauberg
+	KE000ROSENAU- » Rosenau
+	KE000ROTTA » Rottachstraße
+	KE000ROTTE » Rottenkolberstraße
+	KE000RÜBE » Rübezahlweg
+	KE000RUDOL » Rudolfstraße
+	KE000RUDOZ » Rudolf-Zorn-Straße
+	KE000SAAR » Saarlandstraße
+	KE000SAIL » Sailerstraße
+	KE000SALL » Sallerstraße
+	KE000SALZ » Salzstraße
+	KE000SAND » Sandstraße
+	KE000SÄNG » Sängerstraße
+	KE000SANKG » Sankt Gallener Straße
+	KE000SÄUL » Säulingweg
+	KE000SCHEF » Scheffelweg
+	KE000SCHEG » Scheggstraße
+	KE000SCHEI » Scheibenstraße
+	KE000SCHELLD » Schelldorfer Straße
+	KE000SCHELLE » Schellenbergstraße
+	KE000SCHIF » Schiffgässele
+	KE000SCHILLE » Schillerstraße
+	KE000SCHILLI » Schillingweg
+	KE000SCHLEIF » Schleifergässele
+	KE000SCHLEIGS » Schleiengasse
+	KE000SCHLEWHR » Schleienweiher
+	KE000SCHLO » Schlossergasse
+	KE000SCHLÖßLE » Schlößlepassage
+	KE000SCHLÖßWG » Schlößleweg
+	KE000SCHMV » Schmid-von-Leubas-Straße
+	KE000SCHRAUDO » Schraudolphstraße
+	KE000SCHRAUDY » Schraudystraße
+	KE000SCHÜ » Schützenstraße
+	KE000SCHUL » Schulweg
+	KE000SCHUM » Schumacherring
+	KE000SCHWABEL » Schwabelsberger Weg
+	KE000SCHWABEN » Schwabenweg
+	KE000SCHWAI » Schwaighauser Weg
+	KE000SCHWAL » Schwalbenweg
+	KE000SCHWAR » Schwarzener Weg
+	KE000SCHWED » Schwedenstraße
+	KE000SCHWEI » Schweidnitzer Weg
+	KE000SEBAK » Sebastian-Kneipp-Straße
+	KE000SEDE » Sedelmairweg
+	KE000SEEA » Seeanger
+	KE000SEEL » Seelengasse
+	KE000SERR » Serrostraße
+	KE000SEUT » Seuterstraße
+	KE000SIBYM » Sibylla-Merian-Weg
+	KE000SIED » Siedlerweg
+	KE000SIGMU » Sigmund-Ullmann-Platz
+	KE000SLIG » Sligostraße
+	KE000SONN » Sonnenstraße
+	KE000SOPR » Sopronstraße
+	KE000SPAT » Spatzenweg
+	KE000SPEC » Spechtweg
+	KE000SPIC » Spickelstraße
+	KE000SPIE » Spiehlerweg
+	KE000SPIT » Spitalhofstraße
+	KE000STAD » Stadtbadstraße
+	KE000STAR » Starenweg
+	KE000STEIL » Steile Straße
+	KE000STEINBE » Steinbergweg
+	KE000STEINBR » Steinbruchweg
+	KE000STEINR » Steinrinnenweg
+	KE000STEP » Stephanstraße
+	KE000STEUFSTR » Steufzger Straße
+	KE000STEUFZGE » Steufzgen
+	KE000STIFTSG » Stiftsgartenweg
+	KE000STIFTSK » Stiftskellerweg
+	KE000STIFTSPL » Stiftsplatz
+	KE000STMAN » St.-Mang-Platz
+	KE000STOR » Storchenstraße
+	KE000STRA » Straboweg
+	KE000STRI » Strigelstraße
+	KE000STUI » Stuibenweg
+	KE000SUDE » Sudetenweg
+	KE000TANNA » Tannachstraße
+	KE000TANNE » Tannergasse
+	KE000TAUB » Taubengässele
+	KE000TAXI » Taxisweg
+	KE000THEA » Theaterstraße
+	KE000THEO » Theodorplatz
+	KE000THERG » Therese-Giehse-Weg
+	KE000THERM » Thermenstraße
+	KE000THIN » Thingerstobel
+	KE000THOMD » Thomas-Dachser-Straße
+	KE000TIEFEBCH » Tiefenbach
+	KE000TIEFENBA » Tiefenbacherösch
+	KE000TIEFESTR » Tiefenbacher Straße
+	KE000TIER » Tierzuchtstraße
+	KE000TILS » Tilsiter Straße
+	KE000TOBID » Tobias-Dannheimer-Straße
+	KE000TRAU » Traubenweg
+	KE000TRET » Trettachweg
+	KE000TRIE » Trienter Straße
+	KE000TRIL » Trilschweg
+	KE000TRIN » Trinkwalderweg
+	KE000TROP » Troppauer Weg
+	KE000ÜBERL » Überlinger Straße
+	KE000ÜBERM » Über'm Mäuerle
+	KE000UDOSC » Udo-Scholz-Weg
+	KE000UEBL » Ueblherstraße
+	KE000UHLA » Uhlandstraße
+	KE000ULLR » Ullrichstraße
+	KE000ULME » Ulmer Straße
+	KE000ULRIM » Ulrich-Mair-Straße
+	KE000ULRIR » Ulrich-Rist-Straße
+	KE000UNTEA » Unten an der Iller
+	KE000UNTEBL » Unter'm Bleicherösch
+	KE000UNTEBU » Unter'm Bucharts
+	KE000UNTEEG » Unterhalb Eggen
+	KE000UNTEEI » Untere Eicher Straße
+	KE000UNTER » Unterwanger Straße
+	KE000URSUL » Ursulasrieder Straße
+	KE000URSUV » Ursula-von-Hattenberg-Weg
+	KE000VERH » Verhelstweg
+	KE000VICA » Vicariweg
+	KE000VIND » Vindelicierweg
+	KE000VOGT » Vogtstraße
+	KE000VÖLK » Völkstraße
+	KE000VOR'S » Vor'm Stadtweiher
+	KE000WACH » Wachtgässele
+	KE000WAIS » Waisenbühlweg
+	KE000WALT » Waltenbergerallee
+	KE000WANG » Wangener Straße
+	KE000WART » Wartenseestraße
+	KE000WEBE » Webergasse
+	KE000WEID » Weidacher Weg
+	KE000WEIHERB » Weiherbühlstraße
+	KE000WEIHESTR » Weiherstraße
+	KE000WEIß » Weißholzstraße
+	KE000WELF » Welfenstraße
+	KE000WESS » Wessobrunnerstraße
+	KE000WEST » Westendstraße
+	KE000WETT » Wettmannsberger Weg
+	KE000WIESBG » Wiesberg
+	KE000WIESWG » Wiesenweg
+	KE000WIESSTR » Wiesstraße
+	KE000WIGGENHÖ » Wiggenhöhe
+	KE000WIGGENS » Wiggensbacher Straße
+	KE000WILHE » Wilhelmstraße
+	KE000WILHL » Wilhelm-Löhe-Weg
+	KE000WILHR » Wilhelmine-Reich-Straße
+	KE000WIRL » Wirlinger Straße
+	KE000WITT » Wittleiters
+	KE000WURZ » Wurzacher Weg
+	KE000ZEIS » Zeisigweg
+	KE000ZEPP » Zeppelinstraße
+	KE000ZIEG » Ziegelwiesstraße
+	KE000ZÖLC » Zölchstraße
+	KE000ZÖLL » Zöllerstraße
+	KE000ZUCA » Zucalliweg
+	KE000ZUDEN » Zu den Eschen
+	KE000ZUGS » Zugspitzstraße
+	KE000ZWAN » Zwanzigerstraße
+	KE000ZWIN » Zwingerstraße
