@@ -1,0 +1,22 @@
+GameEngineering
+Sound
+Ist Sound ein normaler Bestandteil von Szenegraphen?
+Nein, dem Namen nach sonst nur Grafik.
+Warum ist Sound in Vektoria eingebunden?
+Um mehr Sinne anzusprechen.
+Was fuer eine Oberklasse regelt Sound in Vektoria?
+CAudio
+Was fuer zwei Typen von Audio gibt es in Vektoria?
+Ambient Sound und 3D Sound
+Woran wird ein Ambient Sound angehaengt?
+An eine Szene.
+Woran wird ein 3D Sound angehaengt?
+An ein Placement.
+Wie initialisieren ich einen Ambient Sound?
+CAudio.Init(pathWavFile)
+Wie initialisiere ich einen 3D Sound?
+CAudio.Init3D(pathWavFile, hoerradius)
+Was fuer drei Funktionen hat jeder Sound Typ?
+Start(), Loop(), Stop()
+Wie haenge ich einen 3D Sound an ein Placement an?
+AddAudio(CAudio)

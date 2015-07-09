@@ -1,0 +1,36 @@
+GameEngineering
+Frames und Viewports
+Was ist ein Frame?
+Ein Frame ist ein rechteckiger Renderbereich der in einem Window laeuft.
+Was fuer zwei APIs besitzt jeder Frame?
+Eine Render und eine Input APIs
+Welche zwei APIs werden bei Vektoria verwendet?
+Direct3D und DirectInput
+Wieviele Frames koennen mit Vektoria auf einem Computer laufen?
+4
+Was fuer Parameter hat die Init eines CFrame Objektes?
+(HWND hwnd, EApiRender, EApiInput, EApiSound, EShaderCreation, EShaderAutoRecompilation)
+Was fuer moegliche eApiRender gibt es?
+DirectX11_Shadermodel41, Shadermodel50, ForwardPlus oder Null
+Was fuer moegliche eApiSound gibt es?
+DirectSound, DirectAudio, OpenAL, Null
+Was fuer moegliche eApiInput gibt es?
+DirectInput, Null
+Was fuer moegliche eShaderCreation gibt es?
+ForceCompile, CompileChanges, UseCached
+Was fuer moegliche eShaderAutoRecompilation gibt es?
+Disabled, Enabled.
+Was bedeutet eShaderAutoRecompilation_Enabled?
+Shader werden automatisch rekompliert auch waehrend der Laufzeit, nicht nur beim Programmstart.
+Wie initialisiert man einen Viewport der den gesamten Frame ausfuellt?
+InitFull(CCamera)
+Wie initialisiert man einen Viewport fuer einen Teil des Frames?
+Init(CCamera, frx, fry, frwidth, frheight)
+Was fuer Schaltmethoden gibt es fuer die Viewports?
+SetBackfaceCullingOn,Off() SetAntialiasingOn,Off() SetWireframeOn,Off()
+Mit welchen Funktionen kann der Viewport Inhalt in einem Style gerendert werden?
+CViewport.Style*()  *der Name des Styles
+Was fuer Shadersprachen gibt es?
+GLSL (OpenGL), Cg (C for Graphics), HLSL (Direct3D)
+
+

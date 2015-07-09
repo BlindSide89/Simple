@@ -1,0 +1,96 @@
+GameEngineering
+Texturen
+Was ist ein Material im Zusammenhang mit Texturen?
+Ein Material wird auf eine Geometrie gemappt und kann mehrere Texturen sowie physikalische Eigenschaften besitzen.
+Was ist eine Textur im Zusammenhang mit Texturen?
+Textur kann voreingestellte optische Parameter besitzen (ganz Rot) oder Verweis auf 2D Bild.
+Was ist ein Bild im Zusammenhang mit Texturen?
+Ein Bild (JPEG, GIF etc) enthaelt tatsaechliche Pixeldaten.
+Welche drei Klassen repraesentieren Texturen, Material und Bilder in Vektoria?
+CMaterial, CTexture, CImage
+Was muss bei der Verwendung von Bildern beachtet werden?
+Kanaltiefe und Bildformat muessen von der Engine unterstuetzt werden.
+Was besitzt die CImage.Init() Funktion als Parameter?
+Einen absoluten Pfad zu dem Bild das geladen werden soll.
+Welche Attribute katalogisieren Texturen?
+Zielort, Herkunft, Anzahl, Interpretation, Animation, Transparenz, Granularitaetsstufe, Aufbringweise, Dimension
+Welche Texturen sind in Vektoria moeglich?
+Diffuse, Glow, Specular, Bump, Height, Environment, Thickness, Sky, Sprite.
+Wofuer wird eine Diffuse Textur verwendet?
+Farb und Helligkeitstextur fuer die beleuchtete Seite.
+Wofuer wird eine Glow Textur verwendet?
+Farb und Helligkeitstextur fuer die unbeleuchtete Seite.
+Wofuer wird eine Specular Textur verwendet?
+Textur welche Staerke der GLanzlicher und Reflektionen angibt.
+Wofuer wird eine Bump Textur verwendet?
+Normalenmodifikationstextur fuer das Bumpmapping
+Wofuer wird eine Height Textur verwendet?
+Hoehentextur fuer das Parallax Occlusion Mapping.
+Wofuer wird eine Environment Textur verwendet?
+Reflexions-Umgebungstextur.
+Wofuer wird eine Thickness Textur verwendet?
+Fuer das Subsurface-Scattering.
+Wofuer wird eine Sky Textur verwendet?
+Fuer Skydomes.
+Wofuer wird eine Sprite Textur verwendet?
+Fuer 2D-Sprites(Overlays, Billboards, Writings)
+Mit welcher Funktion von CMaterial erzeugt man eine Speculare Textur?
+SetTextureSpecular(CTexture *ptexture) parameter muss verweis auf Textur sein.
+Wie laesst sich aus einem Bildpfad gleich eine Spekulare Textur erzeugen.
+MakeTextureSpecular(char * acPath)
+Welche Methode schaltet das Shading fuer ein CMaterial an und aus?
+SetShadingOn/Off()
+Welche drei Texturmappingmethoden gibt es in Vektoria?
+Texturabschneidung, Texturkachelung oder Texturskalierung.
+Welche Moeglichkeit gibt es mittels eines zusaetzlichen Kanals Transparenz zu erzeugen?
+Mittels Alphakanal bei passendem Bildformat, muss mit SetTransparencyOn aktiviert werden.
+Mit welcher Funktion laesst sich eine gleichmaesige Transparenz eines CMaterials einstellen?
+SetTransparency(x) 0 <= x <= 1, 1 heißt unsichtbar.
+Wie laesst sich Transparenz ohne zusaetzlichen Kanal umsetzen?
+Chromakeying, linkes oberes Pixel definiert eine Farbe die im restlichen Bild transparent gesetzt wird.
+Was sind die Vor und Nachteile des Chromakeying?
+Vorteil: Kein zusaetzlicher Kanal noetig. Nachteile: Keine Semitransparenz moeglich.
+Mit welcher Funktion aktiviert man das Chromakeying?
+SetChromaKeyingOn()
+Wofuer verwendet man Dot-3 Bumpmapping?
+Um eine reliefartige Oberflaechenstruktur zu simulieren durch modifizieren der Normalenvektoren.
+Wie werden die RGB Werte einer Bumpmaptextur genutzt um den Normalenvektor zu aendern?
+ROT Skalar in RIchtung der Oberflaechentangente, GRUEN Oberflaechenbitangente, BLAU Oberflaechennormale.
+Welche Farbe dominiert bei Bumpmaps oft?
+Blau.
+Woran orientieren sich Tangente und Bitangente?
+Am UV-Mapping. Bitangente immer in negativer V-Richtung, Tangente immer in positiver U-Richtung.
+Was sind die Nachteile von Dot-3 Bumpmapping?
+Keine Raeumliche Verschiebung, keine Selbstokklusion, keine Silhouetten
+Welches Bumpmapverfahren ist das beste, aber kaum eingesetzt?
+Quaoaring Bumpmapping.
+Womit laesst sich der Effekt eines Bumpmappings noch verstaerken?
+Parallax Occlusion Mapping
+Welche Texturart sorgt fuer Lichtspiegelung, brechung oder Glanzlichter?
+Spekulare Texturen.
+Was regelt der ROTKANAL einer Spekularen Textur?
+Refraktion oder Lichtbrechung.
+Was regelt der GRUENKANAL einer Spekularen Textur?
+Reflexion oder Lichtspiegelung.
+Was regelt der BLAUKANAL einer Spekularen Textur?
+Glanzlichter.
+Was fuer einschraenkungen gibt es fuer den ROT und GRUEN Kanal einer Spekularen Textur?
+Funktionieren nur mit einer sphaerischen Umgebungstextur, sonst wird nur Blaukanal genutzt.
+Mit welchen RGB Werten erzeuge ich einen Glanzeffekt mit Spekularer Textur?
+RGB 0 0 0 (matt) RGB 0 0 63 (seidenmatt) RGB 0 0 127 (glaenzend) RGB 0 0 255 (stark glaenzend)
+Mit welchen RGB Werten erzeuge ich einen refraktiven Effekt mit Spekularer Textur?
+RGB 255 0 0 (refraktiv) RGB 127 0 0 leicht (refraktiv und matt)
+Mit welchen RGB Werten erzeuge ich einen Spiegelnden Effekt mit spekularer Textur?
+RGB 0 127 0 (leicht Spiegelnd) RGB 0 255 0 (stark Spiegelnd)
+Wie erzeuge ich mit spekularen Texturen einen halb spiegelnd halb refraktiven Effekt?
+RGB 127 127 0
+Mit welcher Methode lassen sich Spiegelungen Faken?
+Environmental Mapping
+Was fuer Bedingungen sind noetig um in Vektoria Environmental Mapping zu verwenden?
+Die Environmental-Map muss sphaerisch gemappt sein.
+Wie lassen sich dynamische Texturen umsetzen?
+GIFs, prozedurale Texturen, Texture Warping, Texture Weighting, Ersetzen der Textur
+Welche Funktion von CMaterial ermoeglicht das animieren einer Textur aehnlich einer Spritemap?
+SetAni(ixPics, iyPics, fps)
+Mit welcher Funktion unterteile ich ein CMaterial um einer Spritemap zu erzeugen?
+SetBot(ipics, iypics) SetPic(x, y) waehlt dann einen Sprite aus.

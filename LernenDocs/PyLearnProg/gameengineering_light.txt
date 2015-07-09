@@ -1,0 +1,34 @@
+GameEngineering
+Licht
+Wie heisst die Licht Oberklasse in Vektoria?
+CLight
+Welche drei Lichttypen kennt Vektoria?
+CParallelLight, CPointLight, CSpotLight
+Was ist die Eigenschaft eines ParallelLight?
+Sonnen oder Mondlicht, wird an Szene angehaengt und durchflutet alles.
+Was ist die Eigenschaft eines PointLight?
+Gluehbirne, wird an Placement angehaengt welches zentrum der Lichtquelle ist.
+Was ist die Eigenschaft eines SpotLight?
+Scheinwerfer, Wird an Placement angehaengt welches Richtung und Position bestimmt.
+Wie initialisiere ich ein CParallelLight?
+Init(Vector vDirection, CColor)
+Hat ParallelLight Schatten in Vektoria?
+Nein.
+Wie initialisiere ich ein CPointLight?
+Init(CColor, float fIntensity)
+Hat PointLight einen Schatten in Vektoria?
+Nein.
+WIe initialisiere ich ein CSpotLight?
+Init(Color, fInnerAngle, fOuterAngle, fIntensity)
+Hat ein SpotLight einen Schatten in Vektoria?
+Ja
+Wieviele SpotLight koennen maximal an einer Szene haengen?
+4
+Wie aktiviere ich Schatten bei einem SpotLight?
+SetShadowMapResolution(iPixelsWidth, iPixelsHeight)
+Woran orientiert sich die Aufloesung der Shadowmap?
+Am aeuseren oeffnungswinkel des SpotLights
+Wie lassen sich weichere Schatten erzeugen?
+SetSoftShadowOn()
+Wie lassen sich kaskadierte Schatten erzeugen?
+SetCascadedShadowOn()

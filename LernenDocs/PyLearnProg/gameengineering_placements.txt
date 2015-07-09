@@ -1,0 +1,30 @@
+GameEngineering
+Placements
+Wofuer ist ein Placement verantwortlich?
+Ein Placement ist verantwortlich fuer die hierarchische Objektplatzierung
+Was fuer Operationen ermoeglicht die interne Matrix eines Placements?
+Translation, Rotation, Skalierung, Scherung, Spiegelung
+Was fuer weitere Schalter besitzen Placements?
+An und Ausschalter, Bounding Boxes.
+Was fuer ein Hand-System besitzt DirectX?
+Linkshandsystem.
+Was fuer ein Hand-System besitzt Vektoria?
+Rechtshandsystem
+Wie sieht eine Transformation, Translation und Projektionsmatrix aus?
+Siehe Internet.
+Mit welchen Methoden laesst sich ein Placement Transformieren?
+SetMat(matrix), RotateX,Y,Z(float), Rotate(Vector,Vector), Translate(Vector), TranslateX,Y,Z(float)
+Sind Rotationen Kommutativ?
+Nein
+Was ist der Gimbal Lock?
+Verlust eines Freiheitsgrades bei der Rotation eines Objektes (2 Singularitaeten).
+Was ist eine Loesung des Gimbal Lock?
+Umwandlung der globalen Orientierung in lokale Koordinatensysteme. NICHT verwenden von Quaternionen.
+Wofuer werden die Delta Methoden des Placements genutzt?
+Um Transformationen hintereinander ausfuehren zu koennen.
+Was fuer switches besitzt ein Placement?
+SwitchOn(), SwitchOff(). Schaltet das gesamte Placement und alle hierarchischen Unterpunkte an, aus.
+Was ist Level of Detail?
+Objekte weniger definiert machen je weiter sie von der Kamera entfernt sind.
+Welche Funktion erstellt ein LoD fuer ein Placement?
+SetLoD(near, far) parameter geben an wann das Placement aktiv und wann inaktiv wird.

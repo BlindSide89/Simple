@@ -1,0 +1,36 @@
+GameEngineering
+Spezielle Placements
+Welche Placements richten sich nach der Kamera aus?
+Billboard, Apendage, Sky, Ground
+Nach welchen Placments richtet sich i.d.r. die Kamera aus?
+Pointing, Stereoskopic, Multiskopic
+Was sind Billboards?
+Virtuelle Objekte (oft CGeoQuad) die immer in Richtung der Kamera gerichtet sind.
+Wie sind Billboards in Vektoria realisiert?
+Als Eigenschaft eines Placements. 
+Wie initialisiere ich die Billboard Eigenschaft eines Placements?
+SetBillboard()
+Wie drehe ich ein Billboard um die Sichtachse?
+SetBillboardAngle()
+Was fuer Billboards gibt es?
+Mit Alpha Textur, multi-bb, axis alined bb, criss cross bb, video bb
+Was sind Multi-Billboards?
+Mehrer, auch verschobenen BB hintereinander zur Wolkendarstellung.
+Was sind Criss Cross Billboards?
+BB mit methaorthognalen Schnittflaechen, fuer Baeume.
+Wie erzeugt man Criss Cross Billboards in Vektoria?
+Mit SetAppendage eines CPlacements und dann weitere CPlacements als Appendages anhaengen.
+Wie erzeuge ich eine Bodenflaeche in Vektoria?
+Mit CPlacement.SetGround()
+Wie erzeuge ich Sky-Placements in Vektoria?
+CPlacement.SetSky() gut geeignet fuer Skydomes.
+Was sind die fuenf Freunde der 3D Echtzeit?
+Viel in Initialisierung verschieben, maschienencodenah programmieren, polygone Einsparen, angemessene physikalische Modelle verwenden, performanten Szenegraphen nehmen.
+Was fuer zwei Kameratypen gibt es?
+Zielgerichtete und Zielgebundene Kameras
+Wie sind zielgerichtete Kameras in Vektoria umgesetzt?
+Mit Pointing Placements
+Wie erstelle ich ein Placementorientiertes Pointing Placement?
+CPlacement.SetPointing(CPlacement x) richtet sich immer nach x aus dann.
+Mit welcher Methode erzeuge ich Stereoskopie?
+CPlacement.MakeStereoscopicCameras()

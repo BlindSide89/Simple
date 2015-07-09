@@ -1,0 +1,40 @@
+Game Engineering
+Devices
+Mittels welcher Low-Lvl API sind Devices in Vektoria umgesetzt?
+DirectX -> DirectInput
+Drei Beispiele für Devices?
+Ein und Ausgabegeräte wie Tastatur, Gamepad, Maus
+Wie heißt die Device Oberklasse in Vektoria?
+CDevice
+Welche drei Klassen leiten aus der DeviceOberklasse CDevice ab?
+CDeviceMouse, CDeviceKeyboard, CDeviceController.
+Wie werden die Devices in eine Szene integriert?
+Sie werden an den jeweiligen Frame mit AddDeviceMouse angehaengt.
+Welche zwei Arten von Tastatureingaben unterscheidet man?
+Assynchron ( Eingaben landen in einer Warteschlange und werden bei zeiten verarbeitet. Synchron (Eingaben werden sofort verarbeitet)
+Welche Funktion regelt die Tastatursteuerung mit WASD und was sind die Parameter?
+bool PlaceWASD(CPlacement &zp, float &timeDelta, bool bEarth) - zp ist das Placement das bewegt wird. Gibt bool zurück wenn Space gedrueckt wird.
+Mit welcher Funktion regelt man die translations Sensitivitaet der Tastatur?
+setWASDTranslationSensitivity(value)
+Mit welcher Funktion regelt man die Rotations Sensitivitaet der Tastatur?
+setWASDRotationSensitivity()
+Mit welcher Funktion regelt man die max/min Kamerahöhe der Tastatureingabe?
+setWASDLevelMin/Max()
+Welche Funktion der Klasse CDeviceKeyboard erkennt Tastatureingaben?
+KeyPressed(int Key) checkt welcher Key seit dem letzten Frame gedrueckt wurde.
+Was ist der Unterschied zwischen Maus und Cursor?
+Maus ist das reale Eingabegeraet, der Cursor ist eine zeichnerische Interpretation der Maus.
+Welche zwei Klassen unterscheiden Maus und Cursor?
+CDeviceMouse und CDeviceCursor.
+Wofür wird CDeviceMouse hauptsaechlich verwendet?
+Fuer relative Mausbewegungen (Wohin wurde die Maus wie schnell bewegt?)
+Wofuer wird CDeviceCursor verwendet?
+Fuer absolute Positionen des Cursors auf dem momentanen Frame.
+Was ist Picking?
+Picking bedeutet das Auswaehlen eines 3D Objektes durch Klick darauf.
+In welcher Klasse ist Picking Implementiert?
+CDeviceCursor
+Was laesst sich in Vektoria alles "Picken"
+Viewport, Overlay, Camera, Scene, Placement, Geometry.
+Welche der Picking Klassen sollte man wenig verwenden.
+Geometry weil das sehr lange dauern kann (milisekunden bereich)

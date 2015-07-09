@@ -1,0 +1,52 @@
+GameEngineering
+Eigene Geometrien
+Wie heisst die Oberklasse aller Geometrien in Vektoria?
+CGeo
+Mit welcher Funktion dreht man alle Normalenvektoren um?
+CGeo.Flip(), muss vor Init aufgerufen werden.
+Welche Typen von Planaren Primitiven sind realisiert?
+CGeoTriangle, CGeoQuad - eignen sich als Boeden oder Billboards
+Welche Typen von Konkaven Primitiven sind realisiert?
+CGeoSphere, CGeoEllipsoid, CGeoDome
+Wie sind die normalen Konkaven Primitiven realisiert?
+Als TriangleStrips, schneller aber nicht beliebig repetativ texturierbar?
+Wie heisen die list-implementierten konkaven Primitiven?
+CGeoSphereTiled, CGeoEllipsoidTiled, CGeoDomeTiled
+Was fuer Sweep-Primitive sind realisiert?
+CGeoCone, CGeoCylinder, CGeoTube, CGeoSlice, CGeoArrow.
+Von welcher Klasse sind die Sweep-Primitiven abgeleitet?
+CGeoSweep
+Welche Polyeder-Primitive sind realisiert?
+CGeoTetraeder, CGeoCube, CGeoIkosaeder, CGeoFrustum
+Was fuer Parameter hat die Init eines CGeoQuad?
+Init(float fxSize, float fySize, CMaterial * pmaterial)
+Was fuer Parameter hat die Init eines CGeoSphere?
+Init(float fRadius, CMaterial * pmaterial, int iLongitude, int iLatitude, int eMapping)
+Was fuer Parameter hat die Init eines CGeoEllipsoid?
+Init(CHVector vSize, CMaterial * pmat, int longitude, int latitude)
+Was fuer Parameter hat die Init eines CGeoDome?
+Init(fradius, fheight, material, bool skydome, longtitu, lattitu, emapping)
+Was fuer Parameter hat die Init eines CGeoCube?
+Init(SizeVector, material, int TextureRepeat, bool normalenFlip)
+Was fuer Parameter hat die Init eines CGeoIkosaeder?
+Init(SizeVector, material, bool NormalFlip)
+Was fuer Parameter hat die Init eines CGeoTetraeder?
+Init(SizeVector, Material, bool NormalFlip)
+Was fuer Parameter hat die InitStraight eines CGeoTube?
+Init(fradiusINner, fRadiusouter, length, material, longitude, bool bInner)
+Wie heißt die Init Funktion mit welcher eine CGeoTube gekurvt erstellt wird?
+CGeoTube.InitArc(...)
+Was fuer Parameter hat die Init eines CGeoCone?
+Init(fRadius, fHeight, material, longitud, bHasBottom)
+Was fuer Parameter hat die Init eines CGeoCylinder?
+Init(radiusBot, radiusTop, height, material, longitude, bhasBot, bhasTop)
+Womit laesst sich ein Tortenfoermiger Koerper erstellen? 
+CGeoSlice
+Was ist Extruding?
+Erstellen eines Objekts das ausgehend von einer 2D flaeche anhand einer Geraden hochgezogen wird?
+Was ist Sweeping?
+Erstellen eines Objekts das anhand einer beliebigen Flaeche durch den Raum gezogen wird.
+Was bewirkt der eMapping Parameter aller Ellipsoiden Klassen?
+Legt fest wie eine Textur auf das Objekt gemappt wird.
+Welche moeglichkeiten gibt es ein Ellipsoid zu mappen?
+cylindrical, quadrocylindrical, bicylindrical, quadrobicylindrical, orthographic, biorthographic.

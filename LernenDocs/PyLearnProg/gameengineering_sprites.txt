@@ -1,0 +1,34 @@
+GameEngineering
+Sprites
+Was fuer zwei Sprite Typen kennt Vektoria?
+CBackground und COverlay
+Wofuer verwendet man CBackground?
+Ein starrer Hintergrund der immer hinter der Szene gerendert wird.
+Wofuer verwendet man COverlays?
+Ein GUI, Anzeigen, Logos die immer vor der Szene gerendert werden.
+Woran werden CBackground angehaengt?
+Viewport??Nicht sicher??
+Was fuer Init Methoden hat das COverlay?
+Init(image, rectangle, bChromaKey) InitFull(image, Chroma)
+Wie haengt man ein Overlay an ein anderes Overlay an?
+AddOverlay(overlay)
+Wozu ist das anhaengen von Overlays an Overlays gut?
+Komplexe 2D Gui Strukturen.
+Was ist ein WritingFont?
+Teil eines Zeichensatz-Bildes. Sollte ASCII geordnet sein.
+Wie erstelle ich einen WritingFont?
+Spezielle Programme z.B. Codehead Font Generator.
+Was ist beim erstellen von Writing Fonts zu beachten?
+Aequidistante Schriften, gute Bildgroesse 1024x1024 min.
+Was ist ein WritingChar?
+Ein einzelner Buchstabe der als 2D Overlay Sprite ausgegeben wird?
+Wann sollte man einen WritingChar verwenden?
+Wenn man bestimmt nur einen Buchstaben Braucht.
+Woran wird ein Writing Char angehaengt?
+An einen Viewport.
+Was benoetigt ein WritingChar zwingend?
+Eine zuvor definierte WritingFont.
+Was ist ein Writing?
+Eine Textzeile aus mehreren WritingChars als Overlay dargestellt.
+Was ist der Unterschied zwischen WritingChar und Wribels
+Wribels sind keine Overlays sondern Billboards koennen daher hinter Objekten verschwinden.
