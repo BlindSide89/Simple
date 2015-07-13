@@ -1,0 +1,36 @@
+GameEngineering
+Fraktale1
+Was ist Fraktalitaet?
+Selbstaehnlichkeit auf verschiedenen Abstraktionsstufen.
+Beruehmte Kuenstler der Fraktalitaet?
+Piet Mondrian, Sandra Guggenmos, Juan Miro
+Wie heisst das beruehmte dreieck Fraktal?
+Sierpinsky Dreieck
+Was sind Hausdorff Dimensionen?
+Geben an ob ein Generator wirklich ein Fraktal erzeugt.
+Wie berechnet man Hausdorff Dimensionen?
+log(anzahl der entstandenen objekte) / log(Faktor um den die Kantenlaenge der objekte kleiner ist)
+Was sind die drei Schritte zur Berechnung von Fraktalen?
+Initiator, Generator, Rekursionsstufe
+Was ist ein pseudofraktaler Kurvenzug?
+Wenn Hausdorff Dimension ganze Zahl ist.
+Was ist die fraktale Dimension des Menschlichen Gehirns?
+2,76
+Was ist die fraktale Dimension der Blutversorgung?
+3.1
+Wer entwickelte die L-Systeme?
+Aristid Lindenmayer 1968
+Wozu wurden sie entwickelt?
+Grundlage einer axiomatischen Theorie biologischer Wachstumsprozesse.
+Wie werden die L-Syteme genannt?
+L-Systeme, Lindenmayer-Systeme, Parallel Rewriting Systeme
+Was fuer Arten von L-Systemen gibt es?
+Deterministische oder Stochastische, Kontextfreie oder Kontext Sensitive, Parametrische oder nicht parametrische
+Aus was bestehen L-Systeme?
+Alphabet V, Axiom w, endilche Menge von Produktionsregeln P
+Wie kann man fraktale Landschaften generieren?
+Midpoint Displacement
+Wer erzeugte den ersten 3D Planet vollstaendig Fraktal?
+Tobias Breiner
+Was ist die Loesung des Polarkoordinatenproblems?
+Rekursive Kugeln, Breiner &Homann

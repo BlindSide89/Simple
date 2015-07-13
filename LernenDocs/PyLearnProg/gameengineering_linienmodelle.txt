@@ -1,0 +1,52 @@
+GameEngineering
+Linienmodelle
+Was ist der Ansatz der Linienmodelle?
+Beschreibung der Oberflaeche eines 3D Objektes durch die explizite Angabe von Linieninformationen
+Pros der Linienmodelle?
+Einfache Datenrepraesentation, Einfache Visualisierung, Interne Strukturen sichtbar
+Cons der Linienmodelle?
+Fehler nicht sofort erkennbar, Unrealistische Anmutung
+Was fuer parametrische Repräsentationen von Linienmodellen gibt es?
+Bezier Kurven, B-Splines, NURBS, Beta-Splines, Catmull-Rom Splines, Trim Curves
+Welche drei Darstellungsformen von Kurven gibt es?
+Explizit, Implizit, Parametrisch
+Wie sieht die explizite Darstellung aus?
+y = f(x), y = sqrt(x^3) - sqrt(x)
+Was fuer Probleme gibt es mit der expliziten Darstellung?
+Fuer ein x darf es nur einen y Wert geben, beschreibung nicht invariant gegenueber Rotationen
+Wie sieht die implizite Darstellung aus?
+f(x,y) = 0, x^3 - 2x^2 + x - y^2 = 0
+Was fuer Probleme gibt es mit der impliziten Darstellung?
+Gleichung kann mehr Loesungen als gewollt haben -> benoetigt Randbedingungen, Tangentenrichtung schwer zu ermitteln
+Wie ist eine parametrische Funktion definiert?
+Zwei univariante Funktionen Q(u) = (X(u), Y(u)) 0 <= u <= 1
+Ein Beispiel fuer eine parametrische Funktion?
+Q(t) = (t^2, t^3-t)
+Was sind die Vorteile der parametrischen Darstellung?
+Keine Mehrdeutigkeiten, potentiell unendliche geometrische Steigungen werden durch Tangentenvektoren ersetzt, invariant Rotationen
+Was sind parametrische Kurven idR?
+Rationale Polynome n-ten Grades, in der Computergrafik meistens kubische ^3
+Was fuer drei Darstellungstypen gibt es?
+Exakte Darstellung, Interpolatorische Darstellung, Approximative Darstellung
+Was ist die exakte Darstellung?
+Jeder Punkt ist durch eine Formel exakt definiert, Kurve wird exakt wiedergegeben.
+Was ist das Problem der exakten Darstellung?
+Formel meist nicht bekannt, schwer zu ermitteln und extrem komplex.
+Was ist die interpolatorische Darstellung?
+Kurve ist durch Stuetzstellenbedingungen beschrieben, an den Stellen ist die Kurve determiniert.
+Was ist das Problem der interpolatorischen Darstellung?
+Wegen forcierung an den Stuetzstellen treten oft oszillatorische Effekte auf.
+Was fuer Interpolationsschemata loesen die interpolatorische Darstellung?
+Newton-Polynome, Lagrange Polynome, Tschebyscheff Polynome, rationale Funktionen als Basisfunktionen
+Was unterscheidet die interpolatorische von der approximativen Darstellung?
+Bei der approximativen ist die Kurve an den stueztstellen nicht determiniert.
+Was ist das Ziel der approximativen Darstellung?
+Keine Oszillation, abschwaechung der geometrischen Bedingungen, andere Bedingungen als Stuetzpunkte
+Was ist das Problem der approximativen Darstellung?
+Aussehen der Kurve ist allgemein schwer vorhersagbar.
+Was fuer Linienmodelle gibt es noch um 3D Objekte zu erstellen?
+Revolving, Lathing, Extruding, Sweeping, Planar-Operation, Blending und Lofting
+Was sind Pros der erweiterten linienmodelle?
+Intuitive Modellierung, Kurvige technische Strukturen einfach erzeugbar.
+Was sind die Cons der erweiterten linienmodelle?
+Inflexibel, Technische Anmutung.

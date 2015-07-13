@@ -1,0 +1,34 @@
+GameEngineering 1
+Werkzeuge
+Was fuer drei Game Engineering Werkzeuge gibt es?
+Szenegraf, Middleware, Engineering
+Was sind die ProCon eines Szenegrafen?
+Pro: nahezu unbegrenzte Gestaltungsmoeglichkeit, Con: Langwierige Programmierung, nur fuer Experten, umfangreiches Debugging notwendig
+Was sind die ProCon einer Middleware?
+Pro: sehr schnelle generirung von Spielen Con: teuer, wenig individueller Spielraum, komplex und Fehleranfaellig
+Was sind die ProCon von Engines
+Pro: schnelle und einfache Generierung von Spielen, hohe Zuverlaessigkeit da mehrfach eingesetzt Con: nur fuer spezielle Spielgenres, wenig individueller Spielraum
+Wie ist der hierarchische Softwareaufbau eines Spiels?
+Spiel -> Szenegraph/Game Engine ->Low-level GAPI->Betriebssystem->Hardware
+Was ist ein Szenegraf?
+Grafikschnittstelle, Beschreibung der hierarchischen Ordnung einer Szene, Gerichteter und azyklischer Graph, Verschiedene Objekte als Knoten
+Beispiele fuer Szenegrafen?
+Ogre3D, Java3D, Mantra4D
+Fuer was steht Ogre3D?
+Object-Oriented Graphics Rendering Engine
+Was fuer Komponenten hat eine Middleware?
+Audio, Graphics, Physics, Video, Networking, Artificial Intelligence
+Beispiel fuer eine Middleware?
+Unreal3Engine, Renderware, Gamebryo
+Was ist der Unterschied zwischen Engines und Middleware?
+Engines sind intern monolithischer aufgebaut und greifen weniger auf Fremdprodukte zurueck, staerker spezialisiert auf bestimmte Genre
+Beispiele fuer eine Engine?
+Blitz3D, BlenderEngine
+Was fuer Komponenten besitzt DirectX?
+DirectX Graphics, DirectX Audio, DirectX Input
+Was fuer Unterkomponenten hat DirectX Graphics?
+DirectShow, Direct3D, DirectVideo
+Was fuer Unterkomponenten hat Direct Audio?
+Direct Musik, Direct Sound
+Was fuer Unterkomponenten hat DirectX Input?
+Direct Play, Direct Input

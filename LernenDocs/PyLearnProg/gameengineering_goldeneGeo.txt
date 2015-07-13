@@ -1,0 +1,14 @@
+GameEngineering
+GoldeneGeometrie
+In welcher Spirale finden sich die Fibonacci-Zahlen?
+Goldene Spirale, Muschel...
+Mathematische Kuriositaet 1
+Summe der Quadrate zweier benachbarter FZahlen ist immer eine FZahlen
+Mathematische Kuriositaet 2
+Nimmt man den Zahlenwert einer beliebigen FZahl als Index auf die FZahlReihe ist die Zahl immer Prim
+Was ist die Irrationale Zahl
+1,618
+Was ist der goldene Schritt?
+Ein verhaeltniss in dem zwei Strecken stehen, teilen der Laengen ergibt immer die irrationale Zahl
+Was ist der goldene Winkel?
+137,5

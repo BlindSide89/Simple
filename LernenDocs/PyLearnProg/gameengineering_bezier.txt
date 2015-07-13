@@ -1,0 +1,52 @@
+GameEngineering
+BezierSplines
+Was ist ein Strak / Straklatte?
+Ein Kurvenlineal fuer den Schiffsbau, wird mit Spanten oder Strakgewichten verbogen.
+Was fuer arten von Splines gibt es?
+B-Splines, Catmull Rom Splines, NURBS, Trim Curves, BezierSplines, Newton-Splins, Phi-Splines, Beta-Splines
+In welcher Beziehung stehen NURBS und BezierSplines?
+Kubische Bezier Splines sind eine echte Teilmenge von NURBS
+Wann wurden die Bezierkurven entwickelt? 
+1960
+Welche zwei Maenner entwickelten sie unabhaengig?
+Paul de Faget de Casteljau und Pierre Bezier.
+Was entwickelte Casteljau?
+Die Grapische repraesentation bei Citroen
+Was entwickelte Pierre Bezier?
+Die numerische repraesentation bei Renault
+Wie ist die allgemeine Darstellung einer BezierKurve?
+Q(u) = sum(i=0,k)[p_i * b_i(u)] mit p_i die Kontrollpunkte und b_i die Basisfunktionen
+Wie sieht die Matrixschreibweise von BezierKurven aus?
+Q(u) = [x(u)y(u) = [u^3 u^2 u 1] * M * [p1, p2, p3] / Parametervektor U Basismatrix M Geometrievektor GameEngineering
+Was ergibt das Produkt aus Parametervektor und Basismatrix?
+Die Blendingfunktionen die den Geometrievektor gewichten.
+Wie ist die Konvexe Huelle definiert?
+sum(i=0,k)[b_i(u)] = 1  dann liegt kein Punkt der Kurve ausserhalb des durch die Kontrollpunkte gegebenen Polygons
+Was bedeutet invariant gegenueber affinen Abbildungen?
+Wenn es egal ist ob ich zuerst die Kontrollpunkte transformiere und dann die Kurve bilde oder die Kurve transformiere.
+Fuer was ist die Kontinuitaet besonders wichtig?
+Beim Anfuegen von Flaechen oder Kurvenstuecken.
+Zwischen welchen Kontinuitaeten unterscheidet man?
+Parametrische Kontinuitaet, Geometrische Kontinuitaet.
+Was sind Bernsteinpolynome?
+B_i,n in der Formel Q(u) = sum(i=0,n)[p_i * B_i,n(u)]
+Was bedeutet es wenn die Verbindung zwischen zwei Kurven C^0 Kontinuitaet hat?
+Verbindungsstelle hat eine Spitze, keine Ableitung.
+Was bedeutet es wenn die Verbindung zwischen zwei Kurven C^1 Kontinuitaet hat?
+Verbindungsstelle hat keine Spitze, Ableitung kontinuierlich, nicht aber zweite Ableitung.
+Was gilt im 2D fuer die G1 Kontinuitaet?
+G^1K = C^1K
+Wo liegt der Anwendungsursprung der Parametrischen Flaechenbeschreibungen?
+Ab ca 1958 im Automobilkarosseriebau
+Wie ist eine Parametrische Kurve im 3D definiert?
+Drei univariante Funktionen.
+Wie ist ein parametrisches Flaechenelement im 3D Definiert?
+Drei univariante Funktionen Q(u,v)=(X(u,v),Y(u,v),Z(u,v)
+Wie nennt man eine solche Flaeche?
+Patch.
+Wer entwickelte den Uta-Teapot?
+1975 Martin Newell an der Universitaet von Utah mit Bezier Patches
+Was sind weitere bekannte CG-Referenzobjekte
+Lena, StanfordBunny, NVideaChamaeleon, Suzanne
+Was sind Subdivition Surfaces?
+Verfeinerung des Polygonnetzes nach Bedarf, meist in Zusammenhang mit parametrischen Flaechen.

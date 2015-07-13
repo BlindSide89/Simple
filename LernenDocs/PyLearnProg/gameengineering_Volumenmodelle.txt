@@ -1,0 +1,34 @@
+GameEngineering
+Volumenmodelle
+Was ist Voxelenumeration?
+Modellierung des vollstaendigen 3D Objektes aus gleichfoermigen Volumenelementen
+Was ist ein Voxel?
+Beschreibt konstante Eigenschaften fuer ein einzelnes Volumenelement, Dichte, Farbe..
+Was ist das Space Subdivision Schema
+Raumunterteilung, Hierarchische Strukturierung, Knoten zeigt Unterteilung an
+Was ist die Raumunterteilung nach Bentley?
+Raum wird rekursiv durch achsparallele Ebenen unterteilt, binaerer azyklischer Graph, kd-Baum
+Was ist die Raumunterteilung nach Waechter und Keller?
+Verwendung speziell optimierter Form von kd-Baeumen. Raumunterteilung beim Raytracing in Linearzeit
+Was ist die Raumunterteilung nach Fuchs?
+Verallgemeinert das Konzept der kd zu bsp-Baeumen, auch nicht achsparallele unterteilungen moeglich
+Was ist die Raumunterteilung nach Glassner?
+Verwendung von Octree, zerlegung rekursiv in acht gleichgrosse teile.
+Was sind die Huellkoerper von Whitted?
+Bounding Spheres, kollision detection
+Was sind die Huellkoerper nach Weghorst?
+Bounding ellipsoids, AABB
+Was sind die Huellkoerper nach Gottschalk?
+OBB, object oriented bounding boxes, bessere Fuelleffizienz als AABB, auch fuer rotationen 
+Was sind die Huellkoerper nach Kay und Kajiya?
+discrete orientation polytope, k-DOPs, einfachere Erzeugung als bei AABB, schneller Schnittpunkberechnung als bei OBB.
+Was sind Huellkoerperhierarchien?
+BVHs bounding volume hierarchies, ineinander geschachtelte Hierarchie von Huellkoerpern.
+Was ist primitive Instancing?
+Sammlung von vordefinierten Primitiven, instanziieren durch beschreibende Parameter
+Woraus koennen Volumendaten gewonnen werden?
+Diagnostischen Verfahren wie CT, MRT und 3D Ultraschall
+Vorteile der Volumenmodelle?
+Einfach und Intuitiv, beschreibung vollstaendiger Volumina nicht nur Oberflaeche
+Nachteile der Volumenmodelle?
+Approximation der Oberflaeche, hoher Speicherbedarf

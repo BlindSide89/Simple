@@ -1,0 +1,30 @@
+GameEngineering
+Punktmodelle
+Beispiele fuer 0D, 1D, 2D, 3D
+0D - Toepfern, 1D - Basteln mit Draht, 2D - Origami, 3D - Kloetzchen
+Wie wird die repraesentation 0D-3D umgesetzt?
+Punktwolken
+Was sind Blobby Objects?
+Imaginaere punktfoermige Partikel, umgeben mit abnehmenden Dichtefeld
+Was gilt fuer die Feldstaerken der Blobby Objects?
+Feldstaerken der Dichtefelder addieren sich in jedem Punkt im euklidschen Raum
+Wann wird ein Raumpunkt als innen oder außen definiert?
+Wenn die Summe der Dichtefelder einen festgelegten Grenzwert ueberschreitet.
+Was fuer vier Typen von Blobby Objects existieren?
+Blobbies, Blobby Molecules, Metaballs, Soft Objects
+Wie lautet die Feldfunktion der Blobbies?
+F(r) = a/(r^2)
+Wie lautet die Feldfunktion der Blobby Molecules?
+F(r) = ae^(-br^2)
+Was ist die Feldfunktion von Metaballs?
+Eine Fallunterscheidung.
+Was fuer einen Vorteil hat die Anwendung von Metaballs?
+Verwendung von Octrees moeglich, da Dichtefeld ab einem Radius >= b Null wird.
+Welche Technik verwendet vornehmlich Punktwolken?
+3D Scanner, die Punktwolken muessen dann in Linienmodelle umgewandelt werden.
+Was sind Surfels?
+Ansatz zur Beschreibung von 3D Objekten mit expliziten Punktinformationen (uu auch mit Oberflaechennormalen)
+Vorteile von Punktmodellen?
+Einfache Datenrepraesentation, Daten koennen in sehr hoher Aufloesung akquiriert werden, auch fuer amorphe Strukturen
+Nachteile von Punktmodellen?
+Grosse Datenmengen.

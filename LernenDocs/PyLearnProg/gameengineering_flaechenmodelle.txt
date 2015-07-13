@@ -1,0 +1,39 @@
+GameEngineering
+Flaechenmodelle
+Was ist der Ansatz von Flaechenmodellen?
+Beschreibung von Objekten mittels seiner Oberflaeche Polygonen
+Was ist ein Polygon?
+aneinanderhaengende Folge von Kanten die durch je zwei Punkte definiert sind.
+Was fuer Polygone gibt es?
+geschlossene, einfache, ebene
+Wie heisst die vom Polygon eingeschlossene Flaeche?
+Face oder Facette
+Was fuer Zusatzinformationen hat ein Face haeufig?
+Farbe, Transparenz, Normalenvektor, Texturkoordinaten
+Was sind Polygonnetze?
+Mehrfaches Auftreten gleicher Eckpunkte und Kanten, beschreiben Oberflaechen.
+Warum reduziert man Polygonnetze auf Dreiecksnetze?
+Dreiecke sind immer Planar, Operationen effizient auf de durchfuehrbar, realisierung in Hardware moeglich
+Wofuer benoetigt man die Oberflaechennormale eines Objektes?
+Definition von innen und Aussen, berechnung der normalen ueber das Vektorprodukt
+Was ist ein Polyeder?
+Ein Polygonnetz das geschlossen ist, jede Kante gehoert zu genau zwei Objekten.
+Wann kann ein 3D Modell durch ein 2D Modell beschrieben werden?
+Wenn seine zweiMannigfaltigkeit gegeben ist.
+Was ist zweiMannigfaltigkeit?
+Jedem Punkt eines Objektes muss die Umgebung auf 2D abgebildet ein Kreis sein.
+Was fuer Probleme gibt es mit Polygonalen Modellen?
+Glatte flaechen brauchen sehr viele Polygone, schwer zu animieren, bleibt kantig
+Was ist Level of Detail?
+Je weiter ein Objekt weg ist desto geringer muss seine Detailstufe sein.
+Was sind Probleme beim LoD?
+Creases, Grobstruktur bleibt erhalten, Popping, ploetzliche Formaenderung der OBjekte, Bubbling, blasenfoermige Formaenderung
+Was ist eine haeufige Methode fuer Level reduzierung bei LoD?
+edge collapse
+Warum verwendet man Triangle Strips und Fans?
+Polygone teilen sich Kanten und Punkten, weniger transofrmationen, normalen, klippen, beleuchtungsberechnungen
+Vorteile der Flaechenmodelle?
+Weit verbreitet, intuitive Darstellungsform, geometrische Operationen effizient durchfuehrbar
+Nachteile der Flaechenmodelle?
+komplexe modelle nur schwer erzeugbar, konsistenzhaltung bei veraenderung aufwendig
+
