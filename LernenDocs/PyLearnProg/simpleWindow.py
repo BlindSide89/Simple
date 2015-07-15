@@ -90,6 +90,7 @@ class LearnToolMainWidget(QtGui.QWidget):
         self.textbox_question.setAlignment(QtCore.Qt.AlignCenter)
         self.textbox_answer.setAlignment(QtCore.Qt.AlignCenter)
         self.textbox_question.setWordWrap(True)
+        self.textbox_answer.setWordWrap(True)
 
         vbox = QtGui.QVBoxLayout()
         hbox = QtGui.QHBoxLayout()
