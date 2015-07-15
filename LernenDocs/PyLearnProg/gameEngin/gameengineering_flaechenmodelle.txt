@@ -36,4 +36,3 @@ Vorteile der Flaechenmodelle?
 Weit verbreitet, intuitive Darstellungsform, geometrische Operationen effizient durchfuehrbar
 Nachteile der Flaechenmodelle?
 komplexe modelle nur schwer erzeugbar, konsistenzhaltung bei veraenderung aufwendig
-
