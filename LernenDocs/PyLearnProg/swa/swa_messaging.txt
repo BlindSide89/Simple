@@ -1,0 +1,24 @@
+SWA
+Messaging
+Warum braucht man Messaging?
+Komplexe und heterogene Systeme mussen miteinander kommunizieren konnen.
+Welche zwei Arten von Messaging gibt es?
+Synchron und Asynchron.
+Wie heisst die Software die das ubermitteln der Nachrichten vornimmt?
+MOM Message Oriented Middleware.
+Was sind Queues?
+Datenwarteschlangen wo Nachrichten gespeichert werden ehe sie abgeholt werden.
+Was sind einfachste Befehle einer MQ - API?
+Connect, Open, Get, Put, Close, Disc
+Aus was besteht eine Message?
+Header und Datenteil
+Was kann an Attributen im Messageheader stehen?
+Persistence, Priority, Msgld, Correlld, ReplyToQ, ReplyToQMgr, Expiry
+Was versteht man unter der Persistenz von Nachrichten?
+Messages werden in einem persistenten Log gespeichert bevor sie in die Queue gelegt werden.
+Was versteht man in der Prioritisierung von Messages?
+Messages werden nach Prioritaten von der Queue weitergeleitet.
+Was versteht man unter der Expiry von Messages?
+Wenn Messages zulange in eine Queue liegen werden sie weggeschmissen.
+Was versteht man unter dem Triggern von Programmen in Queues?
+Wenn eine Queue eine Message aufnimmer kann hierdurch ein Programm getriggert werden das die Message dann entgegen nimmt.

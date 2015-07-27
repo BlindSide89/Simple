@@ -1,0 +1,26 @@
+SWA
+Einfuehrung
+Wozu braucht man bei grossen Projekten einen Softwarearchitekten?
+Er dient als Architekt und entwirft zusammen mit einem Team den Bauplan nach dem die Software von anderen dann gebaut wird.
+Was ist eine Definition von Softwarearchitektur?
+Die SWA eines Systems beschreibt die Struktur (bzw. die Strukturen) des Systems, dessen Softwarebausteine, sowie deren sichtbaren Eigenschaften und Beziehungen untereinander.
+Wie sieht die Architekturebene1 aus?
+Knoten(Rechner) verbunden zwischen Kommunikationslinien. In den Rechnern gibt es Subsysteme die Abhaengingkeiten zueinander haben koennen.
+Wie sieht die Architekturebene2 aus?
+Innenleben eines einzelnen Subsystems, bestehend aus Komponenten die miteinander kommunizieren.
+Wie sieht das Feindesign aus (Architekturebene3)?
+Innenleben einer Komponente bestehend aus Klassen die UML-Beziehungen zueinander haben koennen. Implementierung.
+Was ist die Kernaussage des Konzeptes: Architecture versus Design?
+All architecture is design, but not all design is architecture. Architecture is strategic design, detailed design is tactical design.
+Warum geht es in der Softwarearchitektur?
+Finden von Komponenten, Anordnen der Komponenten, Herstellen der Beziehungen der Komponenten untereinander, Festlegen der Schnittstellen.
+Was fuer Typen von Anforderungen gibt es?
+Funktionale, Technische, Benutzerschnittstelle, Qualitaets, sonstige Lieferbestandteile, durchzufuehrende Taetigkeiten, Rechtlic-vertragliche
+Was ist die Definition von nichtfunktionalen Anforderungen?
+Jede Anforderung, die keine funktionale Anforderung ist, ist nicht-funktional.
+5 Beispiele fuer nicht-funktionale Anforderungen.
+Skalierbarkeit, Durchsatz, Eingesetzte Software, Speicherung der Daten, Verfuegbarkeit
+Wie macht man aus nicht-funktionalen Anforderungen eine SWA?
+Verwendung von bekannten Architekturmustern?
+Wie erstellt man gute SWA?
+Beachtung von Architekturprinzipien.

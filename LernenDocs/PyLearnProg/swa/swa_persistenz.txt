@@ -1,0 +1,20 @@
+SWA
+Architekturaspekte_Persistenz
+Was bedeutet Persistenz?
+Speicherung von Daten auf Speichermedien, meist Datenbanken
+Was ist eine einfache Losung der Persistenz?
+Jede Klasse kummert sich um ihre SQL speicherung selbst -> schlecht
+Was fur ein Problem passiert bei der Abbildung von OOP auf Relationale DB?
+Impedance Mismatch.
+Was fur drei beispielhafte abbildungs moglichkeiten gibt es OOP zu rdb?
+Eine tabelle pro Klasse, Eine Tabelle pro Hierarchie, Eine tabelle pro konkreter Klasse
+Was fur zwei Arten von Persistanzschichten gibt es?
+Benutzung von nur einer Klasse fur alle persi aufgaben -> hohe abhangigkeit, verteilung auf mehrere Klassen, hohe flexibilitat, geringe abhangigkeit
+Was muss ein Entwickler fur Die Persistanzschicht durch Datenklassen beherrschen?
+Technische Grundlagen der DB.
+Was sind Kriterien fur einsatz einfacher Persistenzschickt?
+keine hochflexible benotigt, nur 30-50 Klassen, nur einzelne Objekte, geringe vererbungstiefe
+Wie Lost man komplexere Persistanzprobleme?
+Durch eine eigene Persistenzschicht, komplettes loslosen von der DB, persistierende Klassen leiten von einer Persistanzklasse ab.
+Was fur anforderungen gibt es an Persistenzschicht?
+Kapselung des Persistenzmechanismus, klassen benutzen nur save, read, delete, unterstutzung von polymorphie, bearbeitung mehrerer Objekte auf einmal, Objekt ID erzeugung

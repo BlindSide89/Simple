@@ -1,0 +1,77 @@
+SWA
+Einflussfaktoren - Muster zur erhoehung der Verfuegbarkeit.
+Definition eines Musters?
+Ein bestaendig wiederkehrendes Problem in unserer Umwelt, gibt den Kern der Loesungen vor zur beliebigen Ausfuehrung.
+Definition eines Architekturmusters?
+Beschreibt grundlegende Organisationsstruktur von Software-Systemen. Wahl von Architekturmuster schwerwiegende Entscheidung im Prozess.
+Was ist der Zweck von Redundanz?
+Design eines fehlertoleranten sytems. Time between failure soll klein sein und wiederaufnahme des Normalbetriebs kurz.
+Was passiert bei Redundanz zur Erreichung hoeherer Performance?
+Redundante Systeme bearbeiten Eingaben Parallel. Steuerung beinhaltet ein load balancing.
+Was passiert bei Redundanz zur Erreichung von Ausfallsicherheit.
+Hardware mehrfach vorhanden. Software gleich, laeuft auf verschiedenen Prozessoren, Daten mehrfach redundant abgelegt.
+Wie erreicht man Fehlertoleranz?
+Hardware mit unterschiedlicher Architektur, von unterschiedlichen Personen mit andern Algorithmen Programmiert, mehrfache Verbindungen zwischen Komponenten.
+Was ist aktive Redundanz?
+Alle Komponenten sind aktiv, barbeiten parallel die gleiche Eingabe, sind im gleichen Zustand. Nur ein Ergebnis wird weiterverarbeitet. Hot restart, Active-Active
+Was ist Schattenverarbeitung?
+Kann aktive Redundanz verwenden um auf Zweitsystem mit neuer Softwareversion die Eingabe parallel zu verarbeiten.
+Was ist passive Redundanz?
+Eine komponente bearbeitet Eingabe, benachrichtigt redundante Komponenten ueber Zustandsaenderung, redundante Komponenten tragen nichts bei.
+Was passiert bei passiver Redundanz bei ausfall?
+Zeit fuer Pruefung ob der Zustand im Backupsystem aktuell ist -> umschalten auf Backupsystem. Warm restart, activ - standby.
+Was ist Redundanz durch Ersatzsystem?
+Eine Komponente bearbeitet Eingabe, legt Status des Systems ab (siehe Checkpoint)
+Was macht die Ersatzkomponente?
+So konfiguriert das sie die Arbeit von verschiedenen Komponenten uebernehmen kann, ist aus oder in betrieb
+Wie stellt sich die Ausfallzeit bei Ersatzkomponenten zusammen?
+Im Minutenbereich wegen Hochfahren des Ersatzsystems, konfiguration, system in den richtigen Status bringen.
+Wie verhalten sich Kosten und Wiederherstellungszeit zueinander?
+Aktive Redundanz=wenig zeit, viel kosten, passive redundanz=aehnlich, ersatzsystem, wenige kosten, viel zeit
+Was ist der Zweck von Heartbeat?
+Einem fail Silent entgegen zu wirken indem das System sich in regelmaessigen abstaenden bei einer ueberwachungskomponente meldet, oder abgefragt wird.
+Procon von Heartbeat?
+Pro: Komponente kann differenzierte Nachrichten senden, Con: Ueberwachte komponente muss zusaetzliche funktionalitaet haben, wenn kommkanal kaputt = am arsch
+Was ist der Zweck von Wachhund?
+Wie Heartbeat nur das die komponente selbst keine zusaetzlichen funktionalitaeten braucht da der wachhund sich in die komm direkt einklinkt.
+Procon von Wachhund?
+weniger komplexitaet, ueberwachung von komponenten die man nicht beeinflussen kann moeglich CON: schwer ueberwachbare Systemgroessen zu finden.
+Was ist der Zweck von Systemmonitor?
+Ueberwachung eines ganzen Systems, wiederherstellungstechniken im fehlerfall schnell anlaufen lassen.
+Procon von Systemmonitor?
+Pro: ueberwachungsfunktion an einer stelle des gesamtsystems platziert CON: systemmonitor is single point of failure, muss redundant sein
+realistischer Grenzwert LERNEN
+realistischer Grenzwert LERNEN
+Was ist der Zweck von Checkpoint?
+In regelmaessigen Abstaenden wird der Systemstatus in einer DB festgehalten, bei ausfall kann man von diesem Status aus wieder anlaufen.
+Procon von Checkpoint?
+PRO: nach fehler kann weiter gemacht werden ohne ganz von vorne anfangen zu muessen CON: zum teil abschnitte nochmal verarbeiten muessen, systemstatus laden
+Was ist der Zweck von Rollback?
+Absolute konsistenz, was angefangen wird das wird zuende gefuehrt oder komplett verworfen und neu angelegt.
+Procon von Rollback?
+PRO: keine eingabe geht verloren, CON: teil der eingabe muss wiederholt werden, Zeit um systemstatus zu laden.
+Was ist der Zweck von Roll Forward?
+Ein System soll nicht blocken weil es endloss an einer unverarbeitbaren Eingabe hadert, eingabe kann uebersprungen werden und spaeter bearbeitet.
+ProCon von Roll Forward?
+PRO: verarbeitung stoppt nicht, CON: uebersprungenen eingaben muessen oft manuell behandelt werden.
+Was ist der Zweck von Abstimmen?
+Mehrere Ergebnisse liegen vor, das System entscheidet nach unterschiedlichen Konzepten welche Antwort es nimmt.
+Procon von Abstimmen?
+PRO: bei falschen einzelnen ergebnissen koennen doch mit richtigen werden weiter gerechnet werden, CON: bewertungsfunktion kann falsch sein. Komplexitaetserheoehung.
+Was ist der zweck den menschlichen Eingriff zu minimieren?
+Menschen verursachen nur fehler, lass die maschine machen, mensch nur im notfall.
+Procon menschlichen eingriff minimieren?
+PRO: systeme laufen selbst CON: Fehlerhafte systeme werden nicht erkannt wenn fehler im monitor.
+Was ist zweck von maximieren anwesenheit von know how traegern?
+die wissen wie man ein system repariert also sollte man die nahe halten.
+Procon von know how traegern?
+PRO: finden fehler schnell CON: nicht immer da
+Was ist der Zweck einer Wartungsschnittstelle?
+System wird robuster da zugriff ueber wartungsschnittstelle hohe prioritaet hat und normale funktionen nicht beeinflussen kann.
+Procon Wartungsschnittstelle?
+PRO: normales system wird nicht beeinflusst bei wartungen, CON: zusaetzliche komplexitaet.
+Warum eine eigene schnittstelle?
+Normale SS ueberlastet, trotzdem zugriff ueber wartungs SS moeglich da hoehere Prioritaet, sicherheit wird erhoeht.
+Warum einer wartungsschnittstelle?
+Benutzerfehler abfangen, wartung geht schneller, sicherheit erhoeht durch hohe sicherheitsrichtlinien.
+

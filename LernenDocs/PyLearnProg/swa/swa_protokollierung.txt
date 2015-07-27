@@ -1,0 +1,16 @@
+SWA
+Protokollierung
+Was ist die Definition von Protokollierung?
+Sammeln von Informationen zu den Zustanden zur Laufzeit des Programms.
+Was ist Logging?
+Fachliche Protokolle, fur anwender lesbar aufbereitet, zielgruppe admin, endnutzer, technische protokolle fur entwickler
+Was ist Tracing?
+Fehlersuche und analyse fur entwickler oder support.
+Was fur Probleme entstehen aus der Protokollierung?
+Zieht sich durch gesamten Code, braucht uberall die gleiche Schnittstelle, muss in Komponente gekapselt werden die sich nicht andern sollte.
+Was fur anforderungen gibt es an Protokollierung?
+Einteilen in Kategorien, Wichtigkeit, wohin wird protokolliert, und formatierung der ausgabe ist wichtig.
+Was sollte man bei der Protokollierung benutzen?
+bestehende Frameworks, Jede Interaktion mit Nutzeroberflache loggen, jede Kommunikation, bei begrenztem Speicherplatz Ringpuffer.
+Was sind beispielhafte Attribute eines Protokolleintrags?
+Kategorie, Dringlichkeit, Uhrzeit, Komponente, Klasse, Methodenname

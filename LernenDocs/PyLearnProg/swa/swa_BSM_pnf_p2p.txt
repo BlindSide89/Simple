@@ -1,0 +1,18 @@
+SWA
+BSM_pnf_p2p
+Was ist der Zweck von Batch Sequentiell Muster?
+Fur Systeme die Dateien verarbeiten, jeder Schritt in eigenem Programm die ihr ergebnis an anderes programm weiter geben.
+Wie loest das BSM die Probleme der seriellen Verarbeitung?
+Aufteilen der Aufgabe in mehrere Verarbeitungsschritte, Jeder Schritt ist ein Programm, Eingabedaten kommen immer aus Datei, Ausgabedaten gehen in Datei
+Vorteile der BSM?
+Einfache Architektur, Programme konnen leicht ausgetauscht werden, einzelne wiederverwendung.
+Nachteile der BSM?
+Programm muss beendet sein bevor nachstes programm startet, nicht interaktiv, benotigt externen controller
+Was ist der Zweck von Pipes and Filters?
+Struktur fur Systeme die Datenstrome verarbeiten. Jeder Schritt in einem Filter gekapselt, Daten uber Kanele geschickt.
+Wie ist die Struktur eines PnF Systems?
+Filter liest und liefert daten Inkrementell. Filter bearbeitet Daten, kann passiv oder Aktiv sein.
+Was ist eine P2P Architektur?
+Archtektur wo die Peers ohne zentralen Server direkt miteinander Kommunizieren.
+Was fur Strukturtypen gibt es bei P2P?
+Baumstruktur, Unstrukturiert, Zentralisiert, Super-Peer

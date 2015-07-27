@@ -1,0 +1,18 @@
+SWA
+Aktivitaten fur den Architekturentwurf
+Was fur Aktivitaten gibt es beim Architekturentwurf?
+Informationen sammeln, Erstellen des Entwurfs, Sicherstellen der konzeptuellen Integritat, Iteratives vorgehen
+Was ist wichtig beim Architekturentwurf?
+Entwurfsentscheidungen dokumentieren, Entwurfe mit Dritten diskutieren.
+Was fur Heuristiken kann man beim Architekturentwurf verwenden?
+Aus dem Umfeld des Projekts, fur den Entwurf, zur Beherrschung von Komplexitat.
+Was sollte man im Bezug auf Heuristiken immer tun?
+Anforderungen hinterfragen, Use Case betrachten, Feedback einholen, Andere Syteme ansehen.
+Wie sollte eine Heuristik fur den Entwurf aussehen?
+So einfach wie moglich, auf richtiger Detailebene, angemessen komples, nicht ubergeneralisieren, lokal wie moglich.
+Was fur Heuristiken zur beherrschung von Komplexitat gibt es?
+Teile und Herrsche, Vertecken Details, Kapseln Risiken, Funktionalitat und Kontrolle trennen.
+Was fur Heuristiken gibt es zur Arbeitsmehtodik?
+Beginne mit schwersten Teilen, Protoypen (wegwerfen), Dokumentieren.
+Was fur Punkte einer Architekturentscheidung mussen protokolliert werden?
+Thema, Zeit, Ort, Teilnehmer, Fragestellung, Alternativen, warum wurde das ausgesucht, Change Request Nummer

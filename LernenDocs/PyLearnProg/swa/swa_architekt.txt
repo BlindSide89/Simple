@@ -1,0 +1,56 @@
+SWA
+Der Architekt
+Wie sieht das Architektendreieck aus?
+Architekt performs Architcting results in Architecture.
+Definition des Softwarearchitekten?
+Der SoftArch ist verantwortlich fuer die erstellung und Umsetzung der Architektur eines Systems. Er trifft die wichtigsten technischen Entscheidungen. Befindet sich zwischen Entwicklern und Projektleitung
+Wer ist Boss wenn es mehrere Architekten gibt?
+Der Chefarchitekt.
+5 Beispiele fuer Eigenschaften eines guten Architekten?
+Umfassendes Theoretisch und praktisches Wissen ueber Technologien Methoden, kannt gaengige Architekturmuster, gute Programmierkenntnisse, Risikominimierend, durchsetzungsstark.
+Welche 5 Punkte muss ein Architekt ausbalancieren?
+Run-Time Qualities, Functional Requirements, Business Constraints, Non-Run-Time Qualities, Technical Constraints
+Was ist die Aufgabe des Architekten in der Analyse?
+Verstehen der Fachlichkeit, Praezisieren der Anforderungen, Durchfuehrung der Risikoanalyse.
+Was ist die Aufgabe des Architekten in der Architektur?
+Entwurf der Architektur, Einflussfaktoren bestimmen und bewerten, Implementieren eines Prorotyps, Dokumentieren.
+Was ist die Aufgabe des Architekten im Design und Implementierung?
+Kommunikation, Schulung des Entwicklungsteams, Kontrolle der Einhaltung der Architektur, Pflege der Architektur und deren Dokumentation
+Was sind die allgemeinen Aufgaben des Architekten ueber den gesamten Prozess?
+Technische Entscheidungen Treffen, Technischer Berater fuer Entwickler und Management, Zusammenarbeit mit dem Projektmanager, Koodiniert Entwicklerteams
+Definition fuer Stakeholder?
+Einzelpersonen und Organisationen die aktiv am Projekt beteiligt sind oder an dessen Abschluss interessiert sind. (passive Stakeholder)
+Was passiert wenn ein Stakeholder nicht beruecksichtigt wird?
+Wichtige Anforderungen koennen fehlen, das Projekt wird zum Disaster.
+5 Beispiele fuer Stakeholder?
+Projektleiter, Leiter IT, Entwickler, Tester, Betriebsrat
+Was ist Architecture Drift?
+Schnelle Hacks fliessen in die Endloesung des Projektes mit ein und zerstoeren die konsistenz der Architektur.
+Was macht der Architekt gegen den Architecture Drift?
+Klaren Standpunkt vertreten ggn Mgmt, Kompromiss aushandeln, unsaubere Realisierung in paralleller Wegwerfversion, sonst Refactoring wenn alles lost ist.
+Was fuer Rollen gibt es in der Softwarearchitektur?
+Lead Architekt, Application Architect, Infrastructure Architect, Data Architect
+Was fuer Ergebnistypen liefert der Lead Architekt?
+A Assessment, A Decisions, A Overview, A Proof-of-Concept, A SWA-doc
+Was fuer Ergebnistypen liefern die anderen Architekten?
+Application-> functional model, infrastructure->Deployment Model, data->data Model
+3 Aufgaben des Lead Architects
+Verify Architecture, Define Architecture Overview, Review Architecture with Stakeholders
+2 Aufgaben des Application Architect
+Outline Functional Elements, Detail Functional Elements
+2 Aufgaben des Infrastructure Architect.
+Outline Deployment Elements, Detail Deployment Elements
+Was passiert in der Beziehung Software Architect -> Business Analyst
+Ensure that technical users are considered, externel systems are considered, prioritize requirements.
+Was passiert in der Beziehung Software Architect -> Developer
+Ideitify elements to be designed and implemented, ensure that architecture decisions and standards are complied with, sequence in which elements are implemented and integrated
+Was passiert in der Beziehung Software Architect -> Tester
+Ensure that the architecture is testable and tested
+Was passiert in der Beziehung Software Architect -> Project Manager
+Provide input into sceduling, work allocation, costing
+Was passiert in der Beziehung Software Architect -> Configuration Manager
+Influence the structure of any configuration management repository, structure elements to support concurrent work
+Was passiert in der Beziehung Software Architect -> Change Manager
+Identify the impact of making any changes in terms of risk and cost.
+Was passiert in der Beziehung Software Architect -> Development Environment Architect
+Define architecture standards and guidelines, identify tools to support any architecture standards

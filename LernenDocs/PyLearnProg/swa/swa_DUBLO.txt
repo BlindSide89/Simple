@@ -1,0 +1,14 @@
+SWA
+DUBLO-Muster
+Fur was steht DUBLO?
+Dual Business Logic.
+Was ist der zweck von DUBLO?
+Erlaubt die Migration eines Altsystems, welches nicht in einer Schichtenarchitektur vorliegt hin zu einem Schichtensystem.
+Wann wird DUBLO angewendet?
+Wenn das Legacy System nicht mit Big Bang ersetzt werden kann sondern Sukzessive gemacht werden muss.
+Was ist die Losung des DUBLO Patterns?
+Erstellen von Adaptern die z.B. die persistenz des Legacy Systems nutzen wahrend die GUI bereits auf dem neuen System aufsetzt.
+Was sind die Vorteile des DUBLO systems?
+Sanfte Migration, Konsistenz der Datenbank, Datenbankunabhangigkeit, Wiederverwendung.
+Was sind die Nachteile des DUBLO systems?
+Redundander Code, Datenzugriffscode im altsystem, performanz Verlust

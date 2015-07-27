@@ -1,0 +1,22 @@
+SWA
+Komponenten und Schnittstellen
+Was ist die Definition einer Komponente?
+ist das Medium der Komposition von Systemen mit explizit definierten bereitgestellten Schnittstellen, benötigten Schnittstellen, Konfigurationsschnittstellen und Qualitätsattributen.
+Was ist eine Komponente nach Siedersleben?
+Sie exportiert und importiert Schnittstellen. Erst lauffahig wenn alle importierten Schnittstellen gegeben sind. Implementierung ist versteckt.
+Wie steigert sich die Effektivitat von Komponenten?
+Ob sie nun von Version zu Version oder von Unternehmen zu Unternehmen verwendet werden kann.
+Was ist die Definition einer Schnittstelle?
+ist ein Vertrag zwischen einer Komponente die Funktional benotigt und einer komponente die Funktion anbietet.
+Was definiert Schnittstellen?
+Standardschnittstelle: Allgemeingut, Angebotene Schnittstelle, Angeforderte Schnittstelle, Adapter.
+Was ist eine Standardschnittstelle?
+Jederzeit verfugbar, allgemein akzeptiert, abgeschlossen, alle datentypen sind standard, vollstandig doku
+Was fur typen von Adaptionen gibt es?
+Adaption ohne Eingriff, Black Box - Transparente Adaptionsschicht, Adaption soll Kombinierbarkeit von Komponenten nicht einschraenken.
+Was ist Adaption durch Copy Paste?
+Klonen und veranderung des quellcodes, verletzt black-box-prinzip, schnittstelle bleibt transparent.
+Was ist Adaption durch vererbung?
+Quellcode der komponente muss nicht verandert werden, verletzt blackbox prinzip, schnittstelle bleibt transparent
+Was ist Adaption durch Wrapper?
+Adaptionsschicht um die schnitstelle bauen, beachtet black box, verletzt transparenz

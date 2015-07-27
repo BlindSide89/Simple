@@ -1,0 +1,44 @@
+SWA
+Strategien
+Was sind die drei Kernpunkt der Strategien zur Erreichung von Aenderbarkeit?
+Vermeiden von Seiteneffekten, Lokalisiern von Veraenderungen, Spaetes Binden.
+Was versteht man unter Lokalisieren von Veraenderungen?
+Separations of concerns, Verallgemeinern von Komponenten, Einschraenkung von Optionen
+Was versteht man unter Spaetes Binden?
+Plug-in Machanismus, Ploymorphismus, Vorgegebene Protokolle
+Was versteht man unter vermeiden von Seiteneffekten?
+Verwenden existierender Schnittstellen, Entkopplung ueber Zwischenklasse
+Wozu braucht man Entwurfsmuster?
+Verfeinerung der grundlegenden Architektur, unabhaengig von ProgSprach, beschreibt Struktur und beziehungen innerhalb System
+Was fuer einen Zweck hat das Adapter Muster?
+Passt die Schnittstelle einer Klasse an eine andere vom Klienten erwartete Schnittstelle an.
+ProCon des Adapter Musters?
+PRO: entkopplung des eigenen Entwurfs von den existierenden Bibliotheken, leichter austausch von Klassen CON: Zusaetzliche Delegation -Performance
+Was fuer einen Zweck hat das Bridge Muster?
+Definieren einer Schnittstelle, die fuer alle implementierungen gilt und lasse die Ableitungen der abstrakten Klasse diese Nutzen.
+Was wird durch Bridge Muster erhoeht?
+Erweiterbarkeit.
+Was ist der Zweck des Fassade Musters?
+Eine weitere Schnittstelle zu einem System zu definieren was eine vereinfachte Nutzung des Systems moeglich macht.
+Was ist der Zweck des Strategie Musters?
+Flexibilitaet bei der Auswahl von Algos. Kann mehrere Definieren und per Strategie einklinken wenn Bedarf besteht.
+Was sind die drei Kernpunkte der Erreichung von Effizienz?
+Resourcenbedarf, Resourcenmgmt, Ueberwachen und Verteilen von Resourcen.
+Was versteht man unter Resourcenbedarf?
+Verbessern der Algorithmen, Verzicht auf Verteilung, Frequenz von Eingaben verringern.
+Was versteht man unter Resourcenmgmt?
+Redundanz, Berechnung auslagern, Nebenlaeufigkeit.
+Was versteht man unter ueberwachen und verteilen von Resourcen?
+Richtlinie fuer Resourcenverbrauch.
+Was sind die drei Kernpunkte der Strategien zur Erreichung von Benutzbarkeit?
+Trenne Benutzerschnittstelle von Anwendung, Unterstuetze Benutzerinitiativen, Unterstuetze Systeminitiative
+Was versteht man unter dem Trennen der Benutzerschnittstelle von der Anwendung?
+MVC, Verallgemeinern von Komponenten, Einschraenkung von Optionen.
+Was versteht man unter dem Unterstuetzen von Benutzerinitiativen?
+Ermoeglichung von feedback, Abbruchmoeglichkeit, rueckgaengigmachen ermoeglichen.
+Was versteht man unter dem Unterstuetzen von Systeminitiative?
+Vorhersehen, was Benutzer moechte, Rueckmeldung an Benutzer, Scroll Geschwindigkeiten.
+Wsa sind die drei Kernpunkte der Strategien zur Erreichung von Sicherheit?
+Angriffen wiederstehen, Erkennen von Angriffen, Wiederherstellung von Angriffen.
+Was sind die drei Kernpunkte der Strategien zur Erreichung von Testbarkeit?
+Ein-Ausgaben speziell betrachten, Internes Monitoring, Dokumentation.

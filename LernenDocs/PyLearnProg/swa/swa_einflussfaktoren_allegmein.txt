@@ -1,0 +1,60 @@
+SWA
+Entwurf - Einflussfaktoren auf die SWA
+3 Beispiele fuer Einflussfaktoren?
+Nicht-funktionale Anforderungen, neuartige Verfahren oder Techniken, Fehlendes Wissen innerhalb der Organisation.
+Was fuer Faktortypen gibt es?
+Organisatorische Faktoren, Technische Faktoren, Produktfaktoren
+Welche Attribute legt man Einflussfaktoren zugrunde?
+Einflussfaktor, Flexibilitaet, Veraenderbarkeit, Abhaengigkeit untereinander, Einfluss auf welche Komponente oder Beziehungen, Einfluss auf Projektlaufzeit oder Kosten
+Wem muessen die Einflussfaktoren bekannt sein?
+Allen Projektbeteiligten.
+3 Beispiele fuer Organisastorische Faktoren?
+Entwickeln oder Kaufen, Releaseplan, Partnerschaft mit Herstellern.
+Technische Einflussfaktoren?
+Grafische Oberflaeche, Programmiersprachen, Datenstrukturen?
+Produktfaktoren?
+Leistung, erholungszeigen, datenrate, Fehlererkennung
+Wie sieht die Roadmap fuer Qualitaetsmerkmale aus?
+Beschreibung nach DIN/ISO 9126 -> Szenarien zur Definiton von Qualitaetsanforderungen -> Loesungsstrategien zur Erreichung der Qualitaetsmerkmale.
+Qualitaetsmerkmale zur Funktionalitaet?
+Funktionalitaet, Angemessenheit, Richtigkeit, Interoperabilitaet, Ordnungsmaessigkeit, Sicherheit
+Qualitaetsmerkmale zur Zuverlaessigkeit?
+Zuverlaessigkeit, Reife, Fehlertoleranz, Wiederherstellbarkeit.
+Qualitaetsmerkmale zur Benutzbarkeit?
+Benutzbarkeit, Verstaendlichkeit, Erlernbarkeit, Bedienbarkeit
+Qualitaetsmerkmale zur Effizienz?
+Effizienz, Zeitverhalten, Verbrauchsverhalten
+Qualitaetsmerkmale zur Aenderbarkeit?
+Aenderung, Aenderbarkeit, Analysierbarkeit, Modifizierbarkeit, Stabilitaet, Pruefbarkeit
+Qualitaetsmerkmale zur Uebertragbarkeit?
+Uebertragbarkeit, Anpassbarkeit, Installierbarkeit, Konformitaet, Austauschbarkeit.
+Was sind Szenarien?
+Anwendungsbeispiele von Qualitaetsmerkmale welche sie konkret machen. Wie reagiert System beim Eintreffen eines Ausloesers auf einen Systembestandteil in bestimmten Situationen.
+Was gehoert immer zu einem Szenario?
+Eine Antwortmetrik.
+SzenarienSeparatLernen
+SzenarienSeparatLernen
+Was sind Strategien zur verbesserung der Fehlererkennung?
+Ausnahmebehandlung, PingEcho, Heartbeat
+Was sind Strategien zur Verbesserung der Fehlerverhuetung?
+Entfernen fehlerhafter redundanter Komponenten, Transaktionen, Prozessmonitor
+Was sind Strategien zur Verbesserung der Fehlererkennung?
+Schattenverarbeitung, Rollback, Synchronisation
+Was sind Strategien zur Fehlerbehebung?
+Voting, Aktive Redundanz, Ersatzkomponente.
+Was ist die Definition von Verfuegbarkeit?
+Ist die Prozentuale Zeit in der das System die Funktionalitaet erbringt. Betriebszeit ist system verfuegbar, ausfallzeit nicht.
+Welche 9en sind wichtig?
+99.9 -> 525.6 komma rutscht immer weiter rueber. 99.995->26,28
+Was fuer Fehlerarten gibt es?
+Fail-silent, Absturzfehler, Konsistenter Fehler, Inkonsistenter Fehler.
+Beschreibung des Fail-Silent?
+Komponente liefert entweder ein richtiges Ergebnis oder kein Ergebnis: n+1 redundander Komponenten zur Toleranz von n gleichzeitigen Fehlern.
+Beschreibung des Absturzfehlers?
+Komponente stoppt nach erstem fail-silent. n+1
+Beschreibung des Konsistenten Fehlers?
+Jeder Nutzer bekommt von der Komponente im Fall eines Fehlers das gleiche Ergebnis. 2n+1
+Beschreibung des inkonsistenten Fehlers?
+Mindestens ein Nutzer erkennt im Fehlerfall ein anderes Verhalten der Komponente, als andere Nutzer. 3n+1
+
+

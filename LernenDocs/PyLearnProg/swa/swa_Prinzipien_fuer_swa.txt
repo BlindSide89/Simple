@@ -1,0 +1,57 @@
+SWA
+Prinzipien fuer SWA
+Was versteht man unter Abstraktion?
+Ingorieren von unwichtigen Teilen und betrachten eines vereinfachten Modells. Abstrakte Gebilde stehen fuer mehr als dargestellt ist.
+Was versteht man unter lose Kopplung?
+Einheiten haben wenig Abhaengigkeiten untereinander.
+Was versteht man unter hoher Kohaesion?
+In einem System mit hoher Kohaesion ist jede Programmeinheit verantwortlich fuer genau eine definierte Aufgabe.
+Wie kann man Fehler in einem System beruecksichtigen?
+Einfache Architektur und einfacher Entwurf, Aussagekraeftige Fehlermeldungen, Fehlerauswirkung lokal halten.
+Was fuer Probleme treten auf bei missachtung des Entwurfs fuer Veraenderungen?
+Starrheit: Aenderungen nur schwer moeglich, Zerbrechlichkeit: Aenderungen fuehren zu Fehlern, Schlechte Wiederverwendbarkeit
+Was versteht man unter Separations of Concerns?
+Unterteilung von komplexen Einheiten in kleinere von denen jede nur fuer einen Aspekt verantwortlich ist.
+Was fuer zwei Uebergeordnete Concerns gibt es?
+Wissen und Handeln
+Was versteht man unter Open Closed Principle?
+Einheiten sollen offen fuer erweiterungen aber geschlossen fuer Aenderungen sein!
+Was versteht man unter dem Dependency Inversion Principle?
+Abhaengigkeiten sollten immer von Abstraktionen und Schnittstellen sein und nicht von implementierungen.
+Was versteht man unter stable Dependency Principle?
+Abhaengigkeiten nur in stabiler Richtung zulassen. Keine Abhaengigkeiten zu Komponenten entwerfen die selbst abhaengig sind.
+Wie berechnet man die Instabilitaetsmetrik?
+a = Klassen in P von denen andere von aussen abhaengen, i = Klassen in P die von aeusseren abhaengen M = i / a+immer
+Was versteht man unter Acyclic Dependencies Principle?
+Vermeidung von Zyklen in den Abhaengigkeitsgraphen von Einheiten.
+Was versteht man unter dem Single Responsibility Principle?
+Es darf nur einen Grund geben eine Klasse zu aendern und zwar wenn sich ihre Verantwortlichkeit aendert.
+Was versteht man unter dem Modularitaetsprinzip?
+Zerlege ein komplexes System in fuer sich abgeschlossene Subsysteme. Erhoeht Strukturierung.
+Was sind Kriterien fuer Modularitaet nach Meyer?
+Dekomposition des Problems, Komposition, Verstehbarkeit, Kontinuitaet, Protektion
+Was versteht man unter Hierarchie?
+Gibt es zuviele Abstraktionen hilft es diese in eine Hierarchie zu bringen.
+Welche zwei Typen von Hierarchien gibt es?
+Enthalten in oder Besteht aus - sowie ist ein Hierarchiet.
+Was versteht man unter Rueckverfolgbarkeit?
+Jede Entscheidung im Design Prozess muss durch Dokumentation auch spaeter noch nachvollziebar sein.
+Was versteht man unter Selbstdokumentation?
+Die Dokumentation eines Subsystems muss Teil des Subsystems selbst sein. Wenig unterschiedliche Dokumente.
+Was versteht man unter Inkrementalitaetsprinzip?
+Architekturentwurf soll schrittweise umgesetzt werden, auslieferung ertes systems, einholen meinung, schrittweises einfuehren neuer funktionalitat
+Was fuer zwei Inkrementalitaetsprinzip Typen gibt es?
+Prototyping, Schrittweises Wachsen.
+Was versteht man unter dem Common Reuse Principle?
+Alle Klassen eines Pakets werden gemeinsam wiederverwendet.
+Was versteht man unter Interface Segregation Principle?
+Mehrere Spezifische Schnittstellen besser als eine Gott Schnittstelle.
+Was versteht man unter Konzeptuelle Integritaet?
+Durchgaengige Entwurfsentscheidungen im gesamten System immer umsetzen, keine Speziallosungen oder verwasserung der konzepte
+Hauptaufgabe von konzeptieller Integritaet?
+Was versteht man unter INversion of Control Prinzip?
+Die Steuerung der Objekterzeugung dreht sich herum, Dependency Injection - Objektuebergabe bei der Objekterzeugung.
+Was fuer Dependency Injection moeglichkeiten gibt es?
+Konstruktoren, Setter, Interface, Service Locator
+
+

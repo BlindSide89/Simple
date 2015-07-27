@@ -1,0 +1,14 @@
+SWA 
+Schichten Architektur
+Was ist der Zweck der Schichtenarchitektur?
+Anwendungen in Subsysteme zerlegen von denen jede Schicht eine ganz bestimmte Aufgabe hat.
+In welchem Kontext verwendet man die Schichtenarchitektur?
+Ein System das Aufteilung erfordert.
+Wie Lost man die Schichtenarchitektur?
+Abstraktionsebenen von denen alle nur aus der jeweils direkt unterliegenden Schicht funktionen nutzen.
+Was sind die Vorteile des Schichtenmusters?
+Unabhangige Subsyteme in Enwticklung Test und Betrieb, Leicht verstandlich, minimiert Abhangigkeit zwischen Komponenten
+Was sind Nachteile des Schichtenmusters?
+Performance durch erhohte Kommunikation -> Layerbridging, manche anderungen schwer zu implementieren brauchen anderungen in vielen schichten.
+Wie ist das Vorgehen bei der Erstellung eines Schichtenmusters?
+Siehe Folie 249

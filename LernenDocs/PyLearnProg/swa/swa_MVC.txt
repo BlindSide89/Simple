@@ -1,0 +1,18 @@
+SWA
+MVC-Muster
+Was ist der Zweck des MVC?
+Unterteilt interaktive anwendung in drei komponenten, modell enthalt kernfunktionalitat und daten, ansicht ist prasentation, steuerung ist bedieneingabe.
+In welchem Kontext wird MVC eingesetzt?
+Interaktive Anwendung mit einer flexiblen Mensch-Maschine Schnittstelle.
+Welche Problemstellung ergibt sich mit MVC?
+Benutzerschnittstellen andern sich heufig, portierung auf anderes system soll fachlogik nicht beruhren, selbe info in verschiedenen fenstern unterschiedlich darstellen.
+Was sind die Verantwortlichkeiten des Modells?
+Kapselt daten der Anwendung, enthalt funktionalitat der anwendung, einzige verbindung zwischen ansicht und steuerung, stellt operationen fur lesenden zugriff parat
+Was sind die Verantwortlichkeiten der Ansichten?
+prasentation, darstellen der daten auf unterschiedliche arten, zeigt daten auf dem bildschirm an, instanziiert steuerungskomponente bei instanziierung.
+Was somd doe Verantwortlichkeiten des Controllers?
+Akzeptiert User input, implementiert verarbeitungsoperationen fur verschiedene ereignisse, ruft operationen des modells auf.
+Was sind die Vorteile von MVC?
+Mehrere ANsichten eines Modells, Synchronisierte ansichten, austauschbare view und control komponente, moglichkeit fur frameworks
+Was sind die Nachteile von MVC?
+Großere komplexitat, ubermassige anzahl von aktualisierungen, ineffizienter datenzugriff innerhalb von ansichten
