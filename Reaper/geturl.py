@@ -13,7 +13,7 @@ class GetImgs():
 
     def getthread(self):
         print(os.getcwd())
-        dom = htmldom.HtmlDom("http://boards.4chan.org/e/thread/1792910/confident-gals-ii").createDom()
+        dom = htmldom.HtmlDom("http://boards.4chan.org/v/thread/305455001/10-minutes-until-reveal").createDom()
             # Find all the links present on a page and prints its "href" value
         div = dom.find("div")
 
